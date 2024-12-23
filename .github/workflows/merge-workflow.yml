@@ -14,10 +14,8 @@ jobs:
         python-version: '3.x'
     - run: pip install setuptools
       name: Install setuptools
-    - name: Setup CI Machine
-      uses: ./.github/actions/setup-ci-machine.yml
-    - name: Build and Publish Azure DevOps CLI Extension
-      uses: ./.github/actions/build-publish-azure-devops-cli-extension.yml
+    - uses: ./.github/actions/setup-ci-machine.yml
+    - uses: ./.github/actions/build-publish-azure-devops-cli-extension.yml
 
   Build_Publish_Azure_CLI_Test_SDK:
     runs-on: ubuntu-latest
