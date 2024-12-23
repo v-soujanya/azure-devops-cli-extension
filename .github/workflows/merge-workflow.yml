@@ -1,0 +1,185 @@
+name: Merge Workflow
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  Build_Publish_Azure_DevOps_CLI_Extension:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+    - run: pip install setuptools
+      name: Install setuptools
+    - name: Setup CI Machine
+      uses: ./.github/actions/setup-ci-machine.yml
+    - name: Build and Publish Azure DevOps CLI Extension
+      uses: ./.github/actions/build-publish-azure-devops-cli-extension.yml
+
+  Build_Publish_Azure_CLI_Test_SDK:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+    - run: pip install setuptools
+      name: Install setuptools
+    - name: Setup CI Machine
+      uses: ./.github/actions/setup-ci-machine.yml
+    - name: Build and Publish Azure CLI Test SDK
+      uses: ./.github/actions/build-publish-azure-cli-test-sdk.yml
+
+  Run_Test_Windows:
+    needs: [Build_Publish_Azure_CLI_Test_SDK, Build_Publish_Azure_DevOps_CLI_Extension]
+    runs-on: windows-latest
+    steps:
+    - run: ren "C:\Program Files\Common Files\AzureCliExtensionDirectory" "C:\Program Files\Common Files\AzureCliExtensionDirectory1"
+      shell: powershell
+    - name: Run Tests
+      uses: ./.github/actions/run-tests.yml
+      with:
+        pythonVersion: '3.8'
+    - run: python setup.py sdist bdist_wheel
+      name: Build wheel for Azure DevOps CLI extension
+      working-directory: azure-devops/
+
+  Run_Test_Ubuntu:
+    needs: [Build_Publish_Azure_CLI_Test_SDK, Build_Publish_Azure_DevOps_CLI_Extension]
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.10, 3.10]
+    steps:
+    - run: sudo rm -R -f /usr/local/lib/azureExtensionDir
+    - name: Run Tests
+      uses: ./.github/actions/run-tests.yml
+      with:
+        pythonVersion: ${{ matrix.python-version }}
+
+  Run_Test_Mac:
+    needs: [Build_Publish_Azure_CLI_Test_SDK, Build_Publish_Azure_DevOps_CLI_Extension]
+    runs-on: macos-latest
+    steps:
+    - name: Run Tests
+      uses: ./.github/actions/run-tests.yml
+      with:
+        pythonVersion: '3.10'
+
+  Run_Test_Mac_Azure_CLI_Released_Version:
+    needs: Build_Publish_Azure_CLI_Test_SDK
+    runs-on: macos-latest
+    steps:
+    - name: Run Tests
+      uses: ./.github/actions/run-tests.yml
+      with:
+        pythonVersion: '3.10'
+        runWithAzureCliReleased: 'true'
+
+  Code_Coverage:
+    needs: Build_Publish_Azure_CLI_Test_SDK
+    runs-on: macos-latest
+    steps:
+    - uses: actions/setup-python@v2
+      with:
+        python-version: '3.10'
+    - name: Install Azure CLI Edge
+      uses: ./.github/actions/install-azure-cli-edge.yml
+    - name: Download and Install Local Azure Test SDK
+      uses: ./.github/actions/download-install-local-azure-test-sdk.yml
+    - name: Setup CI Machine
+      uses: ./.github/actions/setup-ci-machine.yml
+    - name: Download and Install Local Azure DevOps CLI Extension
+      uses: ./.github/actions/download-install-local-azure-devops-cli-extension.yml
+    - run: pytest --junitxml "TEST-UT-results.xml" --cov=azext_devops/dev --cov-report=xml --cov-report=html
+      name: Run unit tests for code coverage
+      working-directory: azure-devops
+    - run: pip install beautifulsoup4
+      name: Install beautifulsoup4
+    - uses: actions/setup-python@v2
+      with:
+        python-version: '3.10'
+    - run: python scripts/fixCodeCoverageStyle.py
+      name: Fix Code Coverage Style
+    - name: Publish Code Coverage Results
+      uses: actions/upload-artifact@v2
+      with:
+        name: code-coverage
+        path: |
+          $(System.DefaultWorkingDirectory)/azure-devops/coverage.xml
+          $(System.DefaultWorkingDirectory)/azure-devops/htmlcov/**/*.*
+
+  Run_Style_Check:
+    runs-on: macos-latest
+    steps:
+    - uses: actions/setup-python@v2
+      with:
+        python-version: '3.8'
+    - name: Install Azure CLI Edge
+      uses: ./.github/actions/install-azure-cli-edge.yml
+    - name: Download and Install Local Azure Test SDK
+      uses: ./.github/actions/download-install-local-azure-test-sdk.yml
+    - name: Setup CI Machine
+      uses: ./.github/actions/setup-ci-machine.yml
+    - name: Download and Install Local Azure DevOps CLI Extension with Pip
+      uses: ./.github/actions/download-install-local-azure-devops-cli-extension-with-pip.yml
+    - run: powershell scripts/runStyleCheck.ps1
+      name: Run Style Check
+
+  Run_HelpText_Check:
+    needs: Build_Publish_Azure_CLI_Test_SDK
+    runs-on: macos-latest
+    steps:
+    - uses: actions/setup-python@v2
+      with:
+        python-version: '3.10'
+    - name: Install Azure CLI Edge
+      uses: ./.github/actions/install-azure-cli-edge.yml
+    - name: Download and Install Local Azure Test SDK
+      uses: ./.github/actions/download-install-local-azure-test-sdk.yml
+    - name: Setup CI Machine
+      uses: ./.github/actions/setup-ci-machine.yml
+    - run: pip install --upgrade .
+      name: Install Azure DevOps CLI extension
+      working-directory: azure-devops/
+    - run: python scripts/findEmptyHelpTexts.py
+      name: Run HelpText Check
+
+  Run_Test_From_Old_Release:
+    needs: Build_Publish_Azure_CLI_Test_SDK
+    runs-on: macos-latest
+    steps:
+    - run: git checkout release-1.0.1
+    - name: Run Tests
+      uses: ./.github/actions/run-tests.yml
+      with:
+        pythonVersion: '3.10'
+        runOnlyRecordedTests: 'true'
+
+  Check_Back_Compat_Arguments:
+    runs-on: windows-latest
+    steps:
+    - uses: actions/setup-python@v2
+      with:
+        python-version: '3.8'
+    - name: Setup CI Machine
+      uses: ./.github/actions/setup-ci-machine.yml
+    - name: Install Azure CLI Edge
+      uses: ./.github/actions/install-azure-cli-edge.yml
+    - run: python setup.py sdist bdist_wheel
+      name: Build wheel for Azure DevOps CLI extension
+      working-directory: azure-devops/
+    - run: python scripts/backCompatChecker.py
+      name: Run Back Compat Argument Check
+
+  Run_Markdown_Lint_Check:
+    runs-on: windows-latest
+    steps:
+    - run: gem install chef-utils -v 16.6.14
+      name: Install chef utils
+    - run: gem install mdl
+      name: Install markdown lint
+    - run: mdl . -c .mdlrc
+      name: Run markdown lint
