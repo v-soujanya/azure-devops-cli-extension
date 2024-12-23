@@ -3,6 +3,10 @@ name: PR Workflow
 
 on:
   pull_request:
+    types:
+      - opened
+      - synchronize
+      - reopened
     branches:
       - master
 
