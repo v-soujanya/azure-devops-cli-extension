@@ -4,8 +4,6 @@ name: PR Workflow
 on:
   pull_request:
     types:
-      - closed
-    types:
       - opened
       - synchronize
       - reopened
