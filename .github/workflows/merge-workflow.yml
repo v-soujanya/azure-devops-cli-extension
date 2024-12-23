@@ -14,8 +14,8 @@ jobs:
         python-version: '3.x'
     - name: Install setuptools
       run: pip install setuptools
-    - uses: ./.github/actions/setup-ci-machine/action.yml
-    - uses: ./.github/actions/build-publish-azure-devops-cli-extension/action.yml
+    - uses: ./.github/actions/setup-ci-machine
+    - uses: ./.github/actions/build-publish-azure-devops-cli-extension
 
   Build_Publish_Azure_CLI_Test_SDK:
     runs-on: ubuntu-latest
@@ -25,8 +25,8 @@ jobs:
         python-version: '3.x'
     - name: Install setuptools
       run: pip install setuptools
-    - uses: ./.github/actions/setup-ci-machine/action.yml
-    - uses: ./.github/actions/build-publish-azure-cli-test-sdk/action.yml
+    - uses: ./.github/actions/setup-ci-machine
+    - uses: ./.github/actions/build-publish-azure-cli-test-sdk
 
   Run_Test_Windows:
     needs: [Build_Publish_Azure_CLI_Test_SDK, Build_Publish_Azure_DevOps_CLI_Extension]
@@ -34,7 +34,7 @@ jobs:
     steps:
     - run: ren "C:\Program Files\Common Files\AzureCliExtensionDirectory" "C:\Program Files\Common Files\AzureCliExtensionDirectory1"
       shell: powershell
-    - uses: ./.github/actions/run-tests/action.yml
+    - uses: ./.github/actions/run-tests
       with:
         pythonVersion: '3.8'
     - name: Build wheel for Azure DevOps CLI extension
@@ -49,7 +49,7 @@ jobs:
         python-version: [3.10, 3.10]
     steps:
     - run: sudo rm -R -f /usr/local/lib/azureExtensionDir
-    - uses: ./.github/actions/run-tests/action.yml
+    - uses: ./.github/actions/run-tests
       with:
         pythonVersion: ${{ matrix.python-version }}
 
@@ -57,7 +57,7 @@ jobs:
     needs: [Build_Publish_Azure_CLI_Test_SDK, Build_Publish_Azure_DevOps_CLI_Extension]
     runs-on: macos-latest
     steps:
-    - uses: ./.github/actions/run-tests/action.yml
+    - uses: ./.github/actions/run-tests
       with:
         pythonVersion: '3.10'
 
@@ -65,7 +65,7 @@ jobs:
     needs: Build_Publish_Azure_CLI_Test_SDK
     runs-on: macos-latest
     steps:
-    - uses: ./.github/actions/run-tests/action.yml
+    - uses: ./.github/actions/run-tests
       with:
         pythonVersion: '3.10'
         runWithAzureCliReleased: 'true'
@@ -77,10 +77,10 @@ jobs:
     - uses: actions/setup-python@v2
       with:
         python-version: '3.10'
-    - uses: ./.github/actions/install-azure-cli-edge/action.yml
-    - uses: ./.github/actions/download-install-local-azure-test-sdk/action.yml
-    - uses: ./.github/actions/setup-ci-machine/action.yml
-    - uses: ./.github/actions/download-install-local-azure-devops-cli-extension/action.yml
+    - uses: ./.github/actions/install-azure-cli-edge
+    - uses: ./.github/actions/download-install-local-azure-test-sdk
+    - uses: ./.github/actions/setup-ci-machine
+    - uses: ./.github/actions/download-install-local-azure-devops-cli-extension
     - name: Run unit tests for code coverage
       run: pytest --junitxml "TEST-UT-results.xml" --cov=azext_devops/dev --cov-report=xml --cov-report=html
       working-directory: azure-devops
@@ -104,10 +104,10 @@ jobs:
     - uses: actions/setup-python@v2
       with:
         python-version: '3.8'
-    - uses: ./.github/actions/install-azure-cli-edge/action.yml
-    - uses: ./.github/actions/download-install-local-azure-test-sdk/action.yml
-    - uses: ./.github/actions/setup-ci-machine/action.yml
-    - uses: ./.github/actions/download-install-local-azure-devops-cli-extension-with-pip/action.yml
+    - uses: ./.github/actions/install-azure-cli-edge
+    - uses: ./.github/actions/download-install-local-azure-test-sdk
+    - uses: ./.github/actions/setup-ci-machine
+    - uses: ./.github/actions/download-install-local-azure-devops-cli-extension-with-pip
     - name: Run Style Check
       run: powershell scripts/runStyleCheck.ps1
 
@@ -118,9 +118,9 @@ jobs:
     - uses: actions/setup-python@v2
       with:
         python-version: '3.10'
-    - uses: ./.github/actions/install-azure-cli-edge/action.yml
-    - uses: ./.github/actions/download-install-local-azure-test-sdk/action.yml
-    - uses: ./.github/actions/setup-ci-machine/action.yml
+    - uses: ./.github/actions/install-azure-cli-edge
+    - uses: ./.github/actions/download-install-local-azure-test-sdk
+    - uses: ./.github/actions/setup-ci-machine
     - name: Install Azure DevOps CLI extension
       run: pip install --upgrade .
       working-directory: azure-devops/
@@ -132,7 +132,7 @@ jobs:
     runs-on: macos-latest
     steps:
     - run: git checkout release-1.0.1
-    - uses: ./.github/actions/run-tests/action.yml
+    - uses: ./.github/actions/run-tests
       with:
         pythonVersion: '3.10'
         runOnlyRecordedTests: 'true'
@@ -143,8 +143,8 @@ jobs:
     - uses: actions/setup-python@v2
       with:
         python-version: '3.8'
-    - uses: ./.github/actions/setup-ci-machine/action.yml
-    - uses: ./.github/actions/install-azure-cli-edge/action.yml
+    - uses: ./.github/actions/setup-ci-machine
+    - uses: ./.github/actions/install-azure-cli-edge
     - name: Build wheel for Azure DevOps CLI extension
       run: python setup.py sdist bdist_wheel
       working-directory: azure-devops/
