@@ -86,7 +86,8 @@ jobs:
       - uses: actions/checkout@v2
       - uses: ./.github/actions/run-tests
         with:
-        pythonVersion: '3.10'
+        pythonVersion: 
+          - '3.10'
 
   Run_Test_Mac_Azure_CLI_Released_Version:
     needs: Build_Publish_Azure_CLI_Test_SDK
