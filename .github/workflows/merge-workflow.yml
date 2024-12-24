@@ -78,11 +78,14 @@ jobs:
           python-version: ${{ matrix.python-version }}
 
   Run_Test_Mac:
-    needs: [Build_Publish_Azure_CLI_Test_SDK, Build_Publish_Azure_DevOps_CLI_Extension]
+    needs: 
+      - Build_Publish_Azure_CLI_Test_SDK
+      - Build_Publish_Azure_DevOps_CLI_Extension
     runs-on: macos-latest
     steps:
-    - uses: ./.github/actions/run-tests
-      with:
+      - uses: actions/checkout@v2
+      - uses: ./.github/actions/run-tests
+        with:
         pythonVersion: '3.10'
 
   Run_Test_Mac_Azure_CLI_Released_Version:
