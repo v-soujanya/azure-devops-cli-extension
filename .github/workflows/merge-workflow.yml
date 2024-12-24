@@ -99,10 +99,11 @@ jobs:
     needs: Build_Publish_Azure_CLI_Test_SDK
     runs-on: macos-latest
     steps:
-    - uses: ./.github/actions/run-tests
-      with:
-        pythonVersion: '3.10'
-        runWithAzureCliReleased: 'true'
+      - uses: actions/checkout@v2
+      - uses: ./.github/actions/run-tests
+        with:
+          python-version: '3.12'
+          run-with-azure-cli-released: 'true'
 
   Code_Coverage:
     needs: Build_Publish_Azure_CLI_Test_SDK
