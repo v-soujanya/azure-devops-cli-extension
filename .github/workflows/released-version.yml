@@ -38,7 +38,7 @@ jobs:
         run: az extension add -n azure-devops --debug
       - name: Run Tests
         run: pytest --junitxml "TEST-results.xml" 
-        working-directory: 'azure-devops'       
+        #working-directory: 'azure-devops'       
       - name: Publish Test Results
         uses: actions/upload-artifact@v4
         with:
