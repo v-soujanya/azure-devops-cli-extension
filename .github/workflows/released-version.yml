@@ -33,9 +33,9 @@ jobs:
       - uses: ./.github/actions/download-install-local-azure-test-sdk
       - uses: ./.github/actions/setup-ci-machine    
       - name: Install azure devops extension from azure cli index
-      - run: az extension add -n azure-devops --debug
+        run: az extension add -n azure-devops --debug
       - name: Run Tests
-      - run: pytest --junitxml "TEST-results.xml"        
+        run: pytest --junitxml "TEST-results.xml"        
       - name: Publish Test Results
         uses: actions/upload-artifact@v2
         with:
