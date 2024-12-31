@@ -37,6 +37,8 @@ jobs:
       - name: Install azure devops extension from azure cli index
         run: az extension add -n azure-devops --debug
       - name: Set up Azure DevOps CLI
+        env:
+          AZDEV_ENV: ${{ github.workspace }}
         run: azdev setup --debug
       - name: Run Tests     
         run: azdev test --junitxml "TEST-results.xml" 
