@@ -41,6 +41,8 @@ jobs:
           pip install virtualenv
           python -m virtualenv venv/
           source ./venv/bin/activate
+      - name: Install azdev
+        run: pip install azdev
       - name: Setup azdev environment
         run: azdev setup --debug
       - name: Run Tests
