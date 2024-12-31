@@ -47,7 +47,7 @@ jobs:
         env:
           AZDEV_CONFIG_DIR: ${{ github.workspace }}/.azdev
           AZURE_CONFIG_DIR: ${{ github.workspace }}/.azure
-        run: azdev setup --debug
+        run: azdev setup
       - name: Run Tests
         run: azdev test --junitxml "TEST-results.xml"
       - name: Publish Test Results
