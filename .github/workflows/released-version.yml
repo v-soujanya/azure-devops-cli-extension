@@ -14,7 +14,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
-          python-version: '3.12'
+          python-version: '3.8'
           architecture: x64
       - name: Install setuptools
         run: pip install setuptools==70.0.0
@@ -35,11 +35,18 @@ jobs:
       - uses: ./.github/actions/download-install-local-azure-test-sdk
       - uses: ./.github/actions/setup-ci-machine    
       - name: Install azure devops extension from azure cli index
-        run: az extension add -n azure-devops --debug
-      - name: Set up Azure DevOps CLI
-        env:
-          AZDEV_ENV: ${{ github.workspace }}
-        run: azdev setup --debug
+        run: az extension add -n azure-devops --debug      
+      - name: Set up virtual environment
+        run: |
+         set -ev
+         pip install virtualenv
+         python -m virtualenv venv/
+         source ./venv/bin/activate
+     - name: Set up Azure DevOps CLI
+       env:
+         AZDEV_CONFIG_DIR: ${{ github.workspace }}/.azdev
+         AZURE_CONFIG_DIR: ${{ github.workspace }}/.azure
+       run: azdev setup --debug
       - name: Run Tests     
         run: azdev test --junitxml "TEST-results.xml" 
         #working-directory: 'azure-devops'       
