@@ -41,10 +41,7 @@ jobs:
           pip install virtualenv
           python -m virtualenv venv/
           source ./venv/bin/activate
-      - name: Set up Azure DevOps CLI
-        env:
-          AZDEV_CONFIG_DIR: ${{ github.workspace }}/.azdev
-          AZURE_CONFIG_DIR: ${{ github.workspace }}/.azure
+      - name: Setup azdev environment
         run: azdev setup --debug
       - name: Run Tests
         run: azdev test --junitxml "TEST-results.xml"
