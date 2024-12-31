@@ -20,9 +20,9 @@ jobs:
         run: pip install setuptools==70.0.0
       - uses: ./.github/actions/setup-ci-machine
       - uses: ./.github/actions/build-publish-azure-cli-test-sdk
-
-  Run_Test:
-    needs: Build_Publish_Azure_CLI_Test_SDK
+ 
+ Run_Test:
+   needs: Build_Publish_Azure_CLI_Test_SDK
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
