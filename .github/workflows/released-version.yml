@@ -41,13 +41,16 @@ jobs:
           pip install virtualenv
           python -m virtualenv venv/
           source ./venv/bin/activate
+          pip install wheel==0.30.0 setuptools==70.0.0
       - name: Install azdev
         run: pip install azdev
       - name: Setup azdev environment
-        env:
-          AZDEV_CONFIG_DIR: ${{ github.workspace }}/.azdev
-          AZURE_CONFIG_DIR: ${{ github.workspace }}/.azure
-        run: azdev setup
+        run: |
+          azdev --version
+          azdev setup -r ./ -e azure-devops
+          azdev extension repo add .
+          azdev extension add azure-devops
+          azdev test azure-devops --no-exitfirst --series
       - name: Run Tests
         run: azdev test --junitxml "TEST-results.xml"
       - name: Publish Test Results
