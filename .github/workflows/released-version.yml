@@ -29,5 +29,5 @@ jobs:
           azdev extension add azure-devops
           azdev test azure-devops --no-exitfirst --series
         env:
-          AZURE_DEVOPS_EXT_TEST_ORG:'https://dev.azure.com/v-anvashist0376/'
+          AZURE_DEVOPS_EXT_TEST_ORG: 'https://dev.azure.com/v-anvashist0376/'
         
