@@ -11,12 +11,12 @@ interactions:
       Content-Type:
       - application/json; charset=utf-8
       User-Agent:
-      - python/3.10.11 (Windows-10-10.0.26100-SP0) msrest/0.7.1 azure-devops/5.1.0b4
-        devOpsCli/1.0.2
+      - python/3.12.1 (Linux-6.5.0-1025-azure-x86_64-with-glibc2.31) msrest/0.7.1
+        azure-devops/5.1.0b4 devOpsCli/1.0.2
       X-TFS-FedAuthRedirect:
       - Suppress
       X-TFS-Session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
+      - 529f6bc3-3562-4a41-9e64-5650716c9174
       X-VSS-ForceMsaPassThrough:
       - 'true'
     method: GET
@@ -32,7 +32,7 @@ interactions:
       access-control-expose-headers:
       - Request-Context
       activityid:
-      - 8ce16c27-75b7-446a-857c-386cccb97db6
+      - b41b6679-234f-40df-bdc6-4fa11d0c1d34
       cache-control:
       - no-cache
       content-length:
@@ -40,7 +40,7 @@ interactions:
       content-type:
       - application/json; charset=utf-8; api-version=5.0
       date:
-      - Thu, 02 Jan 2025 12:40:18 GMT
+      - Fri, 03 Jan 2025 12:29:52 GMT
       expires:
       - '-1'
       p3p:
@@ -61,13 +61,13 @@ interactions:
       x-frame-options:
       - SAMEORIGIN
       x-msedge-ref:
-      - 'Ref A: DFA5761032A644F5B140DF053A08AF3D Ref B: MAA01EDGE1406 Ref C: 2025-01-02T12:40:18Z'
+      - 'Ref A: 382F271D565947B59831C8085D6A62ED Ref B: PNQ30EDGE0115 Ref C: 2025-01-03T12:29:52Z'
       x-tfs-processid:
-      - 81515145-17e8-4d31-8df7-702b5a0ae855
+      - e0b5ceb9-22b3-47a0-84a1-5b4ef3fe5d5a
       x-tfs-session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
+      - 529f6bc3-3562-4a41-9e64-5650716c9174
       x-vss-e2eid:
-      - 8ce16c27-75b7-446a-857c-386cccb97db6
+      - b41b6679-234f-40df-bdc6-4fa11d0c1d34
       x-vss-senderdeploymentid:
       - ed30ce5c-9d0a-f73c-3580-4315c7f84d83
       x-vss-userdata:
@@ -87,12 +87,12 @@ interactions:
       Content-Type:
       - application/json; charset=utf-8
       User-Agent:
-      - python/3.10.11 (Windows-10-10.0.26100-SP0) msrest/0.7.1 azure-devops/5.1.0b4
-        devOpsCli/1.0.2
+      - python/3.12.1 (Linux-6.5.0-1025-azure-x86_64-with-glibc2.31) msrest/0.7.1
+        azure-devops/5.1.0b4 devOpsCli/1.0.2
       X-TFS-FedAuthRedirect:
       - Suppress
       X-TFS-Session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
+      - 529f6bc3-3562-4a41-9e64-5650716c9174
       X-VSS-ForceMsaPassThrough:
       - 'true'
     method: GET
@@ -110,7 +110,7 @@ interactions:
       access-control-expose-headers:
       - Request-Context
       activityid:
-      - 982bdb64-c4af-4065-bdbc-45d9dbf373b4
+      - ae2d7af3-38da-43fc-9c9e-b262562ee3d0
       cache-control:
       - no-cache
       content-length:
@@ -118,7 +118,7 @@ interactions:
       content-type:
       - application/json; charset=utf-8; api-version=5.0
       date:
-      - Thu, 02 Jan 2025 12:40:18 GMT
+      - Fri, 03 Jan 2025 12:29:52 GMT
       expires:
       - '-1'
       p3p:
@@ -139,13 +139,13 @@ interactions:
       x-frame-options:
       - SAMEORIGIN
       x-msedge-ref:
-      - 'Ref A: 2288661065E64CDEA7B33BEDB8DA8F2B Ref B: MAA01EDGE1406 Ref C: 2025-01-02T12:40:19Z'
+      - 'Ref A: 4A6B6B2001C7463B8D39BAC5D30C8DA4 Ref B: PNQ30EDGE0321 Ref C: 2025-01-03T12:29:53Z'
       x-tfs-processid:
-      - 5894399e-e0b1-4e67-969a-1bb96dd83c83
+      - 7feece6f-b60f-4985-b04b-141c1af88e11
       x-tfs-session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
+      - 529f6bc3-3562-4a41-9e64-5650716c9174
       x-vss-e2eid:
-      - 982bdb64-c4af-4065-bdbc-45d9dbf373b4
+      - ae2d7af3-38da-43fc-9c9e-b262562ee3d0
       x-vss-senderdeploymentid:
       - ed30ce5c-9d0a-f73c-3580-4315c7f84d83
       x-vss-userdata:

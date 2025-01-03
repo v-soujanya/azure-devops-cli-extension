@@ -11,12 +11,12 @@ interactions:
       Content-Type:
       - application/json; charset=utf-8
       User-Agent:
-      - python/3.10.11 (Windows-10-10.0.26100-SP0) msrest/0.7.1 azure-devops/5.1.0b4
-        devOpsCli/1.0.2
+      - python/3.12.1 (Linux-6.5.0-1025-azure-x86_64-with-glibc2.31) msrest/0.7.1
+        azure-devops/5.1.0b4 devOpsCli/1.0.2
       X-TFS-FedAuthRedirect:
       - Suppress
       X-TFS-Session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
+      - 529f6bc3-3562-4a41-9e64-5650716c9174
       X-VSS-ForceMsaPassThrough:
       - 'true'
     method: GET
@@ -35,7 +35,7 @@ interactions:
       access-control-expose-headers:
       - Request-Context
       activityid:
-      - 7b0cd3bb-5839-4af0-8b46-03338f5bd43a
+      - ae2d7925-38da-43fc-9c9e-b262562ee3d0
       cache-control:
       - no-cache
       content-length:
@@ -43,7 +43,7 @@ interactions:
       content-type:
       - application/json; charset=utf-8; api-version=5.0
       date:
-      - Thu, 02 Jan 2025 12:40:22 GMT
+      - Fri, 03 Jan 2025 12:29:53 GMT
       expires:
       - '-1'
       p3p:
@@ -64,13 +64,13 @@ interactions:
       x-frame-options:
       - SAMEORIGIN
       x-msedge-ref:
-      - 'Ref A: 7870D78EBEE4450EAFA603B30010FF05 Ref B: MAA01EDGE0922 Ref C: 2025-01-02T12:40:23Z'
+      - 'Ref A: 0F4B2BE4D10546F5A4049008B607E0B2 Ref B: PNQ30EDGE0222 Ref C: 2025-01-03T12:29:54Z'
       x-tfs-processid:
-      - 3e5d6de8-9a30-4743-9c4c-0d5527f3ca5f
+      - 7feece6f-b60f-4985-b04b-141c1af88e11
       x-tfs-session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
+      - 529f6bc3-3562-4a41-9e64-5650716c9174
       x-vss-e2eid:
-      - 7b0cd3bb-5839-4af0-8b46-03338f5bd43a
+      - ae2d7925-38da-43fc-9c9e-b262562ee3d0
       x-vss-senderdeploymentid:
       - ed30ce5c-9d0a-f73c-3580-4315c7f84d83
       x-vss-userdata:
@@ -94,24 +94,24 @@ interactions:
       Content-Type:
       - application/json; charset=utf-8
       User-Agent:
-      - python/3.10.11 (Windows-10-10.0.26100-SP0) msrest/0.7.1 azure-devops/5.1.0b4
-        devOpsCli/1.0.2
+      - python/3.12.1 (Linux-6.5.0-1025-azure-x86_64-with-glibc2.31) msrest/0.7.1
+        azure-devops/5.1.0b4 devOpsCli/1.0.2
       X-TFS-FedAuthRedirect:
       - Suppress
       X-TFS-Session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
+      - 529f6bc3-3562-4a41-9e64-5650716c9174
       X-VSS-ForceMsaPassThrough:
       - 'true'
     method: POST
     uri: https://dev.azure.com/v-anvashist0376/_apis/projects
   response:
     body:
-      string: '{"id":"706e9d02-a6d5-4417-bb5a-080ef239e531","status":"notSet","url":"https://dev.azure.com/v-anvashist0376/_apis/operations/706e9d02-a6d5-4417-bb5a-080ef239e531"}'
+      string: '{"id":"2164b12a-8dde-434b-b4f3-dadbd40c8d44","status":"notSet","url":"https://dev.azure.com/v-anvashist0376/_apis/operations/2164b12a-8dde-434b-b4f3-dadbd40c8d44"}'
     headers:
       access-control-expose-headers:
       - Request-Context
       activityid:
-      - 336c353e-baca-454c-8c5f-d3021c79e3dd
+      - 1f97f15f-34de-4605-870f-0f062219ef9f
       cache-control:
       - no-cache
       content-length:
@@ -119,7 +119,7 @@ interactions:
       content-type:
       - application/json; charset=utf-8; api-version=5.0
       date:
-      - Thu, 02 Jan 2025 12:40:22 GMT
+      - Fri, 03 Jan 2025 12:29:53 GMT
       expires:
       - '-1'
       p3p:
@@ -138,13 +138,13 @@ interactions:
       x-frame-options:
       - SAMEORIGIN
       x-msedge-ref:
-      - 'Ref A: C8AE641B08D241E680A6444B1A40E5EB Ref B: MAA01EDGE0922 Ref C: 2025-01-02T12:40:23Z'
+      - 'Ref A: 3CC6D7F730124D499B4D770B80424307 Ref B: PNQ30EDGE0212 Ref C: 2025-01-03T12:29:54Z'
       x-tfs-processid:
-      - f77fcf17-141f-4e77-88af-43d7b2bf292a
+      - f037019e-3fc4-4eca-8c1b-91732621702b
       x-tfs-session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
+      - 529f6bc3-3562-4a41-9e64-5650716c9174
       x-vss-e2eid:
-      - 336c353e-baca-454c-8c5f-d3021c79e3dd
+      - 1f97f15f-34de-4605-870f-0f062219ef9f
       x-vss-senderdeploymentid:
       - ed30ce5c-9d0a-f73c-3580-4315c7f84d83
       x-vss-userdata:
@@ -164,24 +164,24 @@ interactions:
       Content-Type:
       - application/json; charset=utf-8
       User-Agent:
-      - python/3.10.11 (Windows-10-10.0.26100-SP0) msrest/0.7.1 azure-devops/5.1.0b4
-        devOpsCli/1.0.2
+      - python/3.12.1 (Linux-6.5.0-1025-azure-x86_64-with-glibc2.31) msrest/0.7.1
+        azure-devops/5.1.0b4 devOpsCli/1.0.2
       X-TFS-FedAuthRedirect:
       - Suppress
       X-TFS-Session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
+      - 529f6bc3-3562-4a41-9e64-5650716c9174
       X-VSS-ForceMsaPassThrough:
       - 'true'
     method: GET
-    uri: https://dev.azure.com/v-anvashist0376/_apis/operations/706e9d02-a6d5-4417-bb5a-080ef239e531
+    uri: https://dev.azure.com/v-anvashist0376/_apis/operations/2164b12a-8dde-434b-b4f3-dadbd40c8d44
   response:
     body:
-      string: '{"id":"706e9d02-a6d5-4417-bb5a-080ef239e531","status":"inProgress","url":"https://dev.azure.com/v-anvashist0376/_apis/operations/706e9d02-a6d5-4417-bb5a-080ef239e531","_links":{"self":{"href":"https://dev.azure.com/v-anvashist0376/_apis/operations/706e9d02-a6d5-4417-bb5a-080ef239e531"}}}'
+      string: '{"id":"2164b12a-8dde-434b-b4f3-dadbd40c8d44","status":"inProgress","url":"https://dev.azure.com/v-anvashist0376/_apis/operations/2164b12a-8dde-434b-b4f3-dadbd40c8d44","_links":{"self":{"href":"https://dev.azure.com/v-anvashist0376/_apis/operations/2164b12a-8dde-434b-b4f3-dadbd40c8d44"}}}'
     headers:
       access-control-expose-headers:
       - Request-Context
       activityid:
-      - 1f0bf67c-b63a-48d3-8586-64b86ea4c8c0
+      - 60a18116-6499-4a88-b879-d358ae50c301
       cache-control:
       - no-cache
       content-length:
@@ -189,7 +189,7 @@ interactions:
       content-type:
       - application/json; charset=utf-8; api-version=5.0
       date:
-      - Thu, 02 Jan 2025 12:40:23 GMT
+      - Fri, 03 Jan 2025 12:29:53 GMT
       expires:
       - '-1'
       p3p:
@@ -210,13 +210,13 @@ interactions:
       x-frame-options:
       - SAMEORIGIN
       x-msedge-ref:
-      - 'Ref A: 908EEC56A97040B6B2B83587BB79523F Ref B: MAA01EDGE0620 Ref C: 2025-01-02T12:40:23Z'
+      - 'Ref A: 394084F9D013428D88C8EC4B1895493D Ref B: PNQ30EDGE0215 Ref C: 2025-01-03T12:29:54Z'
       x-tfs-processid:
-      - 32cf7954-6736-4ade-874f-4ca9793d92cf
+      - 1ad39b29-0c88-4c30-acc2-65c06abc65e6
       x-tfs-session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
+      - 529f6bc3-3562-4a41-9e64-5650716c9174
       x-vss-e2eid:
-      - 1f0bf67c-b63a-48d3-8586-64b86ea4c8c0
+      - 60a18116-6499-4a88-b879-d358ae50c301
       x-vss-senderdeploymentid:
       - ed30ce5c-9d0a-f73c-3580-4315c7f84d83
       x-vss-userdata:
@@ -236,24 +236,24 @@ interactions:
       Content-Type:
       - application/json; charset=utf-8
       User-Agent:
-      - python/3.10.11 (Windows-10-10.0.26100-SP0) msrest/0.7.1 azure-devops/5.1.0b4
-        devOpsCli/1.0.2
+      - python/3.12.1 (Linux-6.5.0-1025-azure-x86_64-with-glibc2.31) msrest/0.7.1
+        azure-devops/5.1.0b4 devOpsCli/1.0.2
       X-TFS-FedAuthRedirect:
       - Suppress
       X-TFS-Session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
+      - 529f6bc3-3562-4a41-9e64-5650716c9174
       X-VSS-ForceMsaPassThrough:
       - 'true'
     method: GET
-    uri: https://dev.azure.com/v-anvashist0376/_apis/operations/706e9d02-a6d5-4417-bb5a-080ef239e531
+    uri: https://dev.azure.com/v-anvashist0376/_apis/operations/2164b12a-8dde-434b-b4f3-dadbd40c8d44
   response:
     body:
-      string: '{"id":"706e9d02-a6d5-4417-bb5a-080ef239e531","status":"inProgress","url":"https://dev.azure.com/v-anvashist0376/_apis/operations/706e9d02-a6d5-4417-bb5a-080ef239e531","_links":{"self":{"href":"https://dev.azure.com/v-anvashist0376/_apis/operations/706e9d02-a6d5-4417-bb5a-080ef239e531"}}}'
+      string: '{"id":"2164b12a-8dde-434b-b4f3-dadbd40c8d44","status":"inProgress","url":"https://dev.azure.com/v-anvashist0376/_apis/operations/2164b12a-8dde-434b-b4f3-dadbd40c8d44","_links":{"self":{"href":"https://dev.azure.com/v-anvashist0376/_apis/operations/2164b12a-8dde-434b-b4f3-dadbd40c8d44"}}}'
     headers:
       access-control-expose-headers:
       - Request-Context
       activityid:
-      - 1f0bf1bc-b63a-48d3-8586-64b86ea4c8c0
+      - ae2d785a-38da-43fc-9c9e-b262562ee3d0
       cache-control:
       - no-cache
       content-length:
@@ -261,7 +261,7 @@ interactions:
       content-type:
       - application/json; charset=utf-8; api-version=5.0
       date:
-      - Thu, 02 Jan 2025 12:40:24 GMT
+      - Fri, 03 Jan 2025 12:29:54 GMT
       expires:
       - '-1'
       p3p:
@@ -282,13 +282,13 @@ interactions:
       x-frame-options:
       - SAMEORIGIN
       x-msedge-ref:
-      - 'Ref A: 7785F849D125433D89685E302CF1F474 Ref B: MAA01EDGE0620 Ref C: 2025-01-02T12:40:25Z'
+      - 'Ref A: 6CCE3CE132AE4F99B888AE6AB382BDC5 Ref B: PNQ30EDGE0422 Ref C: 2025-01-03T12:29:55Z'
       x-tfs-processid:
-      - 32cf7954-6736-4ade-874f-4ca9793d92cf
+      - 7feece6f-b60f-4985-b04b-141c1af88e11
       x-tfs-session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
+      - 529f6bc3-3562-4a41-9e64-5650716c9174
       x-vss-e2eid:
-      - 1f0bf1bc-b63a-48d3-8586-64b86ea4c8c0
+      - ae2d785a-38da-43fc-9c9e-b262562ee3d0
       x-vss-senderdeploymentid:
       - ed30ce5c-9d0a-f73c-3580-4315c7f84d83
       x-vss-userdata:
@@ -308,24 +308,24 @@ interactions:
       Content-Type:
       - application/json; charset=utf-8
       User-Agent:
-      - python/3.10.11 (Windows-10-10.0.26100-SP0) msrest/0.7.1 azure-devops/5.1.0b4
-        devOpsCli/1.0.2
+      - python/3.12.1 (Linux-6.5.0-1025-azure-x86_64-with-glibc2.31) msrest/0.7.1
+        azure-devops/5.1.0b4 devOpsCli/1.0.2
       X-TFS-FedAuthRedirect:
       - Suppress
       X-TFS-Session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
+      - 529f6bc3-3562-4a41-9e64-5650716c9174
       X-VSS-ForceMsaPassThrough:
       - 'true'
     method: GET
-    uri: https://dev.azure.com/v-anvashist0376/_apis/operations/706e9d02-a6d5-4417-bb5a-080ef239e531
+    uri: https://dev.azure.com/v-anvashist0376/_apis/operations/2164b12a-8dde-434b-b4f3-dadbd40c8d44
   response:
     body:
-      string: '{"id":"706e9d02-a6d5-4417-bb5a-080ef239e531","status":"inProgress","url":"https://dev.azure.com/v-anvashist0376/_apis/operations/706e9d02-a6d5-4417-bb5a-080ef239e531","_links":{"self":{"href":"https://dev.azure.com/v-anvashist0376/_apis/operations/706e9d02-a6d5-4417-bb5a-080ef239e531"}}}'
+      string: '{"id":"2164b12a-8dde-434b-b4f3-dadbd40c8d44","status":"inProgress","url":"https://dev.azure.com/v-anvashist0376/_apis/operations/2164b12a-8dde-434b-b4f3-dadbd40c8d44","_links":{"self":{"href":"https://dev.azure.com/v-anvashist0376/_apis/operations/2164b12a-8dde-434b-b4f3-dadbd40c8d44"}}}'
     headers:
       access-control-expose-headers:
       - Request-Context
       activityid:
-      - 1f0bf3dc-b63a-48d3-8586-64b86ea4c8c0
+      - b41b62e9-234f-40df-bdc6-4fa11d0c1d34
       cache-control:
       - no-cache
       content-length:
@@ -333,7 +333,7 @@ interactions:
       content-type:
       - application/json; charset=utf-8; api-version=5.0
       date:
-      - Thu, 02 Jan 2025 12:40:26 GMT
+      - Fri, 03 Jan 2025 12:29:55 GMT
       expires:
       - '-1'
       p3p:
@@ -354,13 +354,13 @@ interactions:
       x-frame-options:
       - SAMEORIGIN
       x-msedge-ref:
-      - 'Ref A: 23DEC0DEE1DC40B280427BD043F45753 Ref B: MAA01EDGE0620 Ref C: 2025-01-02T12:40:26Z'
+      - 'Ref A: 76DC321C16724C16B53106E1A916122F Ref B: PNQ30EDGE0106 Ref C: 2025-01-03T12:29:56Z'
       x-tfs-processid:
-      - 32cf7954-6736-4ade-874f-4ca9793d92cf
+      - e0b5ceb9-22b3-47a0-84a1-5b4ef3fe5d5a
       x-tfs-session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
+      - 529f6bc3-3562-4a41-9e64-5650716c9174
       x-vss-e2eid:
-      - 1f0bf3dc-b63a-48d3-8586-64b86ea4c8c0
+      - b41b62e9-234f-40df-bdc6-4fa11d0c1d34
       x-vss-senderdeploymentid:
       - ed30ce5c-9d0a-f73c-3580-4315c7f84d83
       x-vss-userdata:
@@ -380,24 +380,96 @@ interactions:
       Content-Type:
       - application/json; charset=utf-8
       User-Agent:
-      - python/3.10.11 (Windows-10-10.0.26100-SP0) msrest/0.7.1 azure-devops/5.1.0b4
-        devOpsCli/1.0.2
+      - python/3.12.1 (Linux-6.5.0-1025-azure-x86_64-with-glibc2.31) msrest/0.7.1
+        azure-devops/5.1.0b4 devOpsCli/1.0.2
       X-TFS-FedAuthRedirect:
       - Suppress
       X-TFS-Session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
+      - 529f6bc3-3562-4a41-9e64-5650716c9174
       X-VSS-ForceMsaPassThrough:
       - 'true'
     method: GET
-    uri: https://dev.azure.com/v-anvashist0376/_apis/operations/706e9d02-a6d5-4417-bb5a-080ef239e531
+    uri: https://dev.azure.com/v-anvashist0376/_apis/operations/2164b12a-8dde-434b-b4f3-dadbd40c8d44
   response:
     body:
-      string: '{"id":"706e9d02-a6d5-4417-bb5a-080ef239e531","status":"succeeded","url":"https://dev.azure.com/v-anvashist0376/_apis/operations/706e9d02-a6d5-4417-bb5a-080ef239e531","_links":{"self":{"href":"https://dev.azure.com/v-anvashist0376/_apis/operations/706e9d02-a6d5-4417-bb5a-080ef239e531"}}}'
+      string: '{"id":"2164b12a-8dde-434b-b4f3-dadbd40c8d44","status":"inProgress","url":"https://dev.azure.com/v-anvashist0376/_apis/operations/2164b12a-8dde-434b-b4f3-dadbd40c8d44","_links":{"self":{"href":"https://dev.azure.com/v-anvashist0376/_apis/operations/2164b12a-8dde-434b-b4f3-dadbd40c8d44"}}}'
     headers:
       access-control-expose-headers:
       - Request-Context
       activityid:
-      - 1f0bcd73-b63a-48d3-8586-64b86ea4c8c0
+      - 53581039-4abe-47a2-82a0-8110aac68309
+      cache-control:
+      - no-cache
+      content-length:
+      - '288'
+      content-type:
+      - application/json; charset=utf-8; api-version=5.0
+      date:
+      - Fri, 03 Jan 2025 12:29:57 GMT
+      expires:
+      - '-1'
+      p3p:
+      - CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV
+        STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+      pragma:
+      - no-cache
+      request-context:
+      - appId=cid-v1:0f8b2d32-fdff-4d39-87b8-548fb9450eb7
+      strict-transport-security:
+      - max-age=31536000; includeSubDomains
+      vary:
+      - Accept-Encoding
+      x-cache:
+      - CONFIG_NOCACHE
+      x-content-type-options:
+      - nosniff
+      x-frame-options:
+      - SAMEORIGIN
+      x-msedge-ref:
+      - 'Ref A: 5F44FBE174E7471CA6F587F886B1DA49 Ref B: PNQ30EDGE0318 Ref C: 2025-01-03T12:29:57Z'
+      x-tfs-processid:
+      - b97ff233-9513-4ce7-8a9b-cbb5938dff9f
+      x-tfs-session:
+      - 529f6bc3-3562-4a41-9e64-5650716c9174
+      x-vss-e2eid:
+      - 53581039-4abe-47a2-82a0-8110aac68309
+      x-vss-senderdeploymentid:
+      - ed30ce5c-9d0a-f73c-3580-4315c7f84d83
+      x-vss-userdata:
+      - 22157d54-1821-6536-a446-928b06348385:v-sbestala@microsoft.com
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json;api-version=5.0
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      User-Agent:
+      - python/3.12.1 (Linux-6.5.0-1025-azure-x86_64-with-glibc2.31) msrest/0.7.1
+        azure-devops/5.1.0b4 devOpsCli/1.0.2
+      X-TFS-FedAuthRedirect:
+      - Suppress
+      X-TFS-Session:
+      - 529f6bc3-3562-4a41-9e64-5650716c9174
+      X-VSS-ForceMsaPassThrough:
+      - 'true'
+    method: GET
+    uri: https://dev.azure.com/v-anvashist0376/_apis/operations/2164b12a-8dde-434b-b4f3-dadbd40c8d44
+  response:
+    body:
+      string: '{"id":"2164b12a-8dde-434b-b4f3-dadbd40c8d44","status":"succeeded","url":"https://dev.azure.com/v-anvashist0376/_apis/operations/2164b12a-8dde-434b-b4f3-dadbd40c8d44","_links":{"self":{"href":"https://dev.azure.com/v-anvashist0376/_apis/operations/2164b12a-8dde-434b-b4f3-dadbd40c8d44"}}}'
+    headers:
+      access-control-expose-headers:
+      - Request-Context
+      activityid:
+      - 6b537a38-d14a-4008-8dbe-5e46b5e9f379
       cache-control:
       - no-cache
       content-length:
@@ -405,7 +477,7 @@ interactions:
       content-type:
       - application/json; charset=utf-8; api-version=5.0
       date:
-      - Thu, 02 Jan 2025 12:40:27 GMT
+      - Fri, 03 Jan 2025 12:29:57 GMT
       expires:
       - '-1'
       p3p:
@@ -426,13 +498,13 @@ interactions:
       x-frame-options:
       - SAMEORIGIN
       x-msedge-ref:
-      - 'Ref A: AEECF381E76B49D9A078CF5E935F665E Ref B: MAA01EDGE0620 Ref C: 2025-01-02T12:40:27Z'
+      - 'Ref A: 543E54222DBA499D841F1B2A060690AB Ref B: PNQ30EDGE0313 Ref C: 2025-01-03T12:29:58Z'
       x-tfs-processid:
-      - 32cf7954-6736-4ade-874f-4ca9793d92cf
+      - 98c229af-85ac-4aef-a1b7-bbe8a1f1ead4
       x-tfs-session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
+      - 529f6bc3-3562-4a41-9e64-5650716c9174
       x-vss-e2eid:
-      - 1f0bcd73-b63a-48d3-8586-64b86ea4c8c0
+      - 6b537a38-d14a-4008-8dbe-5e46b5e9f379
       x-vss-senderdeploymentid:
       - ed30ce5c-9d0a-f73c-3580-4315c7f84d83
       x-vss-userdata:
@@ -452,25 +524,25 @@ interactions:
       Content-Type:
       - application/json; charset=utf-8
       User-Agent:
-      - python/3.10.11 (Windows-10-10.0.26100-SP0) msrest/0.7.1 azure-devops/5.1.0b4
-        devOpsCli/1.0.2
+      - python/3.12.1 (Linux-6.5.0-1025-azure-x86_64-with-glibc2.31) msrest/0.7.1
+        azure-devops/5.1.0b4 devOpsCli/1.0.2
       X-TFS-FedAuthRedirect:
       - Suppress
       X-TFS-Session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
+      - 529f6bc3-3562-4a41-9e64-5650716c9174
       X-VSS-ForceMsaPassThrough:
       - 'true'
     method: GET
     uri: https://dev.azure.com/v-anvashist0376/_apis/projects/pipelinesTest000001?includeCapabilities=true
   response:
     body:
-      string: '{"id":"40921de1-4c5d-4401-9037-34e4b1f51096","name":"pipelinesTest000001","url":"https://dev.azure.com/v-anvashist0376/_apis/projects/40921de1-4c5d-4401-9037-34e4b1f51096","state":"wellFormed","capabilities":{"processTemplate":{"templateName":"Basic","templateTypeId":"b8a3a935-7e91-48b8-a94c-606d37c3e9f2"},"versioncontrol":{"sourceControlType":"Git","gitEnabled":"True","tfvcEnabled":"False"}},"revision":1009,"_links":{"self":{"href":"https://dev.azure.com/v-anvashist0376/_apis/projects/40921de1-4c5d-4401-9037-34e4b1f51096"},"collection":{"href":"https://dev.azure.com/v-anvashist0376/_apis/projectCollections/2ad38d1e-3eaf-4769-931c-3a2da67bbb01"},"web":{"href":"https://dev.azure.com/v-anvashist0376/pipelinesTest000001"}},"visibility":"private","defaultTeam":{"id":"7aab1751-25dd-4ee5-88a6-54ced18d3b63","name":"pipelinesTest000001
-        Team","url":"https://dev.azure.com/v-anvashist0376/_apis/projects/40921de1-4c5d-4401-9037-34e4b1f51096/teams/7aab1751-25dd-4ee5-88a6-54ced18d3b63"},"lastUpdateTime":"2025-01-02T12:40:26.697Z"}'
+      string: '{"id":"7bb0d243-4ef0-49d8-b33b-3e6f44e28afa","name":"pipelinesTest000001","url":"https://dev.azure.com/v-anvashist0376/_apis/projects/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa","state":"wellFormed","capabilities":{"processTemplate":{"templateName":"Basic","templateTypeId":"b8a3a935-7e91-48b8-a94c-606d37c3e9f2"},"versioncontrol":{"sourceControlType":"Git","gitEnabled":"True","tfvcEnabled":"False"}},"revision":1516,"_links":{"self":{"href":"https://dev.azure.com/v-anvashist0376/_apis/projects/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa"},"collection":{"href":"https://dev.azure.com/v-anvashist0376/_apis/projectCollections/2ad38d1e-3eaf-4769-931c-3a2da67bbb01"},"web":{"href":"https://dev.azure.com/v-anvashist0376/pipelinesTest000001"}},"visibility":"private","defaultTeam":{"id":"6bff82a0-2346-413e-94a4-15fbe63d6188","name":"pipelinesTest000001
+        Team","url":"https://dev.azure.com/v-anvashist0376/_apis/projects/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa/teams/6bff82a0-2346-413e-94a4-15fbe63d6188"},"lastUpdateTime":"2025-01-03T12:29:57.803Z"}'
     headers:
       access-control-expose-headers:
       - Request-Context
       activityid:
-      - 1f0bcd1e-b63a-48d3-8586-64b86ea4c8c0
+      - 8853dfa1-4992-4ec3-82cc-a21ecd0c2ba8
       cache-control:
       - no-cache
       content-length:
@@ -478,7 +550,7 @@ interactions:
       content-type:
       - application/json; charset=utf-8; api-version=5.0
       date:
-      - Thu, 02 Jan 2025 12:40:26 GMT
+      - Fri, 03 Jan 2025 12:29:57 GMT
       expires:
       - '-1'
       p3p:
@@ -499,13 +571,13 @@ interactions:
       x-frame-options:
       - SAMEORIGIN
       x-msedge-ref:
-      - 'Ref A: 77B01010A53843B2A175E4CAFF3871AA Ref B: MAA01EDGE0922 Ref C: 2025-01-02T12:40:27Z'
+      - 'Ref A: EEFE2B9250924920A02D503C8500430E Ref B: PNQ30EDGE0415 Ref C: 2025-01-03T12:29:58Z'
       x-tfs-processid:
-      - 32cf7954-6736-4ade-874f-4ca9793d92cf
+      - acea8c03-34bb-4ee4-a91f-cbb689df1604
       x-tfs-session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
+      - 529f6bc3-3562-4a41-9e64-5650716c9174
       x-vss-e2eid:
-      - 1f0bcd1e-b63a-48d3-8586-64b86ea4c8c0
+      - 8853dfa1-4992-4ec3-82cc-a21ecd0c2ba8
       x-vss-senderdeploymentid:
       - ed30ce5c-9d0a-f73c-3580-4315c7f84d83
       x-vss-userdata:
@@ -525,24 +597,24 @@ interactions:
       Content-Type:
       - application/json; charset=utf-8
       User-Agent:
-      - python/3.10.11 (Windows-10-10.0.26100-SP0) msrest/0.7.1 azure-devops/5.1.0b4
-        devOpsCli/1.0.2
+      - python/3.12.1 (Linux-6.5.0-1025-azure-x86_64-with-glibc2.31) msrest/0.7.1
+        azure-devops/5.1.0b4 devOpsCli/1.0.2
       X-TFS-FedAuthRedirect:
       - Suppress
       X-TFS-Session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
+      - 529f6bc3-3562-4a41-9e64-5650716c9174
       X-VSS-ForceMsaPassThrough:
       - 'true'
     method: GET
-    uri: https://dev.azure.com/v-anvashist0376/40921de1-4c5d-4401-9037-34e4b1f51096/_apis/git/repositories
+    uri: https://dev.azure.com/v-anvashist0376/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa/_apis/git/repositories
   response:
     body:
-      string: '{"value":[{"id":"fa78c83a-a8dc-4b5c-b74c-85f2df40ce0d","name":"pipelinesTest000001","url":"https://dev.azure.com/v-anvashist0376/40921de1-4c5d-4401-9037-34e4b1f51096/_apis/git/repositories/fa78c83a-a8dc-4b5c-b74c-85f2df40ce0d","project":{"id":"40921de1-4c5d-4401-9037-34e4b1f51096","name":"pipelinesTest000001","url":"https://dev.azure.com/v-anvashist0376/_apis/projects/40921de1-4c5d-4401-9037-34e4b1f51096","state":"wellFormed","revision":1009,"visibility":"private","lastUpdateTime":"2025-01-02T12:40:26.697Z"},"size":0,"remoteUrl":"https://v-anvashist0376@dev.azure.com/v-anvashist0376/pipelinesTest000001/_git/pipelinesTest000001","sshUrl":"git@ssh.dev.azure.com:v3/v-anvashist0376/pipelinesTest000001/pipelinesTest000001","webUrl":"https://dev.azure.com/v-anvashist0376/pipelinesTest000001/_git/pipelinesTest000001","isDisabled":false,"isInMaintenance":false}],"count":1}'
+      string: '{"value":[{"id":"db7cf07e-1158-47b5-84f0-b8403a181777","name":"pipelinesTest000001","url":"https://dev.azure.com/v-anvashist0376/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa/_apis/git/repositories/db7cf07e-1158-47b5-84f0-b8403a181777","project":{"id":"7bb0d243-4ef0-49d8-b33b-3e6f44e28afa","name":"pipelinesTest000001","url":"https://dev.azure.com/v-anvashist0376/_apis/projects/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa","state":"wellFormed","revision":1516,"visibility":"private","lastUpdateTime":"2025-01-03T12:29:57.803Z"},"size":0,"remoteUrl":"https://v-anvashist0376@dev.azure.com/v-anvashist0376/pipelinesTest000001/_git/pipelinesTest000001","sshUrl":"git@ssh.dev.azure.com:v3/v-anvashist0376/pipelinesTest000001/pipelinesTest000001","webUrl":"https://dev.azure.com/v-anvashist0376/pipelinesTest000001/_git/pipelinesTest000001","isDisabled":false,"isInMaintenance":false}],"count":1}'
     headers:
       access-control-expose-headers:
       - Request-Context
       activityid:
-      - 1f0bcc6c-b63a-48d3-8586-64b86ea4c8c0
+      - b41b5d6a-234f-40df-bdc6-4fa11d0c1d34
       cache-control:
       - no-cache
       content-length:
@@ -550,7 +622,7 @@ interactions:
       content-type:
       - application/json; charset=utf-8; api-version=5.0
       date:
-      - Thu, 02 Jan 2025 12:40:27 GMT
+      - Fri, 03 Jan 2025 12:29:58 GMT
       expires:
       - '-1'
       p3p:
@@ -571,13 +643,13 @@ interactions:
       x-frame-options:
       - SAMEORIGIN
       x-msedge-ref:
-      - 'Ref A: 8E017733FE434F4280DD5FF898899AEC Ref B: MAA01EDGE1005 Ref C: 2025-01-02T12:40:27Z'
+      - 'Ref A: 5DC9124176304E5A9C7862EC1A88C0FA Ref B: PNQ30EDGE0308 Ref C: 2025-01-03T12:29:58Z'
       x-tfs-processid:
-      - 32cf7954-6736-4ade-874f-4ca9793d92cf
+      - e0b5ceb9-22b3-47a0-84a1-5b4ef3fe5d5a
       x-tfs-session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
+      - 529f6bc3-3562-4a41-9e64-5650716c9174
       x-vss-e2eid:
-      - 1f0bcc6c-b63a-48d3-8586-64b86ea4c8c0
+      - b41b5d6a-234f-40df-bdc6-4fa11d0c1d34
       x-vss-senderdeploymentid:
       - ed30ce5c-9d0a-f73c-3580-4315c7f84d83
       x-vss-userdata:
@@ -600,26 +672,26 @@ interactions:
       Content-Type:
       - application/json; charset=utf-8
       User-Agent:
-      - python/3.10.11 (Windows-10-10.0.26100-SP0) msrest/0.7.1 azure-devops/5.1.0b4
-        devOpsCli/1.0.2
+      - python/3.12.1 (Linux-6.5.0-1025-azure-x86_64-with-glibc2.31) msrest/0.7.1
+        azure-devops/5.1.0b4 devOpsCli/1.0.2
       X-TFS-FedAuthRedirect:
       - Suppress
       X-TFS-Session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
+      - 529f6bc3-3562-4a41-9e64-5650716c9174
       X-VSS-ForceMsaPassThrough:
       - 'true'
     method: POST
-    uri: https://dev.azure.com/v-anvashist0376/pipelinesTest000001/_apis/git/repositories/fa78c83a-a8dc-4b5c-b74c-85f2df40ce0d/importRequests
+    uri: https://dev.azure.com/v-anvashist0376/pipelinesTest000001/_apis/git/repositories/db7cf07e-1158-47b5-84f0-b8403a181777/importRequests
   response:
     body:
-      string: '{"importRequestId":28,"repository":{"id":"fa78c83a-a8dc-4b5c-b74c-85f2df40ce0d","name":"pipelinesTest000001","url":"https://dev.azure.com/v-anvashist0376/40921de1-4c5d-4401-9037-34e4b1f51096/_apis/git/repositories/fa78c83a-a8dc-4b5c-b74c-85f2df40ce0d","project":{"id":"40921de1-4c5d-4401-9037-34e4b1f51096","name":"pipelinesTest000001","url":"https://dev.azure.com/v-anvashist0376/_apis/projects/40921de1-4c5d-4401-9037-34e4b1f51096","state":"wellFormed","revision":1009,"visibility":"private","lastUpdateTime":"2025-01-02T12:40:26.697Z"},"size":0,"remoteUrl":"https://v-anvashist0376@dev.azure.com/v-anvashist0376/pipelinesTest000001/_git/pipelinesTest000001","sshUrl":"git@ssh.dev.azure.com:v3/v-anvashist0376/pipelinesTest000001/pipelinesTest000001","webUrl":"https://dev.azure.com/v-anvashist0376/pipelinesTest000001/_git/pipelinesTest000001","isDisabled":false,"isInMaintenance":false},"parameters":{"tfvcSource":null,"gitSource":{"url":"https://dev.azure.com/devops-cli-test-org/TestSupportProject/_git/snakes-and-ladders","overwrite":false}},"status":"queued","detailedStatus":{"currentStep":1,"allSteps":["Processing
+      string: '{"importRequestId":51,"repository":{"id":"db7cf07e-1158-47b5-84f0-b8403a181777","name":"pipelinesTest000001","url":"https://dev.azure.com/v-anvashist0376/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa/_apis/git/repositories/db7cf07e-1158-47b5-84f0-b8403a181777","project":{"id":"7bb0d243-4ef0-49d8-b33b-3e6f44e28afa","name":"pipelinesTest000001","url":"https://dev.azure.com/v-anvashist0376/_apis/projects/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa","state":"wellFormed","revision":1516,"visibility":"private","lastUpdateTime":"2025-01-03T12:29:57.803Z"},"size":0,"remoteUrl":"https://v-anvashist0376@dev.azure.com/v-anvashist0376/pipelinesTest000001/_git/pipelinesTest000001","sshUrl":"git@ssh.dev.azure.com:v3/v-anvashist0376/pipelinesTest000001/pipelinesTest000001","webUrl":"https://dev.azure.com/v-anvashist0376/pipelinesTest000001/_git/pipelinesTest000001","isDisabled":false,"isInMaintenance":false},"parameters":{"tfvcSource":null,"gitSource":{"url":"https://dev.azure.com/devops-cli-test-org/TestSupportProject/_git/snakes-and-ladders","overwrite":false}},"status":"queued","detailedStatus":{"currentStep":1,"allSteps":["Processing
         request","Analyzing repository objects","Storing objects","Storing index file","Updating
-        references","Import completed successfully"]},"_links":{"self":{"href":"https://dev.azure.com/v-anvashist0376/pipelinesTest000001/_apis/git/repositories/fa78c83a-a8dc-4b5c-b74c-85f2df40ce0d/importRequests/28"},"repository":{"href":"https://dev.azure.com/v-anvashist0376/40921de1-4c5d-4401-9037-34e4b1f51096/_apis/git/repositories/fa78c83a-a8dc-4b5c-b74c-85f2df40ce0d"}},"url":"https://dev.azure.com/v-anvashist0376/pipelinesTest000001/_apis/git/repositories/fa78c83a-a8dc-4b5c-b74c-85f2df40ce0d/importRequests/28"}'
+        references","Import completed successfully"]},"_links":{"self":{"href":"https://dev.azure.com/v-anvashist0376/pipelinesTest000001/_apis/git/repositories/db7cf07e-1158-47b5-84f0-b8403a181777/importRequests/51"},"repository":{"href":"https://dev.azure.com/v-anvashist0376/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa/_apis/git/repositories/db7cf07e-1158-47b5-84f0-b8403a181777"}},"url":"https://dev.azure.com/v-anvashist0376/pipelinesTest000001/_apis/git/repositories/db7cf07e-1158-47b5-84f0-b8403a181777/importRequests/51"}'
     headers:
       access-control-expose-headers:
       - Request-Context
       activityid:
-      - a51e4521-6dba-4468-b3fe-a8111b3f4f4d
+      - 6b537aae-d14a-4008-8dbe-5e46b5e9f379
       cache-control:
       - no-cache
       content-length:
@@ -627,7 +699,7 @@ interactions:
       content-type:
       - application/json; charset=utf-8; api-version=5.0-preview.1
       date:
-      - Thu, 02 Jan 2025 12:40:29 GMT
+      - Fri, 03 Jan 2025 12:29:59 GMT
       expires:
       - '-1'
       p3p:
@@ -646,13 +718,13 @@ interactions:
       x-frame-options:
       - SAMEORIGIN
       x-msedge-ref:
-      - 'Ref A: 4DD41F403D844F4CAFD7F94C51FAFA6E Ref B: MAA01EDGE1005 Ref C: 2025-01-02T12:40:28Z'
+      - 'Ref A: E8ECDA2371BE47F5AA355D2CF781D390 Ref B: PNQ30EDGE0112 Ref C: 2025-01-03T12:29:58Z'
       x-tfs-processid:
-      - fe83dd1d-7dd8-45d8-adce-57d7f513de62
+      - 98c229af-85ac-4aef-a1b7-bbe8a1f1ead4
       x-tfs-session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
+      - 529f6bc3-3562-4a41-9e64-5650716c9174
       x-vss-e2eid:
-      - a51e4521-6dba-4468-b3fe-a8111b3f4f4d
+      - 6b537aae-d14a-4008-8dbe-5e46b5e9f379
       x-vss-senderdeploymentid:
       - ed30ce5c-9d0a-f73c-3580-4315c7f84d83
       x-vss-userdata:
@@ -672,26 +744,26 @@ interactions:
       Content-Type:
       - application/json; charset=utf-8
       User-Agent:
-      - python/3.10.11 (Windows-10-10.0.26100-SP0) msrest/0.7.1 azure-devops/5.1.0b4
-        devOpsCli/1.0.2
+      - python/3.12.1 (Linux-6.5.0-1025-azure-x86_64-with-glibc2.31) msrest/0.7.1
+        azure-devops/5.1.0b4 devOpsCli/1.0.2
       X-TFS-FedAuthRedirect:
       - Suppress
       X-TFS-Session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
+      - 529f6bc3-3562-4a41-9e64-5650716c9174
       X-VSS-ForceMsaPassThrough:
       - 'true'
     method: GET
-    uri: https://dev.azure.com/v-anvashist0376/pipelinesTest000001/_apis/git/repositories/fa78c83a-a8dc-4b5c-b74c-85f2df40ce0d/importRequests/28
+    uri: https://dev.azure.com/v-anvashist0376/pipelinesTest000001/_apis/git/repositories/db7cf07e-1158-47b5-84f0-b8403a181777/importRequests/51
   response:
     body:
-      string: '{"importRequestId":28,"repository":{"id":"fa78c83a-a8dc-4b5c-b74c-85f2df40ce0d","name":"pipelinesTest000001","url":"https://dev.azure.com/v-anvashist0376/40921de1-4c5d-4401-9037-34e4b1f51096/_apis/git/repositories/fa78c83a-a8dc-4b5c-b74c-85f2df40ce0d","project":{"id":"40921de1-4c5d-4401-9037-34e4b1f51096","name":"pipelinesTest000001","url":"https://dev.azure.com/v-anvashist0376/_apis/projects/40921de1-4c5d-4401-9037-34e4b1f51096","state":"wellFormed","revision":1009,"visibility":"private","lastUpdateTime":"2025-01-02T12:40:26.697Z"},"size":0,"remoteUrl":"https://v-anvashist0376@dev.azure.com/v-anvashist0376/pipelinesTest000001/_git/pipelinesTest000001","sshUrl":"git@ssh.dev.azure.com:v3/v-anvashist0376/pipelinesTest000001/pipelinesTest000001","webUrl":"https://dev.azure.com/v-anvashist0376/pipelinesTest000001/_git/pipelinesTest000001","isDisabled":false,"isInMaintenance":false},"parameters":{"tfvcSource":null,"gitSource":{"url":"https://dev.azure.com/devops-cli-test-org/TestSupportProject/_git/snakes-and-ladders","overwrite":false}},"status":"inProgress","detailedStatus":{"currentStep":1,"allSteps":["Processing
+      string: '{"importRequestId":51,"repository":{"id":"db7cf07e-1158-47b5-84f0-b8403a181777","name":"pipelinesTest000001","url":"https://dev.azure.com/v-anvashist0376/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa/_apis/git/repositories/db7cf07e-1158-47b5-84f0-b8403a181777","project":{"id":"7bb0d243-4ef0-49d8-b33b-3e6f44e28afa","name":"pipelinesTest000001","url":"https://dev.azure.com/v-anvashist0376/_apis/projects/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa","state":"wellFormed","revision":1516,"visibility":"private","lastUpdateTime":"2025-01-03T12:29:57.803Z"},"size":0,"remoteUrl":"https://v-anvashist0376@dev.azure.com/v-anvashist0376/pipelinesTest000001/_git/pipelinesTest000001","sshUrl":"git@ssh.dev.azure.com:v3/v-anvashist0376/pipelinesTest000001/pipelinesTest000001","webUrl":"https://dev.azure.com/v-anvashist0376/pipelinesTest000001/_git/pipelinesTest000001","isDisabled":false,"isInMaintenance":false},"parameters":{"tfvcSource":null,"gitSource":{"url":"https://dev.azure.com/devops-cli-test-org/TestSupportProject/_git/snakes-and-ladders","overwrite":false}},"status":"inProgress","detailedStatus":{"currentStep":1,"allSteps":["Processing
         request","Analyzing repository objects","Storing objects","Storing index file","Updating
-        references","Import completed successfully"]},"_links":{"self":{"href":"https://dev.azure.com/v-anvashist0376/pipelinesTest000001/_apis/git/repositories/fa78c83a-a8dc-4b5c-b74c-85f2df40ce0d/importRequests/28"},"repository":{"href":"https://dev.azure.com/v-anvashist0376/40921de1-4c5d-4401-9037-34e4b1f51096/_apis/git/repositories/fa78c83a-a8dc-4b5c-b74c-85f2df40ce0d"}},"url":"https://dev.azure.com/v-anvashist0376/pipelinesTest000001/_apis/git/repositories/fa78c83a-a8dc-4b5c-b74c-85f2df40ce0d/importRequests/28"}'
+        references","Import completed successfully"]},"_links":{"self":{"href":"https://dev.azure.com/v-anvashist0376/pipelinesTest000001/_apis/git/repositories/db7cf07e-1158-47b5-84f0-b8403a181777/importRequests/51"},"repository":{"href":"https://dev.azure.com/v-anvashist0376/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa/_apis/git/repositories/db7cf07e-1158-47b5-84f0-b8403a181777"}},"url":"https://dev.azure.com/v-anvashist0376/pipelinesTest000001/_apis/git/repositories/db7cf07e-1158-47b5-84f0-b8403a181777/importRequests/51"}'
     headers:
       access-control-expose-headers:
       - Request-Context
       activityid:
-      - 44d15575-f79e-4dc7-9ed2-9997804bec46
+      - b41b5e10-234f-40df-bdc6-4fa11d0c1d34
       cache-control:
       - no-cache
       content-length:
@@ -699,7 +771,7 @@ interactions:
       content-type:
       - application/json; charset=utf-8; api-version=5.0-preview.1
       date:
-      - Thu, 02 Jan 2025 12:40:29 GMT
+      - Fri, 03 Jan 2025 12:29:59 GMT
       expires:
       - '-1'
       p3p:
@@ -720,13 +792,13 @@ interactions:
       x-frame-options:
       - SAMEORIGIN
       x-msedge-ref:
-      - 'Ref A: 10B6CF0B54E5414EB063FC6514565A87 Ref B: MAA01EDGE1005 Ref C: 2025-01-02T12:40:29Z'
+      - 'Ref A: A066B7A05FB1409B920D5FFCDEBFBDD1 Ref B: PNQ30EDGE0115 Ref C: 2025-01-03T12:29:59Z'
       x-tfs-processid:
-      - 8b97cd00-92de-40cb-90b3-9f93d0941d86
+      - e0b5ceb9-22b3-47a0-84a1-5b4ef3fe5d5a
       x-tfs-session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
+      - 529f6bc3-3562-4a41-9e64-5650716c9174
       x-vss-e2eid:
-      - 44d15575-f79e-4dc7-9ed2-9997804bec46
+      - b41b5e10-234f-40df-bdc6-4fa11d0c1d34
       x-vss-senderdeploymentid:
       - ed30ce5c-9d0a-f73c-3580-4315c7f84d83
       x-vss-userdata:
@@ -746,26 +818,26 @@ interactions:
       Content-Type:
       - application/json; charset=utf-8
       User-Agent:
-      - python/3.10.11 (Windows-10-10.0.26100-SP0) msrest/0.7.1 azure-devops/5.1.0b4
-        devOpsCli/1.0.2
+      - python/3.12.1 (Linux-6.5.0-1025-azure-x86_64-with-glibc2.31) msrest/0.7.1
+        azure-devops/5.1.0b4 devOpsCli/1.0.2
       X-TFS-FedAuthRedirect:
       - Suppress
       X-TFS-Session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
+      - 529f6bc3-3562-4a41-9e64-5650716c9174
       X-VSS-ForceMsaPassThrough:
       - 'true'
     method: GET
-    uri: https://dev.azure.com/v-anvashist0376/pipelinesTest000001/_apis/git/repositories/fa78c83a-a8dc-4b5c-b74c-85f2df40ce0d/importRequests/28
+    uri: https://dev.azure.com/v-anvashist0376/pipelinesTest000001/_apis/git/repositories/db7cf07e-1158-47b5-84f0-b8403a181777/importRequests/51
   response:
     body:
-      string: '{"importRequestId":28,"repository":{"id":"fa78c83a-a8dc-4b5c-b74c-85f2df40ce0d","name":"pipelinesTest000001","url":"https://dev.azure.com/v-anvashist0376/40921de1-4c5d-4401-9037-34e4b1f51096/_apis/git/repositories/fa78c83a-a8dc-4b5c-b74c-85f2df40ce0d","project":{"id":"40921de1-4c5d-4401-9037-34e4b1f51096","name":"pipelinesTest000001","url":"https://dev.azure.com/v-anvashist0376/_apis/projects/40921de1-4c5d-4401-9037-34e4b1f51096","state":"wellFormed","revision":1009,"visibility":"private","lastUpdateTime":"2025-01-02T12:40:26.697Z"},"size":1602,"remoteUrl":"https://v-anvashist0376@dev.azure.com/v-anvashist0376/pipelinesTest000001/_git/pipelinesTest000001","sshUrl":"git@ssh.dev.azure.com:v3/v-anvashist0376/pipelinesTest000001/pipelinesTest000001","webUrl":"https://dev.azure.com/v-anvashist0376/pipelinesTest000001/_git/pipelinesTest000001","isDisabled":false,"isInMaintenance":false},"parameters":{"tfvcSource":null,"gitSource":{"url":"https://dev.azure.com/devops-cli-test-org/TestSupportProject/_git/snakes-and-ladders","overwrite":false}},"status":"completed","detailedStatus":{"currentStep":6,"allSteps":["Processing
+      string: '{"importRequestId":51,"repository":{"id":"db7cf07e-1158-47b5-84f0-b8403a181777","name":"pipelinesTest000001","url":"https://dev.azure.com/v-anvashist0376/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa/_apis/git/repositories/db7cf07e-1158-47b5-84f0-b8403a181777","project":{"id":"7bb0d243-4ef0-49d8-b33b-3e6f44e28afa","name":"pipelinesTest000001","url":"https://dev.azure.com/v-anvashist0376/_apis/projects/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa","state":"wellFormed","revision":1516,"visibility":"private","lastUpdateTime":"2025-01-03T12:29:57.803Z"},"size":1602,"remoteUrl":"https://v-anvashist0376@dev.azure.com/v-anvashist0376/pipelinesTest000001/_git/pipelinesTest000001","sshUrl":"git@ssh.dev.azure.com:v3/v-anvashist0376/pipelinesTest000001/pipelinesTest000001","webUrl":"https://dev.azure.com/v-anvashist0376/pipelinesTest000001/_git/pipelinesTest000001","isDisabled":false,"isInMaintenance":false},"parameters":{"tfvcSource":null,"gitSource":{"url":"https://dev.azure.com/devops-cli-test-org/TestSupportProject/_git/snakes-and-ladders","overwrite":false}},"status":"completed","detailedStatus":{"currentStep":6,"allSteps":["Processing
         request","Analyzing repository objects","Storing objects","Storing index file","Updating
-        references","Import completed successfully"]},"_links":{"self":{"href":"https://dev.azure.com/v-anvashist0376/pipelinesTest000001/_apis/git/repositories/fa78c83a-a8dc-4b5c-b74c-85f2df40ce0d/importRequests/28"},"repository":{"href":"https://dev.azure.com/v-anvashist0376/40921de1-4c5d-4401-9037-34e4b1f51096/_apis/git/repositories/fa78c83a-a8dc-4b5c-b74c-85f2df40ce0d"}},"url":"https://dev.azure.com/v-anvashist0376/pipelinesTest000001/_apis/git/repositories/fa78c83a-a8dc-4b5c-b74c-85f2df40ce0d/importRequests/28"}'
+        references","Import completed successfully"]},"_links":{"self":{"href":"https://dev.azure.com/v-anvashist0376/pipelinesTest000001/_apis/git/repositories/db7cf07e-1158-47b5-84f0-b8403a181777/importRequests/51"},"repository":{"href":"https://dev.azure.com/v-anvashist0376/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa/_apis/git/repositories/db7cf07e-1158-47b5-84f0-b8403a181777"}},"url":"https://dev.azure.com/v-anvashist0376/pipelinesTest000001/_apis/git/repositories/db7cf07e-1158-47b5-84f0-b8403a181777/importRequests/51"}'
     headers:
       access-control-expose-headers:
       - Request-Context
       activityid:
-      - 44d12df1-f79e-4dc7-9ed2-9997804bec46
+      - 53586e2a-4abe-47a2-82a0-8110aac68309
       cache-control:
       - no-cache
       content-length:
@@ -773,7 +845,7 @@ interactions:
       content-type:
       - application/json; charset=utf-8; api-version=5.0-preview.1
       date:
-      - Thu, 02 Jan 2025 12:40:35 GMT
+      - Fri, 03 Jan 2025 12:30:04 GMT
       expires:
       - '-1'
       p3p:
@@ -794,13 +866,13 @@ interactions:
       x-frame-options:
       - SAMEORIGIN
       x-msedge-ref:
-      - 'Ref A: EE5F65962BB044B9B71E0A0A2DA82B94 Ref B: MAA01EDGE1005 Ref C: 2025-01-02T12:40:35Z'
+      - 'Ref A: 0BBBB944C2AD433796651071DA0F97DE Ref B: PNQ30EDGE0321 Ref C: 2025-01-03T12:30:04Z'
       x-tfs-processid:
-      - 8b97cd00-92de-40cb-90b3-9f93d0941d86
+      - b97ff233-9513-4ce7-8a9b-cbb5938dff9f
       x-tfs-session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
+      - 529f6bc3-3562-4a41-9e64-5650716c9174
       x-vss-e2eid:
-      - 44d12df1-f79e-4dc7-9ed2-9997804bec46
+      - 53586e2a-4abe-47a2-82a0-8110aac68309
       x-vss-senderdeploymentid:
       - ed30ce5c-9d0a-f73c-3580-4315c7f84d83
       x-vss-userdata:
@@ -820,12 +892,12 @@ interactions:
       Content-Type:
       - application/json; charset=utf-8
       User-Agent:
-      - python/3.10.11 (Windows-10-10.0.26100-SP0) msrest/0.7.1 azure-devops/5.1.0b4
-        devOpsCli/1.0.2
+      - python/3.12.1 (Linux-6.5.0-1025-azure-x86_64-with-glibc2.31) msrest/0.7.1
+        azure-devops/5.1.0b4 devOpsCli/1.0.2
       X-TFS-FedAuthRedirect:
       - Suppress
       X-TFS-Session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
+      - 529f6bc3-3562-4a41-9e64-5650716c9174
       X-VSS-ForceMsaPassThrough:
       - 'true'
     method: GET
@@ -837,7 +909,7 @@ interactions:
       access-control-expose-headers:
       - Request-Context
       activityid:
-      - f261ebd4-77aa-4c8d-85b5-02e2a4304438
+      - 53586fb8-4abe-47a2-82a0-8110aac68309
       cache-control:
       - no-cache
       content-length:
@@ -845,7 +917,7 @@ interactions:
       content-type:
       - application/json; charset=utf-8; api-version=5.1
       date:
-      - Thu, 02 Jan 2025 12:40:35 GMT
+      - Fri, 03 Jan 2025 12:30:05 GMT
       expires:
       - '-1'
       p3p:
@@ -866,13 +938,13 @@ interactions:
       x-frame-options:
       - SAMEORIGIN
       x-msedge-ref:
-      - 'Ref A: 8BFCC244D7D1449D9B382457F3F09D80 Ref B: MAA01EDGE1505 Ref C: 2025-01-02T12:40:36Z'
+      - 'Ref A: A2B05CC7DCCF43169835D4BEF46BAFB4 Ref B: PNQ30EDGE0419 Ref C: 2025-01-03T12:30:05Z'
       x-tfs-processid:
-      - a8e54f57-01b8-4585-a4b3-3b2d681ad009
+      - b97ff233-9513-4ce7-8a9b-cbb5938dff9f
       x-tfs-session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
+      - 529f6bc3-3562-4a41-9e64-5650716c9174
       x-vss-e2eid:
-      - f261ebd4-77aa-4c8d-85b5-02e2a4304438
+      - 53586fb8-4abe-47a2-82a0-8110aac68309
       x-vss-senderdeploymentid:
       - ed30ce5c-9d0a-f73c-3580-4315c7f84d83
       x-vss-userdata:
@@ -892,24 +964,24 @@ interactions:
       Content-Type:
       - application/json; charset=utf-8
       User-Agent:
-      - python/3.10.11 (Windows-10-10.0.26100-SP0) msrest/0.7.1 azure-devops/5.1.0b4
-        devOpsCli/1.0.2
+      - python/3.12.1 (Linux-6.5.0-1025-azure-x86_64-with-glibc2.31) msrest/0.7.1
+        azure-devops/5.1.0b4 devOpsCli/1.0.2
       X-TFS-FedAuthRedirect:
       - Suppress
       X-TFS-Session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
+      - 529f6bc3-3562-4a41-9e64-5650716c9174
       X-VSS-ForceMsaPassThrough:
       - 'true'
     method: GET
     uri: https://dev.azure.com/v-anvashist0376/pipelinesTest000001/_apis/git/repositories/pipelinesTest000001
   response:
     body:
-      string: '{"id":"fa78c83a-a8dc-4b5c-b74c-85f2df40ce0d","name":"pipelinesTest000001","url":"https://dev.azure.com/v-anvashist0376/40921de1-4c5d-4401-9037-34e4b1f51096/_apis/git/repositories/fa78c83a-a8dc-4b5c-b74c-85f2df40ce0d","project":{"id":"40921de1-4c5d-4401-9037-34e4b1f51096","name":"pipelinesTest000001","url":"https://dev.azure.com/v-anvashist0376/_apis/projects/40921de1-4c5d-4401-9037-34e4b1f51096","state":"wellFormed","revision":1009,"visibility":"private","lastUpdateTime":"2025-01-02T12:40:26.697Z"},"defaultBranch":"refs/heads/main","size":1602,"remoteUrl":"https://v-anvashist0376@dev.azure.com/v-anvashist0376/pipelinesTest000001/_git/pipelinesTest000001","sshUrl":"git@ssh.dev.azure.com:v3/v-anvashist0376/pipelinesTest000001/pipelinesTest000001","webUrl":"https://dev.azure.com/v-anvashist0376/pipelinesTest000001/_git/pipelinesTest000001","_links":{"self":{"href":"https://dev.azure.com/v-anvashist0376/40921de1-4c5d-4401-9037-34e4b1f51096/_apis/git/repositories/fa78c83a-a8dc-4b5c-b74c-85f2df40ce0d"},"project":{"href":"vstfs:///Classification/TeamProject/40921de1-4c5d-4401-9037-34e4b1f51096"},"web":{"href":"https://dev.azure.com/v-anvashist0376/pipelinesTest000001/_git/pipelinesTest000001"},"ssh":{"href":"git@ssh.dev.azure.com:v3/v-anvashist0376/pipelinesTest000001/pipelinesTest000001"},"commits":{"href":"https://dev.azure.com/v-anvashist0376/40921de1-4c5d-4401-9037-34e4b1f51096/_apis/git/repositories/fa78c83a-a8dc-4b5c-b74c-85f2df40ce0d/commits"},"refs":{"href":"https://dev.azure.com/v-anvashist0376/40921de1-4c5d-4401-9037-34e4b1f51096/_apis/git/repositories/fa78c83a-a8dc-4b5c-b74c-85f2df40ce0d/refs"},"pullRequests":{"href":"https://dev.azure.com/v-anvashist0376/40921de1-4c5d-4401-9037-34e4b1f51096/_apis/git/repositories/fa78c83a-a8dc-4b5c-b74c-85f2df40ce0d/pullRequests"},"items":{"href":"https://dev.azure.com/v-anvashist0376/40921de1-4c5d-4401-9037-34e4b1f51096/_apis/git/repositories/fa78c83a-a8dc-4b5c-b74c-85f2df40ce0d/items"},"pushes":{"href":"https://dev.azure.com/v-anvashist0376/40921de1-4c5d-4401-9037-34e4b1f51096/_apis/git/repositories/fa78c83a-a8dc-4b5c-b74c-85f2df40ce0d/pushes"}},"isDisabled":false,"isInMaintenance":false}'
+      string: '{"id":"db7cf07e-1158-47b5-84f0-b8403a181777","name":"pipelinesTest000001","url":"https://dev.azure.com/v-anvashist0376/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa/_apis/git/repositories/db7cf07e-1158-47b5-84f0-b8403a181777","project":{"id":"7bb0d243-4ef0-49d8-b33b-3e6f44e28afa","name":"pipelinesTest000001","url":"https://dev.azure.com/v-anvashist0376/_apis/projects/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa","state":"wellFormed","revision":1516,"visibility":"private","lastUpdateTime":"2025-01-03T12:29:57.803Z"},"defaultBranch":"refs/heads/main","size":1602,"remoteUrl":"https://v-anvashist0376@dev.azure.com/v-anvashist0376/pipelinesTest000001/_git/pipelinesTest000001","sshUrl":"git@ssh.dev.azure.com:v3/v-anvashist0376/pipelinesTest000001/pipelinesTest000001","webUrl":"https://dev.azure.com/v-anvashist0376/pipelinesTest000001/_git/pipelinesTest000001","_links":{"self":{"href":"https://dev.azure.com/v-anvashist0376/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa/_apis/git/repositories/db7cf07e-1158-47b5-84f0-b8403a181777"},"project":{"href":"vstfs:///Classification/TeamProject/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa"},"web":{"href":"https://dev.azure.com/v-anvashist0376/pipelinesTest000001/_git/pipelinesTest000001"},"ssh":{"href":"git@ssh.dev.azure.com:v3/v-anvashist0376/pipelinesTest000001/pipelinesTest000001"},"commits":{"href":"https://dev.azure.com/v-anvashist0376/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa/_apis/git/repositories/db7cf07e-1158-47b5-84f0-b8403a181777/commits"},"refs":{"href":"https://dev.azure.com/v-anvashist0376/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa/_apis/git/repositories/db7cf07e-1158-47b5-84f0-b8403a181777/refs"},"pullRequests":{"href":"https://dev.azure.com/v-anvashist0376/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa/_apis/git/repositories/db7cf07e-1158-47b5-84f0-b8403a181777/pullRequests"},"items":{"href":"https://dev.azure.com/v-anvashist0376/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa/_apis/git/repositories/db7cf07e-1158-47b5-84f0-b8403a181777/items"},"pushes":{"href":"https://dev.azure.com/v-anvashist0376/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa/_apis/git/repositories/db7cf07e-1158-47b5-84f0-b8403a181777/pushes"}},"isDisabled":false,"isInMaintenance":false}'
     headers:
       access-control-expose-headers:
       - Request-Context
       activityid:
-      - 44d12c80-f79e-4dc7-9ed2-9997804bec46
+      - 52a80c1e-a46d-42bf-bc06-7edffe57a89c
       cache-control:
       - no-cache
       content-length:
@@ -917,7 +989,7 @@ interactions:
       content-type:
       - application/json; charset=utf-8; api-version=5.0
       date:
-      - Thu, 02 Jan 2025 12:40:36 GMT
+      - Fri, 03 Jan 2025 12:30:04 GMT
       expires:
       - '-1'
       p3p:
@@ -938,13 +1010,13 @@ interactions:
       x-frame-options:
       - SAMEORIGIN
       x-msedge-ref:
-      - 'Ref A: 08FDC5E47D514F319C962972E5CF7F1E Ref B: MAA01EDGE1005 Ref C: 2025-01-02T12:40:36Z'
+      - 'Ref A: CCDD2D9E77FB4F449763DC71BBF64D3B Ref B: PNQ30EDGE0317 Ref C: 2025-01-03T12:30:05Z'
       x-tfs-processid:
-      - 8b97cd00-92de-40cb-90b3-9f93d0941d86
+      - bbca80b2-6a8b-47ee-9d95-d73a6c5b7782
       x-tfs-session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
+      - 529f6bc3-3562-4a41-9e64-5650716c9174
       x-vss-e2eid:
-      - 44d12c80-f79e-4dc7-9ed2-9997804bec46
+      - 52a80c1e-a46d-42bf-bc06-7edffe57a89c
       x-vss-senderdeploymentid:
       - ed30ce5c-9d0a-f73c-3580-4315c7f84d83
       x-vss-userdata:
@@ -964,46 +1036,46 @@ interactions:
       Content-Type:
       - application/json; charset=utf-8
       User-Agent:
-      - python/3.10.11 (Windows-10-10.0.26100-SP0) msrest/0.7.1 azure-devops/5.1.0b4
-        devOpsCli/1.0.2
+      - python/3.12.1 (Linux-6.5.0-1025-azure-x86_64-with-glibc2.31) msrest/0.7.1
+        azure-devops/5.1.0b4 devOpsCli/1.0.2
       X-TFS-FedAuthRedirect:
       - Suppress
       X-TFS-Session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
+      - 529f6bc3-3562-4a41-9e64-5650716c9174
       X-VSS-ForceMsaPassThrough:
       - 'true'
     method: GET
     uri: https://dev.azure.com/v-anvashist0376/pipelinesTest000001/_apis/distributedtask/queues
   response:
     body:
-      string: '{"count":9,"value":[{"id":793,"projectId":"40921de1-4c5d-4401-9037-34e4b1f51096","name":"Default","pool":{"id":1,"scope":"2ad38d1e-3eaf-4769-931c-3a2da67bbb01","name":"Default","isHosted":false,"poolType":"automation","size":0,"isLegacy":false,"options":"none"}},{"id":794,"projectId":"40921de1-4c5d-4401-9037-34e4b1f51096","name":"Hosted","pool":{"id":2,"scope":"2ad38d1e-3eaf-4769-931c-3a2da67bbb01","name":"Hosted","isHosted":true,"poolType":"automation","size":1,"isLegacy":true,"options":"none"}},{"id":795,"projectId":"40921de1-4c5d-4401-9037-34e4b1f51096","name":"Hosted
+      string: '{"count":9,"value":[{"id":1225,"projectId":"7bb0d243-4ef0-49d8-b33b-3e6f44e28afa","name":"Default","pool":{"id":1,"scope":"2ad38d1e-3eaf-4769-931c-3a2da67bbb01","name":"Default","isHosted":false,"poolType":"automation","size":0,"isLegacy":false,"options":"none"}},{"id":1226,"projectId":"7bb0d243-4ef0-49d8-b33b-3e6f44e28afa","name":"Hosted","pool":{"id":2,"scope":"2ad38d1e-3eaf-4769-931c-3a2da67bbb01","name":"Hosted","isHosted":true,"poolType":"automation","size":1,"isLegacy":true,"options":"none"}},{"id":1227,"projectId":"7bb0d243-4ef0-49d8-b33b-3e6f44e28afa","name":"Hosted
         VS2017","pool":{"id":3,"scope":"2ad38d1e-3eaf-4769-931c-3a2da67bbb01","name":"Hosted
-        VS2017","isHosted":true,"poolType":"automation","size":1,"isLegacy":true,"options":"none"}},{"id":796,"projectId":"40921de1-4c5d-4401-9037-34e4b1f51096","name":"Hosted
+        VS2017","isHosted":true,"poolType":"automation","size":1,"isLegacy":true,"options":"none"}},{"id":1228,"projectId":"7bb0d243-4ef0-49d8-b33b-3e6f44e28afa","name":"Hosted
         Windows 2019 with VS2019","pool":{"id":4,"scope":"2ad38d1e-3eaf-4769-931c-3a2da67bbb01","name":"Hosted
-        Windows 2019 with VS2019","isHosted":true,"poolType":"automation","size":1,"isLegacy":true,"options":"none"}},{"id":797,"projectId":"40921de1-4c5d-4401-9037-34e4b1f51096","name":"Hosted
+        Windows 2019 with VS2019","isHosted":true,"poolType":"automation","size":1,"isLegacy":true,"options":"none"}},{"id":1229,"projectId":"7bb0d243-4ef0-49d8-b33b-3e6f44e28afa","name":"Hosted
         Windows Container","pool":{"id":5,"scope":"2ad38d1e-3eaf-4769-931c-3a2da67bbb01","name":"Hosted
-        Windows Container","isHosted":true,"poolType":"automation","size":1,"isLegacy":true,"options":"none"}},{"id":798,"projectId":"40921de1-4c5d-4401-9037-34e4b1f51096","name":"Hosted
+        Windows Container","isHosted":true,"poolType":"automation","size":1,"isLegacy":true,"options":"none"}},{"id":1230,"projectId":"7bb0d243-4ef0-49d8-b33b-3e6f44e28afa","name":"Hosted
         macOS","pool":{"id":6,"scope":"2ad38d1e-3eaf-4769-931c-3a2da67bbb01","name":"Hosted
-        macOS","isHosted":true,"poolType":"automation","size":1,"isLegacy":true,"options":"none"}},{"id":799,"projectId":"40921de1-4c5d-4401-9037-34e4b1f51096","name":"Hosted
+        macOS","isHosted":true,"poolType":"automation","size":1,"isLegacy":true,"options":"none"}},{"id":1231,"projectId":"7bb0d243-4ef0-49d8-b33b-3e6f44e28afa","name":"Hosted
         macOS High Sierra","pool":{"id":7,"scope":"2ad38d1e-3eaf-4769-931c-3a2da67bbb01","name":"Hosted
-        macOS High Sierra","isHosted":true,"poolType":"automation","size":1,"isLegacy":true,"options":"none"}},{"id":800,"projectId":"40921de1-4c5d-4401-9037-34e4b1f51096","name":"Hosted
+        macOS High Sierra","isHosted":true,"poolType":"automation","size":1,"isLegacy":true,"options":"none"}},{"id":1232,"projectId":"7bb0d243-4ef0-49d8-b33b-3e6f44e28afa","name":"Hosted
         Ubuntu 1604","pool":{"id":8,"scope":"2ad38d1e-3eaf-4769-931c-3a2da67bbb01","name":"Hosted
-        Ubuntu 1604","isHosted":true,"poolType":"automation","size":1,"isLegacy":true,"options":"none"}},{"id":801,"projectId":"40921de1-4c5d-4401-9037-34e4b1f51096","name":"Azure
+        Ubuntu 1604","isHosted":true,"poolType":"automation","size":1,"isLegacy":true,"options":"none"}},{"id":1233,"projectId":"7bb0d243-4ef0-49d8-b33b-3e6f44e28afa","name":"Azure
         Pipelines","pool":{"id":9,"scope":"2ad38d1e-3eaf-4769-931c-3a2da67bbb01","name":"Azure
         Pipelines","isHosted":true,"poolType":"automation","size":1,"isLegacy":false,"options":"none"}}]}'
     headers:
       access-control-expose-headers:
       - Request-Context
       activityid:
-      - 1f0bc184-b63a-48d3-8586-64b86ea4c8c0
+      - 52a80c42-a46d-42bf-bc06-7edffe57a89c
       cache-control:
       - no-cache
       content-length:
-      - '2367'
+      - '2376'
       content-type:
       - application/json; charset=utf-8; api-version=5.1-preview.1
       date:
-      - Thu, 02 Jan 2025 12:40:36 GMT
+      - Fri, 03 Jan 2025 12:30:04 GMT
       expires:
       - '-1'
       p3p:
@@ -1024,13 +1096,13 @@ interactions:
       x-frame-options:
       - SAMEORIGIN
       x-msedge-ref:
-      - 'Ref A: F9C1539424314508962F599A06962166 Ref B: MAA01EDGE0721 Ref C: 2025-01-02T12:40:36Z'
+      - 'Ref A: F7F3BADA038C49AD85837F6371D0AAFA Ref B: PNQ30EDGE0113 Ref C: 2025-01-03T12:30:05Z'
       x-tfs-processid:
-      - 32cf7954-6736-4ade-874f-4ca9793d92cf
+      - bbca80b2-6a8b-47ee-9d95-d73a6c5b7782
       x-tfs-session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
+      - 529f6bc3-3562-4a41-9e64-5650716c9174
       x-vss-e2eid:
-      - 1f0bc184-b63a-48d3-8586-64b86ea4c8c0
+      - 52a80c42-a46d-42bf-bc06-7edffe57a89c
       x-vss-senderdeploymentid:
       - ed30ce5c-9d0a-f73c-3580-4315c7f84d83
       x-vss-userdata:
@@ -1039,9 +1111,9 @@ interactions:
       code: 200
       message: OK
 - request:
-    body: '{"name": "ContosoBuild", "queue": {"id": 800}, "description": "Pipeline
+    body: '{"name": "ContosoBuild", "queue": {"id": 1232}, "description": "Pipeline
       for contoso project", "process": {"yamlFilename": "azure-pipelines.yml", "type":
-      2}, "repository": {"defaultBranch": "main", "id": "fa78c83a-a8dc-4b5c-b74c-85f2df40ce0d",
+      2}, "repository": {"defaultBranch": "main", "id": "db7cf07e-1158-47b5-84f0-b8403a181777",
       "name": "pipelinesTest000001", "type": "tfsgit"}, "triggers": [{"settingsSourceType":
       2, "triggerType": 2}]}'
     headers:
@@ -1052,32 +1124,32 @@ interactions:
       Connection:
       - keep-alive
       Content-Length:
-      - '351'
+      - '352'
       Content-Type:
       - application/json; charset=utf-8
       User-Agent:
-      - python/3.10.11 (Windows-10-10.0.26100-SP0) msrest/0.7.1 azure-devops/5.1.0b4
-        devOpsCli/1.0.2
+      - python/3.12.1 (Linux-6.5.0-1025-azure-x86_64-with-glibc2.31) msrest/0.7.1
+        azure-devops/5.1.0b4 devOpsCli/1.0.2
       X-TFS-FedAuthRedirect:
       - Suppress
       X-TFS-Session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
+      - 529f6bc3-3562-4a41-9e64-5650716c9174
       X-VSS-ForceMsaPassThrough:
       - 'true'
     method: POST
     uri: https://dev.azure.com/v-anvashist0376/pipelinesTest000001/_apis/build/Definitions
   response:
     body:
-      string: '{"triggers":[{"branchFilters":[],"pathFilters":[],"settingsSourceType":2,"batchChanges":false,"maxConcurrentBuildsPerBranch":1,"triggerType":"continuousIntegration"}],"properties":{},"tags":[],"_links":{"self":{"href":"https://dev.azure.com/v-anvashist0376/40921de1-4c5d-4401-9037-34e4b1f51096/_apis/build/Definitions/30?revision=1"},"web":{"href":"https://dev.azure.com/v-anvashist0376/40921de1-4c5d-4401-9037-34e4b1f51096/_build/definition?definitionId=30"},"editor":{"href":"https://dev.azure.com/v-anvashist0376/40921de1-4c5d-4401-9037-34e4b1f51096/_build/designer?id=30&_a=edit-build-definition"},"badge":{"href":"https://dev.azure.com/v-anvashist0376/40921de1-4c5d-4401-9037-34e4b1f51096/_apis/build/status/30"}},"description":"Pipeline
-        for contoso project","jobAuthorizationScope":"projectCollection","process":{"yamlFilename":"azure-pipelines.yml","type":2},"repository":{"id":"fa78c83a-a8dc-4b5c-b74c-85f2df40ce0d","type":"TfsGit","name":"pipelinesTest000001","url":"https://dev.azure.com/v-anvashist0376/pipelinesTest000001/_git/pipelinesTest000001","defaultBranch":"main","clean":null,"checkoutSubmodules":false},"quality":"definition","authoredBy":{"displayName":"Soujanya
-        Bestala (MINDTREE LIMITED)","url":"https://spsprodcin2.vssps.visualstudio.com/Aa9bae0de-049f-43b5-a1ff-18f8f805fbe8/_apis/Identities/22157d54-1821-6536-a446-928b06348385","_links":{"avatar":{"href":"https://dev.azure.com/v-anvashist0376/_apis/GraphProfile/MemberAvatars/aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1"}},"id":"22157d54-1821-6536-a446-928b06348385","uniqueName":"v-sbestala@microsoft.com","imageUrl":"https://dev.azure.com/v-anvashist0376/_apis/GraphProfile/MemberAvatars/aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1","descriptor":"aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1"},"drafts":[],"queue":{"_links":{"self":{"href":"https://dev.azure.com/v-anvashist0376/_apis/build/Queues/800"}},"id":800,"name":"Hosted
-        Ubuntu 1604","url":"https://dev.azure.com/v-anvashist0376/_apis/build/Queues/800","pool":{"id":8,"name":"Hosted
-        Ubuntu 1604","isHosted":true}},"id":30,"name":"ContosoBuild","url":"https://dev.azure.com/v-anvashist0376/40921de1-4c5d-4401-9037-34e4b1f51096/_apis/build/Definitions/30?revision=1","uri":"vstfs:///Build/Definition/30","path":"\\","type":"build","queueStatus":"enabled","revision":1,"createdDate":"2025-01-02T12:40:37.48Z","project":{"id":"40921de1-4c5d-4401-9037-34e4b1f51096","name":"pipelinesTest000001","url":"https://dev.azure.com/v-anvashist0376/_apis/projects/40921de1-4c5d-4401-9037-34e4b1f51096","state":"wellFormed","revision":1009,"visibility":"private","lastUpdateTime":"2025-01-02T12:40:26.697Z"}}'
+      string: '{"triggers":[{"branchFilters":[],"pathFilters":[],"settingsSourceType":2,"batchChanges":false,"maxConcurrentBuildsPerBranch":1,"triggerType":"continuousIntegration"}],"properties":{},"tags":[],"_links":{"self":{"href":"https://dev.azure.com/v-anvashist0376/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa/_apis/build/Definitions/33?revision=1"},"web":{"href":"https://dev.azure.com/v-anvashist0376/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa/_build/definition?definitionId=33"},"editor":{"href":"https://dev.azure.com/v-anvashist0376/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa/_build/designer?id=33&_a=edit-build-definition"},"badge":{"href":"https://dev.azure.com/v-anvashist0376/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa/_apis/build/status/33"}},"description":"Pipeline
+        for contoso project","jobAuthorizationScope":"projectCollection","process":{"yamlFilename":"azure-pipelines.yml","type":2},"repository":{"id":"db7cf07e-1158-47b5-84f0-b8403a181777","type":"TfsGit","name":"pipelinesTest000001","url":"https://dev.azure.com/v-anvashist0376/pipelinesTest000001/_git/pipelinesTest000001","defaultBranch":"main","clean":null,"checkoutSubmodules":false},"quality":"definition","authoredBy":{"displayName":"Soujanya
+        Bestala (MINDTREE LIMITED)","url":"https://spsprodcin2.vssps.visualstudio.com/Aa9bae0de-049f-43b5-a1ff-18f8f805fbe8/_apis/Identities/22157d54-1821-6536-a446-928b06348385","_links":{"avatar":{"href":"https://dev.azure.com/v-anvashist0376/_apis/GraphProfile/MemberAvatars/aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1"}},"id":"22157d54-1821-6536-a446-928b06348385","uniqueName":"v-sbestala@microsoft.com","imageUrl":"https://dev.azure.com/v-anvashist0376/_apis/GraphProfile/MemberAvatars/aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1","descriptor":"aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1"},"drafts":[],"queue":{"_links":{"self":{"href":"https://dev.azure.com/v-anvashist0376/_apis/build/Queues/1232"}},"id":1232,"name":"Hosted
+        Ubuntu 1604","url":"https://dev.azure.com/v-anvashist0376/_apis/build/Queues/1232","pool":{"id":8,"name":"Hosted
+        Ubuntu 1604","isHosted":true}},"id":33,"name":"ContosoBuild","url":"https://dev.azure.com/v-anvashist0376/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa/_apis/build/Definitions/33?revision=1","uri":"vstfs:///Build/Definition/33","path":"\\","type":"build","queueStatus":"enabled","revision":1,"createdDate":"2025-01-03T12:30:06Z","project":{"id":"7bb0d243-4ef0-49d8-b33b-3e6f44e28afa","name":"pipelinesTest000001","url":"https://dev.azure.com/v-anvashist0376/_apis/projects/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa","state":"wellFormed","revision":1516,"visibility":"private","lastUpdateTime":"2025-01-03T12:29:57.803Z"}}'
     headers:
       access-control-expose-headers:
       - Request-Context
       activityid:
-      - 05715743-ff50-438f-90f1-ec11f8baa054
+      - 9b9a934b-d3fb-4495-afec-f6986f9b5e8b
       cache-control:
       - no-cache
       content-length:
@@ -1085,7 +1157,7 @@ interactions:
       content-type:
       - application/json; charset=utf-8; api-version=5.1
       date:
-      - Thu, 02 Jan 2025 12:40:37 GMT
+      - Fri, 03 Jan 2025 12:30:05 GMT
       expires:
       - '-1'
       p3p:
@@ -1106,13 +1178,13 @@ interactions:
       x-frame-options:
       - SAMEORIGIN
       x-msedge-ref:
-      - 'Ref A: 063B459ADBF94316967E257AC2DE39D3 Ref B: MAA01EDGE1505 Ref C: 2025-01-02T12:40:37Z'
+      - 'Ref A: B97AC467355D48E9B63FD6F009ED2797 Ref B: PNQ30EDGE0119 Ref C: 2025-01-03T12:30:05Z'
       x-tfs-processid:
-      - f955bfb1-3f37-4681-81bb-d7ac11abdc0f
+      - 709881ea-d5e8-4d50-9f19-9f1bf3301f7f
       x-tfs-session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
+      - 529f6bc3-3562-4a41-9e64-5650716c9174
       x-vss-e2eid:
-      - 05715743-ff50-438f-90f1-ec11f8baa054
+      - 9b9a934b-d3fb-4495-afec-f6986f9b5e8b
       x-vss-senderdeploymentid:
       - ed30ce5c-9d0a-f73c-3580-4315c7f84d83
       x-vss-userdata:
@@ -1121,22 +1193,22 @@ interactions:
       code: 200
       message: OK
 - request:
-    body: '{"definition": {"createdDate": "2025-01-02T12:40:37.480Z", "id": 30, "name":
-      "ContosoBuild", "path": "\\", "project": {"id": "40921de1-4c5d-4401-9037-34e4b1f51096",
-      "lastUpdateTime": "2025-01-02T12:40:26.697Z", "name": "pipelinesTest000001",
-      "revision": 1009, "state": "wellFormed", "url": "https://dev.azure.com/v-anvashist0376/_apis/projects/40921de1-4c5d-4401-9037-34e4b1f51096",
+    body: '{"definition": {"createdDate": "2025-01-03T12:30:06.000Z", "id": 33, "name":
+      "ContosoBuild", "path": "\\", "project": {"id": "7bb0d243-4ef0-49d8-b33b-3e6f44e28afa",
+      "lastUpdateTime": "2025-01-03T12:29:57.803Z", "name": "pipelinesTest000001",
+      "revision": 1516, "state": "wellFormed", "url": "https://dev.azure.com/v-anvashist0376/_apis/projects/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa",
       "visibility": "private"}, "queueStatus": "enabled", "revision": 1, "type": "build",
-      "uri": "vstfs:///Build/Definition/30", "url": "https://dev.azure.com/v-anvashist0376/40921de1-4c5d-4401-9037-34e4b1f51096/_apis/build/Definitions/30?revision=1",
+      "uri": "vstfs:///Build/Definition/33", "url": "https://dev.azure.com/v-anvashist0376/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa/_apis/build/Definitions/33?revision=1",
       "_links": {}, "authoredBy": {"_links": {}, "descriptor": "aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1",
       "displayName": "Soujanya Bestala (MINDTREE LIMITED)", "url": "https://spsprodcin2.vssps.visualstudio.com/Aa9bae0de-049f-43b5-a1ff-18f8f805fbe8/_apis/Identities/22157d54-1821-6536-a446-928b06348385",
       "id": "22157d54-1821-6536-a446-928b06348385", "imageUrl": "https://dev.azure.com/v-anvashist0376/_apis/GraphProfile/MemberAvatars/aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1",
       "uniqueName": "v-sbestala@microsoft.com"}, "drafts": [], "quality": "definition",
-      "queue": {"_links": {}, "id": 800, "name": "Hosted Ubuntu 1604", "pool": {"id":
-      8, "isHosted": true, "name": "Hosted Ubuntu 1604"}, "url": "https://dev.azure.com/v-anvashist0376/_apis/build/Queues/800"},
+      "queue": {"_links": {}, "id": 1232, "name": "Hosted Ubuntu 1604", "pool": {"id":
+      8, "isHosted": true, "name": "Hosted Ubuntu 1604"}, "url": "https://dev.azure.com/v-anvashist0376/_apis/build/Queues/1232"},
       "description": "Pipeline for contoso project", "jobAuthorizationScope": "projectCollection",
       "process": {"yamlFilename": "azure-pipelines.yml", "type": 2}, "properties":
       {}, "repository": {"checkoutSubmodules": false, "defaultBranch": "main", "id":
-      "fa78c83a-a8dc-4b5c-b74c-85f2df40ce0d", "name": "pipelinesTest000001", "type":
+      "db7cf07e-1158-47b5-84f0-b8403a181777", "name": "pipelinesTest000001", "type":
       "TfsGit", "url": "https://dev.azure.com/v-anvashist0376/pipelinesTest000001/_git/pipelinesTest000001"},
       "tags": [], "triggers": [{"branchFilters": [], "pathFilters": [], "settingsSourceType":
       2, "batchChanges": false, "maxConcurrentBuildsPerBranch": 1, "triggerType":
@@ -1149,40 +1221,40 @@ interactions:
       Connection:
       - keep-alive
       Content-Length:
-      - '2059'
+      - '2061'
       Content-Type:
       - application/json; charset=utf-8
       User-Agent:
-      - python/3.10.11 (Windows-10-10.0.26100-SP0) msrest/0.7.1 azure-devops/5.1.0b4
-        devOpsCli/1.0.2
+      - python/3.12.1 (Linux-6.5.0-1025-azure-x86_64-with-glibc2.31) msrest/0.7.1
+        azure-devops/5.1.0b4 devOpsCli/1.0.2
       X-TFS-FedAuthRedirect:
       - Suppress
       X-TFS-Session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
+      - 529f6bc3-3562-4a41-9e64-5650716c9174
       X-VSS-ForceMsaPassThrough:
       - 'true'
     method: POST
     uri: https://dev.azure.com/v-anvashist0376/pipelinesTest000001/_apis/build/Builds
   response:
     body:
-      string: '{"_links":{"self":{"href":"https://dev.azure.com/v-anvashist0376/40921de1-4c5d-4401-9037-34e4b1f51096/_apis/build/Builds/61"},"web":{"href":"https://dev.azure.com/v-anvashist0376/40921de1-4c5d-4401-9037-34e4b1f51096/_build/results?buildId=61"},"sourceVersionDisplayUri":{"href":"https://dev.azure.com/v-anvashist0376/40921de1-4c5d-4401-9037-34e4b1f51096/_apis/build/builds/61/sources"},"timeline":{"href":"https://dev.azure.com/v-anvashist0376/40921de1-4c5d-4401-9037-34e4b1f51096/_apis/build/builds/61/Timeline"},"badge":{"href":"https://dev.azure.com/v-anvashist0376/40921de1-4c5d-4401-9037-34e4b1f51096/_apis/build/status/30"}},"properties":{},"tags":[],"validationResults":[],"plans":[{"planId":"14e0bfab-d624-4534-af55-4178faaffd6d"}],"triggerInfo":{},"id":61,"buildNumber":"20250102.1","status":"notStarted","queueTime":"2025-01-02T12:40:37.9214461Z","url":"https://dev.azure.com/v-anvashist0376/40921de1-4c5d-4401-9037-34e4b1f51096/_apis/build/Builds/61","definition":{"drafts":[],"id":30,"name":"ContosoBuild","url":"https://dev.azure.com/v-anvashist0376/40921de1-4c5d-4401-9037-34e4b1f51096/_apis/build/Definitions/30?revision=1","uri":"vstfs:///Build/Definition/30","path":"\\","type":"build","queueStatus":"enabled","revision":1,"project":{"id":"40921de1-4c5d-4401-9037-34e4b1f51096","name":"pipelinesTest000001","url":"https://dev.azure.com/v-anvashist0376/_apis/projects/40921de1-4c5d-4401-9037-34e4b1f51096","state":"wellFormed","revision":1009,"visibility":"private","lastUpdateTime":"2025-01-02T12:40:26.697Z"}},"buildNumberRevision":1,"project":{"id":"40921de1-4c5d-4401-9037-34e4b1f51096","name":"pipelinesTest000001","url":"https://dev.azure.com/v-anvashist0376/_apis/projects/40921de1-4c5d-4401-9037-34e4b1f51096","state":"wellFormed","revision":1009,"visibility":"private","lastUpdateTime":"2025-01-02T12:40:26.697Z"},"uri":"vstfs:///Build/Build/61","sourceBranch":"refs/heads/main","sourceVersion":"6c396801caff9a262bdd7e16127365d827811a0f","queue":{"id":801,"name":"Azure
+      string: '{"_links":{"self":{"href":"https://dev.azure.com/v-anvashist0376/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa/_apis/build/Builds/64"},"web":{"href":"https://dev.azure.com/v-anvashist0376/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa/_build/results?buildId=64"},"sourceVersionDisplayUri":{"href":"https://dev.azure.com/v-anvashist0376/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa/_apis/build/builds/64/sources"},"timeline":{"href":"https://dev.azure.com/v-anvashist0376/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa/_apis/build/builds/64/Timeline"},"badge":{"href":"https://dev.azure.com/v-anvashist0376/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa/_apis/build/status/33"}},"properties":{},"tags":[],"validationResults":[],"plans":[{"planId":"050fa6a9-4d40-4926-9520-e388ea2dd94a"}],"triggerInfo":{},"id":64,"buildNumber":"20250103.1","status":"notStarted","queueTime":"2025-01-03T12:30:06.2392178Z","url":"https://dev.azure.com/v-anvashist0376/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa/_apis/build/Builds/64","definition":{"drafts":[],"id":33,"name":"ContosoBuild","url":"https://dev.azure.com/v-anvashist0376/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa/_apis/build/Definitions/33?revision=1","uri":"vstfs:///Build/Definition/33","path":"\\","type":"build","queueStatus":"enabled","revision":1,"project":{"id":"7bb0d243-4ef0-49d8-b33b-3e6f44e28afa","name":"pipelinesTest000001","url":"https://dev.azure.com/v-anvashist0376/_apis/projects/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa","state":"wellFormed","revision":1516,"visibility":"private","lastUpdateTime":"2025-01-03T12:29:57.803Z"}},"buildNumberRevision":1,"project":{"id":"7bb0d243-4ef0-49d8-b33b-3e6f44e28afa","name":"pipelinesTest000001","url":"https://dev.azure.com/v-anvashist0376/_apis/projects/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa","state":"wellFormed","revision":1516,"visibility":"private","lastUpdateTime":"2025-01-03T12:29:57.803Z"},"uri":"vstfs:///Build/Build/64","sourceBranch":"refs/heads/main","sourceVersion":"6c396801caff9a262bdd7e16127365d827811a0f","queue":{"id":1233,"name":"Azure
         Pipelines","pool":{"id":9,"name":"Azure Pipelines","isHosted":true}},"priority":"normal","reason":"manual","requestedFor":{"displayName":"Soujanya
         Bestala (MINDTREE LIMITED)","url":"https://spsprodcin2.vssps.visualstudio.com/Aa9bae0de-049f-43b5-a1ff-18f8f805fbe8/_apis/Identities/22157d54-1821-6536-a446-928b06348385","_links":{"avatar":{"href":"https://dev.azure.com/v-anvashist0376/_apis/GraphProfile/MemberAvatars/aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1"}},"id":"22157d54-1821-6536-a446-928b06348385","uniqueName":"v-sbestala@microsoft.com","imageUrl":"https://dev.azure.com/v-anvashist0376/_apis/GraphProfile/MemberAvatars/aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1","descriptor":"aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1"},"requestedBy":{"displayName":"Soujanya
-        Bestala (MINDTREE LIMITED)","url":"https://spsprodcin2.vssps.visualstudio.com/Aa9bae0de-049f-43b5-a1ff-18f8f805fbe8/_apis/Identities/22157d54-1821-6536-a446-928b06348385","_links":{"avatar":{"href":"https://dev.azure.com/v-anvashist0376/_apis/GraphProfile/MemberAvatars/aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1"}},"id":"22157d54-1821-6536-a446-928b06348385","uniqueName":"v-sbestala@microsoft.com","imageUrl":"https://dev.azure.com/v-anvashist0376/_apis/GraphProfile/MemberAvatars/aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1","descriptor":"aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1"},"lastChangedDate":"2025-01-02T12:40:38.157Z","lastChangedBy":{"displayName":"Soujanya
-        Bestala (MINDTREE LIMITED)","url":"https://spsprodcin2.vssps.visualstudio.com/Aa9bae0de-049f-43b5-a1ff-18f8f805fbe8/_apis/Identities/22157d54-1821-6536-a446-928b06348385","_links":{"avatar":{"href":"https://dev.azure.com/v-anvashist0376/_apis/GraphProfile/MemberAvatars/aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1"}},"id":"22157d54-1821-6536-a446-928b06348385","uniqueName":"v-sbestala@microsoft.com","imageUrl":"https://dev.azure.com/v-anvashist0376/_apis/GraphProfile/MemberAvatars/aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1","descriptor":"aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1"},"orchestrationPlan":{"planId":"14e0bfab-d624-4534-af55-4178faaffd6d"},"logs":{"id":0,"type":"Container","url":"https://dev.azure.com/v-anvashist0376/40921de1-4c5d-4401-9037-34e4b1f51096/_apis/build/builds/61/logs"},"repository":{"id":"fa78c83a-a8dc-4b5c-b74c-85f2df40ce0d","type":"TfsGit","name":"pipelinesTest000001","url":"https://dev.azure.com/v-anvashist0376/pipelinesTest000001/_git/pipelinesTest000001","clean":null,"checkoutSubmodules":false},"keepForever":false,"retainedByRelease":false,"triggeredByBuild":null,"appendCommitMessageToRunName":true}'
+        Bestala (MINDTREE LIMITED)","url":"https://spsprodcin2.vssps.visualstudio.com/Aa9bae0de-049f-43b5-a1ff-18f8f805fbe8/_apis/Identities/22157d54-1821-6536-a446-928b06348385","_links":{"avatar":{"href":"https://dev.azure.com/v-anvashist0376/_apis/GraphProfile/MemberAvatars/aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1"}},"id":"22157d54-1821-6536-a446-928b06348385","uniqueName":"v-sbestala@microsoft.com","imageUrl":"https://dev.azure.com/v-anvashist0376/_apis/GraphProfile/MemberAvatars/aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1","descriptor":"aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1"},"lastChangedDate":"2025-01-03T12:30:06.407Z","lastChangedBy":{"displayName":"Soujanya
+        Bestala (MINDTREE LIMITED)","url":"https://spsprodcin2.vssps.visualstudio.com/Aa9bae0de-049f-43b5-a1ff-18f8f805fbe8/_apis/Identities/22157d54-1821-6536-a446-928b06348385","_links":{"avatar":{"href":"https://dev.azure.com/v-anvashist0376/_apis/GraphProfile/MemberAvatars/aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1"}},"id":"22157d54-1821-6536-a446-928b06348385","uniqueName":"v-sbestala@microsoft.com","imageUrl":"https://dev.azure.com/v-anvashist0376/_apis/GraphProfile/MemberAvatars/aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1","descriptor":"aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1"},"orchestrationPlan":{"planId":"050fa6a9-4d40-4926-9520-e388ea2dd94a"},"logs":{"id":0,"type":"Container","url":"https://dev.azure.com/v-anvashist0376/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa/_apis/build/builds/64/logs"},"repository":{"id":"db7cf07e-1158-47b5-84f0-b8403a181777","type":"TfsGit","name":"pipelinesTest000001","url":"https://dev.azure.com/v-anvashist0376/pipelinesTest000001/_git/pipelinesTest000001","clean":null,"checkoutSubmodules":false},"keepForever":false,"retainedByRelease":false,"triggeredByBuild":null,"appendCommitMessageToRunName":true}'
     headers:
       access-control-expose-headers:
       - Request-Context
       activityid:
-      - 1a4c1f31-3e8f-4275-97c7-19a163b7a8be
+      - 53586c3d-4abe-47a2-82a0-8110aac68309
       cache-control:
       - no-cache
       content-length:
-      - '4671'
+      - '4672'
       content-type:
       - application/json; charset=utf-8; api-version=5.1
       date:
-      - Thu, 02 Jan 2025 12:40:38 GMT
+      - Fri, 03 Jan 2025 12:30:07 GMT
       expires:
       - '-1'
       p3p:
@@ -1203,13 +1275,13 @@ interactions:
       x-frame-options:
       - SAMEORIGIN
       x-msedge-ref:
-      - 'Ref A: 7A2DFD91311C4C7EA185151D0A8D20AE Ref B: MAA01EDGE1505 Ref C: 2025-01-02T12:40:37Z'
+      - 'Ref A: F587DEC7C9B44BC78F5316D4E7CB6D82 Ref B: PNQ30EDGE0107 Ref C: 2025-01-03T12:30:06Z'
       x-tfs-processid:
-      - d46325bf-7121-4a39-8702-ab1ce62681a7
+      - b97ff233-9513-4ce7-8a9b-cbb5938dff9f
       x-tfs-session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
+      - 529f6bc3-3562-4a41-9e64-5650716c9174
       x-vss-e2eid:
-      - 1a4c1f31-3e8f-4275-97c7-19a163b7a8be
+      - 53586c3d-4abe-47a2-82a0-8110aac68309
       x-vss-senderdeploymentid:
       - ed30ce5c-9d0a-f73c-3580-4315c7f84d83
       x-vss-userdata:
@@ -1229,28 +1301,28 @@ interactions:
       Content-Type:
       - application/json; charset=utf-8
       User-Agent:
-      - python/3.10.11 (Windows-10-10.0.26100-SP0) msrest/0.7.1 azure-devops/5.1.0b4
-        devOpsCli/1.0.2
+      - python/3.12.1 (Linux-6.5.0-1025-azure-x86_64-with-glibc2.31) msrest/0.7.1
+        azure-devops/5.1.0b4 devOpsCli/1.0.2
       X-TFS-FedAuthRedirect:
       - Suppress
       X-TFS-Session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
+      - 529f6bc3-3562-4a41-9e64-5650716c9174
       X-VSS-ForceMsaPassThrough:
       - 'true'
     method: GET
-    uri: https://dev.azure.com/v-anvashist0376/pipelinesTest000001/_apis/build/Definitions/30
+    uri: https://dev.azure.com/v-anvashist0376/pipelinesTest000001/_apis/build/Definitions/33
   response:
     body:
-      string: '{"triggers":[{"branchFilters":[],"pathFilters":[],"settingsSourceType":2,"batchChanges":false,"maxConcurrentBuildsPerBranch":1,"triggerType":"continuousIntegration"}],"properties":{},"tags":[],"_links":{"self":{"href":"https://dev.azure.com/v-anvashist0376/40921de1-4c5d-4401-9037-34e4b1f51096/_apis/build/Definitions/30?revision=1"},"web":{"href":"https://dev.azure.com/v-anvashist0376/40921de1-4c5d-4401-9037-34e4b1f51096/_build/definition?definitionId=30"},"editor":{"href":"https://dev.azure.com/v-anvashist0376/40921de1-4c5d-4401-9037-34e4b1f51096/_build/designer?id=30&_a=edit-build-definition"},"badge":{"href":"https://dev.azure.com/v-anvashist0376/40921de1-4c5d-4401-9037-34e4b1f51096/_apis/build/status/30"}},"description":"Pipeline
-        for contoso project","jobAuthorizationScope":"projectCollection","process":{"yamlFilename":"azure-pipelines.yml","type":2},"repository":{"id":"fa78c83a-a8dc-4b5c-b74c-85f2df40ce0d","type":"TfsGit","name":"pipelinesTest000001","url":"https://dev.azure.com/v-anvashist0376/pipelinesTest000001/_git/pipelinesTest000001","defaultBranch":"main","clean":null,"checkoutSubmodules":false},"quality":"definition","authoredBy":{"displayName":"Soujanya
-        Bestala (MINDTREE LIMITED)","url":"https://spsprodcin2.vssps.visualstudio.com/Aa9bae0de-049f-43b5-a1ff-18f8f805fbe8/_apis/Identities/22157d54-1821-6536-a446-928b06348385","_links":{"avatar":{"href":"https://dev.azure.com/v-anvashist0376/_apis/GraphProfile/MemberAvatars/aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1"}},"id":"22157d54-1821-6536-a446-928b06348385","uniqueName":"v-sbestala@microsoft.com","imageUrl":"https://dev.azure.com/v-anvashist0376/_apis/GraphProfile/MemberAvatars/aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1","descriptor":"aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1"},"drafts":[],"queue":{"_links":{"self":{"href":"https://dev.azure.com/v-anvashist0376/_apis/build/Queues/800"}},"id":800,"name":"Hosted
-        Ubuntu 1604","url":"https://dev.azure.com/v-anvashist0376/_apis/build/Queues/800","pool":{"id":8,"name":"Hosted
-        Ubuntu 1604","isHosted":true}},"id":30,"name":"ContosoBuild","url":"https://dev.azure.com/v-anvashist0376/40921de1-4c5d-4401-9037-34e4b1f51096/_apis/build/Definitions/30?revision=1","uri":"vstfs:///Build/Definition/30","path":"\\","type":"build","queueStatus":"enabled","revision":1,"createdDate":"2025-01-02T12:40:37.48Z","project":{"id":"40921de1-4c5d-4401-9037-34e4b1f51096","name":"pipelinesTest000001","url":"https://dev.azure.com/v-anvashist0376/_apis/projects/40921de1-4c5d-4401-9037-34e4b1f51096","state":"wellFormed","revision":1009,"visibility":"private","lastUpdateTime":"2025-01-02T12:40:26.697Z"}}'
+      string: '{"triggers":[{"branchFilters":[],"pathFilters":[],"settingsSourceType":2,"batchChanges":false,"maxConcurrentBuildsPerBranch":1,"triggerType":"continuousIntegration"}],"properties":{},"tags":[],"_links":{"self":{"href":"https://dev.azure.com/v-anvashist0376/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa/_apis/build/Definitions/33?revision=1"},"web":{"href":"https://dev.azure.com/v-anvashist0376/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa/_build/definition?definitionId=33"},"editor":{"href":"https://dev.azure.com/v-anvashist0376/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa/_build/designer?id=33&_a=edit-build-definition"},"badge":{"href":"https://dev.azure.com/v-anvashist0376/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa/_apis/build/status/33"}},"description":"Pipeline
+        for contoso project","jobAuthorizationScope":"projectCollection","process":{"yamlFilename":"azure-pipelines.yml","type":2},"repository":{"id":"db7cf07e-1158-47b5-84f0-b8403a181777","type":"TfsGit","name":"pipelinesTest000001","url":"https://dev.azure.com/v-anvashist0376/pipelinesTest000001/_git/pipelinesTest000001","defaultBranch":"main","clean":null,"checkoutSubmodules":false},"quality":"definition","authoredBy":{"displayName":"Soujanya
+        Bestala (MINDTREE LIMITED)","url":"https://spsprodcin2.vssps.visualstudio.com/Aa9bae0de-049f-43b5-a1ff-18f8f805fbe8/_apis/Identities/22157d54-1821-6536-a446-928b06348385","_links":{"avatar":{"href":"https://dev.azure.com/v-anvashist0376/_apis/GraphProfile/MemberAvatars/aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1"}},"id":"22157d54-1821-6536-a446-928b06348385","uniqueName":"v-sbestala@microsoft.com","imageUrl":"https://dev.azure.com/v-anvashist0376/_apis/GraphProfile/MemberAvatars/aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1","descriptor":"aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1"},"drafts":[],"queue":{"_links":{"self":{"href":"https://dev.azure.com/v-anvashist0376/_apis/build/Queues/1232"}},"id":1232,"name":"Hosted
+        Ubuntu 1604","url":"https://dev.azure.com/v-anvashist0376/_apis/build/Queues/1232","pool":{"id":8,"name":"Hosted
+        Ubuntu 1604","isHosted":true}},"id":33,"name":"ContosoBuild","url":"https://dev.azure.com/v-anvashist0376/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa/_apis/build/Definitions/33?revision=1","uri":"vstfs:///Build/Definition/33","path":"\\","type":"build","queueStatus":"enabled","revision":1,"createdDate":"2025-01-03T12:30:06Z","project":{"id":"7bb0d243-4ef0-49d8-b33b-3e6f44e28afa","name":"pipelinesTest000001","url":"https://dev.azure.com/v-anvashist0376/_apis/projects/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa","state":"wellFormed","revision":1516,"visibility":"private","lastUpdateTime":"2025-01-03T12:29:57.803Z"}}'
     headers:
       access-control-expose-headers:
       - Request-Context
       activityid:
-      - 982ba122-c4af-4065-bdbc-45d9dbf373b4
+      - 8853ebe7-4992-4ec3-82cc-a21ecd0c2ba8
       cache-control:
       - no-cache
       content-length:
@@ -1258,7 +1330,7 @@ interactions:
       content-type:
       - application/json; charset=utf-8; api-version=5.0
       date:
-      - Thu, 02 Jan 2025 12:40:39 GMT
+      - Fri, 03 Jan 2025 12:30:07 GMT
       expires:
       - '-1'
       p3p:
@@ -1279,13 +1351,13 @@ interactions:
       x-frame-options:
       - SAMEORIGIN
       x-msedge-ref:
-      - 'Ref A: B4D7E3F5A85A4A6DB7B36A709A3D0887 Ref B: MAA01EDGE1409 Ref C: 2025-01-02T12:40:39Z'
+      - 'Ref A: C087C3FAFB26485E8BB7D28EA6F997A7 Ref B: PNQ30EDGE0308 Ref C: 2025-01-03T12:30:07Z'
       x-tfs-processid:
-      - 5894399e-e0b1-4e67-969a-1bb96dd83c83
+      - acea8c03-34bb-4ee4-a91f-cbb689df1604
       x-tfs-session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
+      - 529f6bc3-3562-4a41-9e64-5650716c9174
       x-vss-e2eid:
-      - 982ba122-c4af-4065-bdbc-45d9dbf373b4
+      - 8853ebe7-4992-4ec3-82cc-a21ecd0c2ba8
       x-vss-senderdeploymentid:
       - ed30ce5c-9d0a-f73c-3580-4315c7f84d83
       x-vss-userdata:
@@ -1294,21 +1366,21 @@ interactions:
       code: 200
       message: OK
 - request:
-    body: '{"createdDate": "2025-01-02T12:40:37.480Z", "id": 30, "name": "ContosoBuild",
-      "path": "\\", "project": {"id": "40921de1-4c5d-4401-9037-34e4b1f51096", "name":
-      "pipelinesTest000001", "revision": 1009, "state": "wellFormed", "url": "https://dev.azure.com/v-anvashist0376/_apis/projects/40921de1-4c5d-4401-9037-34e4b1f51096",
+    body: '{"createdDate": "2025-01-03T12:30:06.000Z", "id": 33, "name": "ContosoBuild",
+      "path": "\\", "project": {"id": "7bb0d243-4ef0-49d8-b33b-3e6f44e28afa", "name":
+      "pipelinesTest000001", "revision": 1516, "state": "wellFormed", "url": "https://dev.azure.com/v-anvashist0376/_apis/projects/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa",
       "visibility": "private"}, "queueStatus": "enabled", "revision": 1, "type": "build",
-      "uri": "vstfs:///Build/Definition/30", "url": "https://dev.azure.com/v-anvashist0376/40921de1-4c5d-4401-9037-34e4b1f51096/_apis/build/Definitions/30?revision=1",
+      "uri": "vstfs:///Build/Definition/33", "url": "https://dev.azure.com/v-anvashist0376/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa/_apis/build/Definitions/33?revision=1",
       "_links": {}, "authoredBy": {"_links": {}, "descriptor": "aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1",
       "displayName": "Soujanya Bestala (MINDTREE LIMITED)", "url": "https://spsprodcin2.vssps.visualstudio.com/Aa9bae0de-049f-43b5-a1ff-18f8f805fbe8/_apis/Identities/22157d54-1821-6536-a446-928b06348385",
       "id": "22157d54-1821-6536-a446-928b06348385", "imageUrl": "https://dev.azure.com/v-anvashist0376/_apis/GraphProfile/MemberAvatars/aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1",
       "uniqueName": "v-sbestala@microsoft.com"}, "drafts": [], "quality": "definition",
-      "queue": {"_links": {}, "id": 800, "name": "Hosted Ubuntu 1604", "pool": {"id":
-      8, "isHosted": true, "name": "Hosted Ubuntu 1604"}, "url": "https://dev.azure.com/v-anvashist0376/_apis/build/Queues/800"},
+      "queue": {"_links": {}, "id": 1232, "name": "Hosted Ubuntu 1604", "pool": {"id":
+      8, "isHosted": true, "name": "Hosted Ubuntu 1604"}, "url": "https://dev.azure.com/v-anvashist0376/_apis/build/Queues/1232"},
       "description": "Pipeline for contoso project", "jobAuthorizationScope": "projectCollection",
       "process": {"yamlFilename": "azure-pipelines.yml", "type": 2}, "properties":
       {}, "repository": {"checkoutSubmodules": false, "defaultBranch": "main", "id":
-      "fa78c83a-a8dc-4b5c-b74c-85f2df40ce0d", "name": "pipelinesTest000001", "type":
+      "db7cf07e-1158-47b5-84f0-b8403a181777", "name": "pipelinesTest000001", "type":
       "TfsGit", "url": "https://dev.azure.com/v-anvashist0376/pipelinesTest000001/_git/pipelinesTest000001"},
       "tags": [], "triggers": [{"branchFilters": [], "pathFilters": [], "settingsSourceType":
       2, "batchChanges": false, "maxConcurrentBuildsPerBranch": 1, "triggerType":
@@ -1322,40 +1394,40 @@ interactions:
       Connection:
       - keep-alive
       Content-Length:
-      - '2058'
+      - '2060'
       Content-Type:
       - application/json; charset=utf-8
       User-Agent:
-      - python/3.10.11 (Windows-10-10.0.26100-SP0) msrest/0.7.1 azure-devops/5.1.0b4
-        devOpsCli/1.0.2
+      - python/3.12.1 (Linux-6.5.0-1025-azure-x86_64-with-glibc2.31) msrest/0.7.1
+        azure-devops/5.1.0b4 devOpsCli/1.0.2
       X-TFS-FedAuthRedirect:
       - Suppress
       X-TFS-Session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
+      - 529f6bc3-3562-4a41-9e64-5650716c9174
       X-VSS-ForceMsaPassThrough:
       - 'true'
     method: PUT
-    uri: https://dev.azure.com/v-anvashist0376/pipelinesTest000001/_apis/build/Definitions/30
+    uri: https://dev.azure.com/v-anvashist0376/pipelinesTest000001/_apis/build/Definitions/33
   response:
     body:
-      string: '{"triggers":[{"branchFilters":[],"pathFilters":[],"settingsSourceType":2,"batchChanges":false,"maxConcurrentBuildsPerBranch":1,"triggerType":"continuousIntegration"}],"variables":{"var1":{"value":null,"allowOverride":true,"isSecret":true}},"properties":{},"tags":[],"_links":{"self":{"href":"https://dev.azure.com/v-anvashist0376/40921de1-4c5d-4401-9037-34e4b1f51096/_apis/build/Definitions/30?revision=2"},"web":{"href":"https://dev.azure.com/v-anvashist0376/40921de1-4c5d-4401-9037-34e4b1f51096/_build/definition?definitionId=30"},"editor":{"href":"https://dev.azure.com/v-anvashist0376/40921de1-4c5d-4401-9037-34e4b1f51096/_build/designer?id=30&_a=edit-build-definition"},"badge":{"href":"https://dev.azure.com/v-anvashist0376/40921de1-4c5d-4401-9037-34e4b1f51096/_apis/build/status/30"}},"description":"Pipeline
-        for contoso project","jobAuthorizationScope":"projectCollection","process":{"yamlFilename":"azure-pipelines.yml","type":2},"repository":{"id":"fa78c83a-a8dc-4b5c-b74c-85f2df40ce0d","type":"TfsGit","name":"pipelinesTest000001","url":"https://dev.azure.com/v-anvashist0376/pipelinesTest000001/_git/pipelinesTest000001","defaultBranch":"refs/heads/main","clean":null,"checkoutSubmodules":false},"quality":"definition","authoredBy":{"displayName":"Soujanya
-        Bestala (MINDTREE LIMITED)","url":"https://spsprodcin2.vssps.visualstudio.com/Aa9bae0de-049f-43b5-a1ff-18f8f805fbe8/_apis/Identities/22157d54-1821-6536-a446-928b06348385","_links":{"avatar":{"href":"https://dev.azure.com/v-anvashist0376/_apis/GraphProfile/MemberAvatars/aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1"}},"id":"22157d54-1821-6536-a446-928b06348385","uniqueName":"v-sbestala@microsoft.com","imageUrl":"https://dev.azure.com/v-anvashist0376/_apis/GraphProfile/MemberAvatars/aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1","descriptor":"aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1"},"drafts":[],"queue":{"_links":{"self":{"href":"https://dev.azure.com/v-anvashist0376/_apis/build/Queues/800"}},"id":800,"name":"Hosted
-        Ubuntu 1604","url":"https://dev.azure.com/v-anvashist0376/_apis/build/Queues/800","pool":{"id":8,"name":"Hosted
-        Ubuntu 1604","isHosted":true}},"id":30,"name":"ContosoBuild","url":"https://dev.azure.com/v-anvashist0376/40921de1-4c5d-4401-9037-34e4b1f51096/_apis/build/Definitions/30?revision=2","uri":"vstfs:///Build/Definition/30","path":"\\","type":"build","queueStatus":"enabled","revision":2,"createdDate":"2025-01-02T12:40:40.73Z","project":{"id":"40921de1-4c5d-4401-9037-34e4b1f51096","name":"pipelinesTest000001","url":"https://dev.azure.com/v-anvashist0376/_apis/projects/40921de1-4c5d-4401-9037-34e4b1f51096","state":"wellFormed","revision":1009,"visibility":"private","lastUpdateTime":"2025-01-02T12:40:26.697Z"}}'
+      string: '{"triggers":[{"branchFilters":[],"pathFilters":[],"settingsSourceType":2,"batchChanges":false,"maxConcurrentBuildsPerBranch":1,"triggerType":"continuousIntegration"}],"variables":{"var1":{"value":null,"allowOverride":true,"isSecret":true}},"properties":{},"tags":[],"_links":{"self":{"href":"https://dev.azure.com/v-anvashist0376/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa/_apis/build/Definitions/33?revision=2"},"web":{"href":"https://dev.azure.com/v-anvashist0376/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa/_build/definition?definitionId=33"},"editor":{"href":"https://dev.azure.com/v-anvashist0376/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa/_build/designer?id=33&_a=edit-build-definition"},"badge":{"href":"https://dev.azure.com/v-anvashist0376/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa/_apis/build/status/33"}},"description":"Pipeline
+        for contoso project","jobAuthorizationScope":"projectCollection","process":{"yamlFilename":"azure-pipelines.yml","type":2},"repository":{"id":"db7cf07e-1158-47b5-84f0-b8403a181777","type":"TfsGit","name":"pipelinesTest000001","url":"https://dev.azure.com/v-anvashist0376/pipelinesTest000001/_git/pipelinesTest000001","defaultBranch":"refs/heads/main","clean":null,"checkoutSubmodules":false},"quality":"definition","authoredBy":{"displayName":"Soujanya
+        Bestala (MINDTREE LIMITED)","url":"https://spsprodcin2.vssps.visualstudio.com/Aa9bae0de-049f-43b5-a1ff-18f8f805fbe8/_apis/Identities/22157d54-1821-6536-a446-928b06348385","_links":{"avatar":{"href":"https://dev.azure.com/v-anvashist0376/_apis/GraphProfile/MemberAvatars/aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1"}},"id":"22157d54-1821-6536-a446-928b06348385","uniqueName":"v-sbestala@microsoft.com","imageUrl":"https://dev.azure.com/v-anvashist0376/_apis/GraphProfile/MemberAvatars/aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1","descriptor":"aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1"},"drafts":[],"queue":{"_links":{"self":{"href":"https://dev.azure.com/v-anvashist0376/_apis/build/Queues/1232"}},"id":1232,"name":"Hosted
+        Ubuntu 1604","url":"https://dev.azure.com/v-anvashist0376/_apis/build/Queues/1232","pool":{"id":8,"name":"Hosted
+        Ubuntu 1604","isHosted":true}},"id":33,"name":"ContosoBuild","url":"https://dev.azure.com/v-anvashist0376/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa/_apis/build/Definitions/33?revision=2","uri":"vstfs:///Build/Definition/33","path":"\\","type":"build","queueStatus":"enabled","revision":2,"createdDate":"2025-01-03T12:30:08.19Z","project":{"id":"7bb0d243-4ef0-49d8-b33b-3e6f44e28afa","name":"pipelinesTest000001","url":"https://dev.azure.com/v-anvashist0376/_apis/projects/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa","state":"wellFormed","revision":1516,"visibility":"private","lastUpdateTime":"2025-01-03T12:29:57.803Z"}}'
     headers:
       access-control-expose-headers:
       - Request-Context
       activityid:
-      - 336c1ea3-baca-454c-8c5f-d3021c79e3dd
+      - ae2d4863-38da-43fc-9c9e-b262562ee3d0
       cache-control:
       - no-cache
       content-length:
-      - '2742'
+      - '2745'
       content-type:
       - application/json; charset=utf-8; api-version=5.0
       date:
-      - Thu, 02 Jan 2025 12:40:40 GMT
+      - Fri, 03 Jan 2025 12:30:07 GMT
       expires:
       - '-1'
       p3p:
@@ -1376,13 +1448,13 @@ interactions:
       x-frame-options:
       - SAMEORIGIN
       x-msedge-ref:
-      - 'Ref A: E45FA0084D5547F4BF260438D45088B2 Ref B: MAA01EDGE1409 Ref C: 2025-01-02T12:40:40Z'
+      - 'Ref A: 61CDF3016552409785C77D69C32DE33B Ref B: PNQ30EDGE0422 Ref C: 2025-01-03T12:30:07Z'
       x-tfs-processid:
-      - f77fcf17-141f-4e77-88af-43d7b2bf292a
+      - 7feece6f-b60f-4985-b04b-141c1af88e11
       x-tfs-session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
+      - 529f6bc3-3562-4a41-9e64-5650716c9174
       x-vss-e2eid:
-      - 336c1ea3-baca-454c-8c5f-d3021c79e3dd
+      - ae2d4863-38da-43fc-9c9e-b262562ee3d0
       x-vss-senderdeploymentid:
       - ed30ce5c-9d0a-f73c-3580-4315c7f84d83
       x-vss-userdata:
@@ -1402,36 +1474,36 @@ interactions:
       Content-Type:
       - application/json; charset=utf-8
       User-Agent:
-      - python/3.10.11 (Windows-10-10.0.26100-SP0) msrest/0.7.1 azure-devops/5.1.0b4
-        devOpsCli/1.0.2
+      - python/3.12.1 (Linux-6.5.0-1025-azure-x86_64-with-glibc2.31) msrest/0.7.1
+        azure-devops/5.1.0b4 devOpsCli/1.0.2
       X-TFS-FedAuthRedirect:
       - Suppress
       X-TFS-Session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
+      - 529f6bc3-3562-4a41-9e64-5650716c9174
       X-VSS-ForceMsaPassThrough:
       - 'true'
     method: GET
-    uri: https://dev.azure.com/v-anvashist0376/pipelinesTest000001/_apis/build/Definitions/30
+    uri: https://dev.azure.com/v-anvashist0376/pipelinesTest000001/_apis/build/Definitions/33
   response:
     body:
-      string: '{"triggers":[{"branchFilters":[],"pathFilters":[],"settingsSourceType":2,"batchChanges":false,"maxConcurrentBuildsPerBranch":1,"triggerType":"continuousIntegration"}],"variables":{"var1":{"value":null,"allowOverride":true,"isSecret":true}},"properties":{},"tags":[],"_links":{"self":{"href":"https://dev.azure.com/v-anvashist0376/40921de1-4c5d-4401-9037-34e4b1f51096/_apis/build/Definitions/30?revision=2"},"web":{"href":"https://dev.azure.com/v-anvashist0376/40921de1-4c5d-4401-9037-34e4b1f51096/_build/definition?definitionId=30"},"editor":{"href":"https://dev.azure.com/v-anvashist0376/40921de1-4c5d-4401-9037-34e4b1f51096/_build/designer?id=30&_a=edit-build-definition"},"badge":{"href":"https://dev.azure.com/v-anvashist0376/40921de1-4c5d-4401-9037-34e4b1f51096/_apis/build/status/30"}},"description":"Pipeline
-        for contoso project","jobAuthorizationScope":"projectCollection","process":{"yamlFilename":"azure-pipelines.yml","type":2},"repository":{"id":"fa78c83a-a8dc-4b5c-b74c-85f2df40ce0d","type":"TfsGit","name":"pipelinesTest000001","url":"https://dev.azure.com/v-anvashist0376/pipelinesTest000001/_git/pipelinesTest000001","defaultBranch":"refs/heads/main","clean":null,"checkoutSubmodules":false},"quality":"definition","authoredBy":{"displayName":"Soujanya
-        Bestala (MINDTREE LIMITED)","url":"https://spsprodcin2.vssps.visualstudio.com/Aa9bae0de-049f-43b5-a1ff-18f8f805fbe8/_apis/Identities/22157d54-1821-6536-a446-928b06348385","_links":{"avatar":{"href":"https://dev.azure.com/v-anvashist0376/_apis/GraphProfile/MemberAvatars/aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1"}},"id":"22157d54-1821-6536-a446-928b06348385","uniqueName":"v-sbestala@microsoft.com","imageUrl":"https://dev.azure.com/v-anvashist0376/_apis/GraphProfile/MemberAvatars/aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1","descriptor":"aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1"},"drafts":[],"queue":{"_links":{"self":{"href":"https://dev.azure.com/v-anvashist0376/_apis/build/Queues/800"}},"id":800,"name":"Hosted
-        Ubuntu 1604","url":"https://dev.azure.com/v-anvashist0376/_apis/build/Queues/800","pool":{"id":8,"name":"Hosted
-        Ubuntu 1604","isHosted":true}},"id":30,"name":"ContosoBuild","url":"https://dev.azure.com/v-anvashist0376/40921de1-4c5d-4401-9037-34e4b1f51096/_apis/build/Definitions/30?revision=2","uri":"vstfs:///Build/Definition/30","path":"\\","type":"build","queueStatus":"enabled","revision":2,"createdDate":"2025-01-02T12:40:40.73Z","project":{"id":"40921de1-4c5d-4401-9037-34e4b1f51096","name":"pipelinesTest000001","url":"https://dev.azure.com/v-anvashist0376/_apis/projects/40921de1-4c5d-4401-9037-34e4b1f51096","state":"wellFormed","revision":1009,"visibility":"private","lastUpdateTime":"2025-01-02T12:40:26.697Z"}}'
+      string: '{"triggers":[{"branchFilters":[],"pathFilters":[],"settingsSourceType":2,"batchChanges":false,"maxConcurrentBuildsPerBranch":1,"triggerType":"continuousIntegration"}],"variables":{"var1":{"value":null,"allowOverride":true,"isSecret":true}},"properties":{},"tags":[],"_links":{"self":{"href":"https://dev.azure.com/v-anvashist0376/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa/_apis/build/Definitions/33?revision=2"},"web":{"href":"https://dev.azure.com/v-anvashist0376/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa/_build/definition?definitionId=33"},"editor":{"href":"https://dev.azure.com/v-anvashist0376/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa/_build/designer?id=33&_a=edit-build-definition"},"badge":{"href":"https://dev.azure.com/v-anvashist0376/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa/_apis/build/status/33"}},"description":"Pipeline
+        for contoso project","jobAuthorizationScope":"projectCollection","process":{"yamlFilename":"azure-pipelines.yml","type":2},"repository":{"id":"db7cf07e-1158-47b5-84f0-b8403a181777","type":"TfsGit","name":"pipelinesTest000001","url":"https://dev.azure.com/v-anvashist0376/pipelinesTest000001/_git/pipelinesTest000001","defaultBranch":"refs/heads/main","clean":null,"checkoutSubmodules":false},"quality":"definition","authoredBy":{"displayName":"Soujanya
+        Bestala (MINDTREE LIMITED)","url":"https://spsprodcin2.vssps.visualstudio.com/Aa9bae0de-049f-43b5-a1ff-18f8f805fbe8/_apis/Identities/22157d54-1821-6536-a446-928b06348385","_links":{"avatar":{"href":"https://dev.azure.com/v-anvashist0376/_apis/GraphProfile/MemberAvatars/aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1"}},"id":"22157d54-1821-6536-a446-928b06348385","uniqueName":"v-sbestala@microsoft.com","imageUrl":"https://dev.azure.com/v-anvashist0376/_apis/GraphProfile/MemberAvatars/aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1","descriptor":"aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1"},"drafts":[],"queue":{"_links":{"self":{"href":"https://dev.azure.com/v-anvashist0376/_apis/build/Queues/1232"}},"id":1232,"name":"Hosted
+        Ubuntu 1604","url":"https://dev.azure.com/v-anvashist0376/_apis/build/Queues/1232","pool":{"id":8,"name":"Hosted
+        Ubuntu 1604","isHosted":true}},"id":33,"name":"ContosoBuild","url":"https://dev.azure.com/v-anvashist0376/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa/_apis/build/Definitions/33?revision=2","uri":"vstfs:///Build/Definition/33","path":"\\","type":"build","queueStatus":"enabled","revision":2,"createdDate":"2025-01-03T12:30:08.19Z","project":{"id":"7bb0d243-4ef0-49d8-b33b-3e6f44e28afa","name":"pipelinesTest000001","url":"https://dev.azure.com/v-anvashist0376/_apis/projects/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa","state":"wellFormed","revision":1516,"visibility":"private","lastUpdateTime":"2025-01-03T12:29:57.803Z"}}'
     headers:
       access-control-expose-headers:
       - Request-Context
       activityid:
-      - 3c5b1bf1-ed24-4d4e-900b-a8abb3949665
+      - 6b537791-d14a-4008-8dbe-5e46b5e9f379
       cache-control:
       - no-cache
       content-length:
-      - '2742'
+      - '2745'
       content-type:
       - application/json; charset=utf-8; api-version=5.0
       date:
-      - Thu, 02 Jan 2025 12:40:40 GMT
+      - Fri, 03 Jan 2025 12:30:08 GMT
       expires:
       - '-1'
       p3p:
@@ -1452,13 +1524,13 @@ interactions:
       x-frame-options:
       - SAMEORIGIN
       x-msedge-ref:
-      - 'Ref A: 0286032AE67946268E39D70B6D56A944 Ref B: MAA01EDGE1409 Ref C: 2025-01-02T12:40:41Z'
+      - 'Ref A: 909A747FD37147889AE7D4556A6524B4 Ref B: PNQ30EDGE0315 Ref C: 2025-01-03T12:30:08Z'
       x-tfs-processid:
-      - 9aaf6e99-5ba9-4c99-9331-5586cea0560d
+      - 98c229af-85ac-4aef-a1b7-bbe8a1f1ead4
       x-tfs-session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
+      - 529f6bc3-3562-4a41-9e64-5650716c9174
       x-vss-e2eid:
-      - 3c5b1bf1-ed24-4d4e-900b-a8abb3949665
+      - 6b537791-d14a-4008-8dbe-5e46b5e9f379
       x-vss-senderdeploymentid:
       - ed30ce5c-9d0a-f73c-3580-4315c7f84d83
       x-vss-userdata:
@@ -1467,21 +1539,21 @@ interactions:
       code: 200
       message: OK
 - request:
-    body: '{"createdDate": "2025-01-02T12:40:40.730Z", "id": 30, "name": "ContosoBuild",
-      "path": "\\", "project": {"id": "40921de1-4c5d-4401-9037-34e4b1f51096", "name":
-      "pipelinesTest000001", "revision": 1009, "state": "wellFormed", "url": "https://dev.azure.com/v-anvashist0376/_apis/projects/40921de1-4c5d-4401-9037-34e4b1f51096",
+    body: '{"createdDate": "2025-01-03T12:30:08.190Z", "id": 33, "name": "ContosoBuild",
+      "path": "\\", "project": {"id": "7bb0d243-4ef0-49d8-b33b-3e6f44e28afa", "name":
+      "pipelinesTest000001", "revision": 1516, "state": "wellFormed", "url": "https://dev.azure.com/v-anvashist0376/_apis/projects/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa",
       "visibility": "private"}, "queueStatus": "enabled", "revision": 2, "type": "build",
-      "uri": "vstfs:///Build/Definition/30", "url": "https://dev.azure.com/v-anvashist0376/40921de1-4c5d-4401-9037-34e4b1f51096/_apis/build/Definitions/30?revision=2",
+      "uri": "vstfs:///Build/Definition/33", "url": "https://dev.azure.com/v-anvashist0376/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa/_apis/build/Definitions/33?revision=2",
       "_links": {}, "authoredBy": {"_links": {}, "descriptor": "aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1",
       "displayName": "Soujanya Bestala (MINDTREE LIMITED)", "url": "https://spsprodcin2.vssps.visualstudio.com/Aa9bae0de-049f-43b5-a1ff-18f8f805fbe8/_apis/Identities/22157d54-1821-6536-a446-928b06348385",
       "id": "22157d54-1821-6536-a446-928b06348385", "imageUrl": "https://dev.azure.com/v-anvashist0376/_apis/GraphProfile/MemberAvatars/aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1",
       "uniqueName": "v-sbestala@microsoft.com"}, "drafts": [], "quality": "definition",
-      "queue": {"_links": {}, "id": 800, "name": "Hosted Ubuntu 1604", "pool": {"id":
-      8, "isHosted": true, "name": "Hosted Ubuntu 1604"}, "url": "https://dev.azure.com/v-anvashist0376/_apis/build/Queues/800"},
+      "queue": {"_links": {}, "id": 1232, "name": "Hosted Ubuntu 1604", "pool": {"id":
+      8, "isHosted": true, "name": "Hosted Ubuntu 1604"}, "url": "https://dev.azure.com/v-anvashist0376/_apis/build/Queues/1232"},
       "description": "Pipeline for contoso project", "jobAuthorizationScope": "projectCollection",
       "process": {"yamlFilename": "azure-pipelines.yml", "type": 2}, "properties":
       {}, "repository": {"checkoutSubmodules": false, "defaultBranch": "refs/heads/main",
-      "id": "fa78c83a-a8dc-4b5c-b74c-85f2df40ce0d", "name": "pipelinesTest000001",
+      "id": "db7cf07e-1158-47b5-84f0-b8403a181777", "name": "pipelinesTest000001",
       "type": "TfsGit", "url": "https://dev.azure.com/v-anvashist0376/pipelinesTest000001/_git/pipelinesTest000001"},
       "tags": [], "triggers": [{"branchFilters": [], "pathFilters": [], "settingsSourceType":
       2, "batchChanges": false, "maxConcurrentBuildsPerBranch": 1, "triggerType":
@@ -1495,40 +1567,40 @@ interactions:
       Connection:
       - keep-alive
       Content-Length:
-      - '2079'
+      - '2081'
       Content-Type:
       - application/json; charset=utf-8
       User-Agent:
-      - python/3.10.11 (Windows-10-10.0.26100-SP0) msrest/0.7.1 azure-devops/5.1.0b4
-        devOpsCli/1.0.2
+      - python/3.12.1 (Linux-6.5.0-1025-azure-x86_64-with-glibc2.31) msrest/0.7.1
+        azure-devops/5.1.0b4 devOpsCli/1.0.2
       X-TFS-FedAuthRedirect:
       - Suppress
       X-TFS-Session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
+      - 529f6bc3-3562-4a41-9e64-5650716c9174
       X-VSS-ForceMsaPassThrough:
       - 'true'
     method: PUT
-    uri: https://dev.azure.com/v-anvashist0376/pipelinesTest000001/_apis/build/Definitions/30
+    uri: https://dev.azure.com/v-anvashist0376/pipelinesTest000001/_apis/build/Definitions/33
   response:
     body:
-      string: '{"triggers":[{"branchFilters":[],"pathFilters":[],"settingsSourceType":2,"batchChanges":false,"maxConcurrentBuildsPerBranch":1,"triggerType":"continuousIntegration"}],"variables":{"var1":{"value":null,"allowOverride":true,"isSecret":true},"var2":{"value":"value2"}},"properties":{},"tags":[],"_links":{"self":{"href":"https://dev.azure.com/v-anvashist0376/40921de1-4c5d-4401-9037-34e4b1f51096/_apis/build/Definitions/30?revision=3"},"web":{"href":"https://dev.azure.com/v-anvashist0376/40921de1-4c5d-4401-9037-34e4b1f51096/_build/definition?definitionId=30"},"editor":{"href":"https://dev.azure.com/v-anvashist0376/40921de1-4c5d-4401-9037-34e4b1f51096/_build/designer?id=30&_a=edit-build-definition"},"badge":{"href":"https://dev.azure.com/v-anvashist0376/40921de1-4c5d-4401-9037-34e4b1f51096/_apis/build/status/30"}},"description":"Pipeline
-        for contoso project","jobAuthorizationScope":"projectCollection","process":{"yamlFilename":"azure-pipelines.yml","type":2},"repository":{"id":"fa78c83a-a8dc-4b5c-b74c-85f2df40ce0d","type":"TfsGit","name":"pipelinesTest000001","url":"https://dev.azure.com/v-anvashist0376/pipelinesTest000001/_git/pipelinesTest000001","defaultBranch":"refs/heads/main","clean":null,"checkoutSubmodules":false},"quality":"definition","authoredBy":{"displayName":"Soujanya
-        Bestala (MINDTREE LIMITED)","url":"https://spsprodcin2.vssps.visualstudio.com/Aa9bae0de-049f-43b5-a1ff-18f8f805fbe8/_apis/Identities/22157d54-1821-6536-a446-928b06348385","_links":{"avatar":{"href":"https://dev.azure.com/v-anvashist0376/_apis/GraphProfile/MemberAvatars/aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1"}},"id":"22157d54-1821-6536-a446-928b06348385","uniqueName":"v-sbestala@microsoft.com","imageUrl":"https://dev.azure.com/v-anvashist0376/_apis/GraphProfile/MemberAvatars/aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1","descriptor":"aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1"},"drafts":[],"queue":{"_links":{"self":{"href":"https://dev.azure.com/v-anvashist0376/_apis/build/Queues/800"}},"id":800,"name":"Hosted
-        Ubuntu 1604","url":"https://dev.azure.com/v-anvashist0376/_apis/build/Queues/800","pool":{"id":8,"name":"Hosted
-        Ubuntu 1604","isHosted":true}},"id":30,"name":"ContosoBuild","url":"https://dev.azure.com/v-anvashist0376/40921de1-4c5d-4401-9037-34e4b1f51096/_apis/build/Definitions/30?revision=3","uri":"vstfs:///Build/Definition/30","path":"\\","type":"build","queueStatus":"enabled","revision":3,"createdDate":"2025-01-02T12:40:41.67Z","project":{"id":"40921de1-4c5d-4401-9037-34e4b1f51096","name":"pipelinesTest000001","url":"https://dev.azure.com/v-anvashist0376/_apis/projects/40921de1-4c5d-4401-9037-34e4b1f51096","state":"wellFormed","revision":1009,"visibility":"private","lastUpdateTime":"2025-01-02T12:40:26.697Z"}}'
+      string: '{"triggers":[{"branchFilters":[],"pathFilters":[],"settingsSourceType":2,"batchChanges":false,"maxConcurrentBuildsPerBranch":1,"triggerType":"continuousIntegration"}],"variables":{"var1":{"value":null,"allowOverride":true,"isSecret":true},"var2":{"value":"value2"}},"properties":{},"tags":[],"_links":{"self":{"href":"https://dev.azure.com/v-anvashist0376/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa/_apis/build/Definitions/33?revision=3"},"web":{"href":"https://dev.azure.com/v-anvashist0376/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa/_build/definition?definitionId=33"},"editor":{"href":"https://dev.azure.com/v-anvashist0376/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa/_build/designer?id=33&_a=edit-build-definition"},"badge":{"href":"https://dev.azure.com/v-anvashist0376/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa/_apis/build/status/33"}},"description":"Pipeline
+        for contoso project","jobAuthorizationScope":"projectCollection","process":{"yamlFilename":"azure-pipelines.yml","type":2},"repository":{"id":"db7cf07e-1158-47b5-84f0-b8403a181777","type":"TfsGit","name":"pipelinesTest000001","url":"https://dev.azure.com/v-anvashist0376/pipelinesTest000001/_git/pipelinesTest000001","defaultBranch":"refs/heads/main","clean":null,"checkoutSubmodules":false},"quality":"definition","authoredBy":{"displayName":"Soujanya
+        Bestala (MINDTREE LIMITED)","url":"https://spsprodcin2.vssps.visualstudio.com/Aa9bae0de-049f-43b5-a1ff-18f8f805fbe8/_apis/Identities/22157d54-1821-6536-a446-928b06348385","_links":{"avatar":{"href":"https://dev.azure.com/v-anvashist0376/_apis/GraphProfile/MemberAvatars/aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1"}},"id":"22157d54-1821-6536-a446-928b06348385","uniqueName":"v-sbestala@microsoft.com","imageUrl":"https://dev.azure.com/v-anvashist0376/_apis/GraphProfile/MemberAvatars/aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1","descriptor":"aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1"},"drafts":[],"queue":{"_links":{"self":{"href":"https://dev.azure.com/v-anvashist0376/_apis/build/Queues/1232"}},"id":1232,"name":"Hosted
+        Ubuntu 1604","url":"https://dev.azure.com/v-anvashist0376/_apis/build/Queues/1232","pool":{"id":8,"name":"Hosted
+        Ubuntu 1604","isHosted":true}},"id":33,"name":"ContosoBuild","url":"https://dev.azure.com/v-anvashist0376/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa/_apis/build/Definitions/33?revision=3","uri":"vstfs:///Build/Definition/33","path":"\\","type":"build","queueStatus":"enabled","revision":3,"createdDate":"2025-01-03T12:30:09.307Z","project":{"id":"7bb0d243-4ef0-49d8-b33b-3e6f44e28afa","name":"pipelinesTest000001","url":"https://dev.azure.com/v-anvashist0376/_apis/projects/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa","state":"wellFormed","revision":1516,"visibility":"private","lastUpdateTime":"2025-01-03T12:29:57.803Z"}}'
     headers:
       access-control-expose-headers:
       - Request-Context
       activityid:
-      - 05715104-ff50-438f-90f1-ec11f8baa054
+      - 42f7201a-f5aa-489b-829b-6b935a83b968
       cache-control:
       - no-cache
       content-length:
-      - '2768'
+      - '2772'
       content-type:
       - application/json; charset=utf-8; api-version=5.0
       date:
-      - Thu, 02 Jan 2025 12:40:40 GMT
+      - Fri, 03 Jan 2025 12:30:09 GMT
       expires:
       - '-1'
       p3p:
@@ -1549,13 +1621,13 @@ interactions:
       x-frame-options:
       - SAMEORIGIN
       x-msedge-ref:
-      - 'Ref A: A2414982CCF642ADB351E2188CD4FB54 Ref B: MAA01EDGE1409 Ref C: 2025-01-02T12:40:41Z'
+      - 'Ref A: C892C4C31A5B4F289A04182AF290C447 Ref B: PNQ30EDGE0315 Ref C: 2025-01-03T12:30:08Z'
       x-tfs-processid:
-      - f955bfb1-3f37-4681-81bb-d7ac11abdc0f
+      - f0cc34b2-4918-45ae-99cc-98ed5fcaeba0
       x-tfs-session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
+      - 529f6bc3-3562-4a41-9e64-5650716c9174
       x-vss-e2eid:
-      - 05715104-ff50-438f-90f1-ec11f8baa054
+      - 42f7201a-f5aa-489b-829b-6b935a83b968
       x-vss-senderdeploymentid:
       - ed30ce5c-9d0a-f73c-3580-4315c7f84d83
       x-vss-userdata:
@@ -1575,36 +1647,36 @@ interactions:
       Content-Type:
       - application/json; charset=utf-8
       User-Agent:
-      - python/3.10.11 (Windows-10-10.0.26100-SP0) msrest/0.7.1 azure-devops/5.1.0b4
-        devOpsCli/1.0.2
+      - python/3.12.1 (Linux-6.5.0-1025-azure-x86_64-with-glibc2.31) msrest/0.7.1
+        azure-devops/5.1.0b4 devOpsCli/1.0.2
       X-TFS-FedAuthRedirect:
       - Suppress
       X-TFS-Session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
+      - 529f6bc3-3562-4a41-9e64-5650716c9174
       X-VSS-ForceMsaPassThrough:
       - 'true'
     method: GET
-    uri: https://dev.azure.com/v-anvashist0376/pipelinesTest000001/_apis/build/Definitions/30
+    uri: https://dev.azure.com/v-anvashist0376/pipelinesTest000001/_apis/build/Definitions/33
   response:
     body:
-      string: '{"triggers":[{"branchFilters":[],"pathFilters":[],"settingsSourceType":2,"batchChanges":false,"maxConcurrentBuildsPerBranch":1,"triggerType":"continuousIntegration"}],"variables":{"var1":{"value":null,"allowOverride":true,"isSecret":true},"var2":{"value":"value2"}},"properties":{},"tags":[],"_links":{"self":{"href":"https://dev.azure.com/v-anvashist0376/40921de1-4c5d-4401-9037-34e4b1f51096/_apis/build/Definitions/30?revision=3"},"web":{"href":"https://dev.azure.com/v-anvashist0376/40921de1-4c5d-4401-9037-34e4b1f51096/_build/definition?definitionId=30"},"editor":{"href":"https://dev.azure.com/v-anvashist0376/40921de1-4c5d-4401-9037-34e4b1f51096/_build/designer?id=30&_a=edit-build-definition"},"badge":{"href":"https://dev.azure.com/v-anvashist0376/40921de1-4c5d-4401-9037-34e4b1f51096/_apis/build/status/30"}},"description":"Pipeline
-        for contoso project","jobAuthorizationScope":"projectCollection","process":{"yamlFilename":"azure-pipelines.yml","type":2},"repository":{"id":"fa78c83a-a8dc-4b5c-b74c-85f2df40ce0d","type":"TfsGit","name":"pipelinesTest000001","url":"https://dev.azure.com/v-anvashist0376/pipelinesTest000001/_git/pipelinesTest000001","defaultBranch":"refs/heads/main","clean":null,"checkoutSubmodules":false},"quality":"definition","authoredBy":{"displayName":"Soujanya
-        Bestala (MINDTREE LIMITED)","url":"https://spsprodcin2.vssps.visualstudio.com/Aa9bae0de-049f-43b5-a1ff-18f8f805fbe8/_apis/Identities/22157d54-1821-6536-a446-928b06348385","_links":{"avatar":{"href":"https://dev.azure.com/v-anvashist0376/_apis/GraphProfile/MemberAvatars/aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1"}},"id":"22157d54-1821-6536-a446-928b06348385","uniqueName":"v-sbestala@microsoft.com","imageUrl":"https://dev.azure.com/v-anvashist0376/_apis/GraphProfile/MemberAvatars/aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1","descriptor":"aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1"},"drafts":[],"queue":{"_links":{"self":{"href":"https://dev.azure.com/v-anvashist0376/_apis/build/Queues/800"}},"id":800,"name":"Hosted
-        Ubuntu 1604","url":"https://dev.azure.com/v-anvashist0376/_apis/build/Queues/800","pool":{"id":8,"name":"Hosted
-        Ubuntu 1604","isHosted":true}},"id":30,"name":"ContosoBuild","url":"https://dev.azure.com/v-anvashist0376/40921de1-4c5d-4401-9037-34e4b1f51096/_apis/build/Definitions/30?revision=3","uri":"vstfs:///Build/Definition/30","path":"\\","type":"build","queueStatus":"enabled","revision":3,"createdDate":"2025-01-02T12:40:41.67Z","project":{"id":"40921de1-4c5d-4401-9037-34e4b1f51096","name":"pipelinesTest000001","url":"https://dev.azure.com/v-anvashist0376/_apis/projects/40921de1-4c5d-4401-9037-34e4b1f51096","state":"wellFormed","revision":1009,"visibility":"private","lastUpdateTime":"2025-01-02T12:40:26.697Z"}}'
+      string: '{"triggers":[{"branchFilters":[],"pathFilters":[],"settingsSourceType":2,"batchChanges":false,"maxConcurrentBuildsPerBranch":1,"triggerType":"continuousIntegration"}],"variables":{"var1":{"value":null,"allowOverride":true,"isSecret":true},"var2":{"value":"value2"}},"properties":{},"tags":[],"_links":{"self":{"href":"https://dev.azure.com/v-anvashist0376/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa/_apis/build/Definitions/33?revision=3"},"web":{"href":"https://dev.azure.com/v-anvashist0376/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa/_build/definition?definitionId=33"},"editor":{"href":"https://dev.azure.com/v-anvashist0376/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa/_build/designer?id=33&_a=edit-build-definition"},"badge":{"href":"https://dev.azure.com/v-anvashist0376/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa/_apis/build/status/33"}},"description":"Pipeline
+        for contoso project","jobAuthorizationScope":"projectCollection","process":{"yamlFilename":"azure-pipelines.yml","type":2},"repository":{"id":"db7cf07e-1158-47b5-84f0-b8403a181777","type":"TfsGit","name":"pipelinesTest000001","url":"https://dev.azure.com/v-anvashist0376/pipelinesTest000001/_git/pipelinesTest000001","defaultBranch":"refs/heads/main","clean":null,"checkoutSubmodules":false},"quality":"definition","authoredBy":{"displayName":"Soujanya
+        Bestala (MINDTREE LIMITED)","url":"https://spsprodcin2.vssps.visualstudio.com/Aa9bae0de-049f-43b5-a1ff-18f8f805fbe8/_apis/Identities/22157d54-1821-6536-a446-928b06348385","_links":{"avatar":{"href":"https://dev.azure.com/v-anvashist0376/_apis/GraphProfile/MemberAvatars/aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1"}},"id":"22157d54-1821-6536-a446-928b06348385","uniqueName":"v-sbestala@microsoft.com","imageUrl":"https://dev.azure.com/v-anvashist0376/_apis/GraphProfile/MemberAvatars/aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1","descriptor":"aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1"},"drafts":[],"queue":{"_links":{"self":{"href":"https://dev.azure.com/v-anvashist0376/_apis/build/Queues/1232"}},"id":1232,"name":"Hosted
+        Ubuntu 1604","url":"https://dev.azure.com/v-anvashist0376/_apis/build/Queues/1232","pool":{"id":8,"name":"Hosted
+        Ubuntu 1604","isHosted":true}},"id":33,"name":"ContosoBuild","url":"https://dev.azure.com/v-anvashist0376/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa/_apis/build/Definitions/33?revision=3","uri":"vstfs:///Build/Definition/33","path":"\\","type":"build","queueStatus":"enabled","revision":3,"createdDate":"2025-01-03T12:30:09.307Z","project":{"id":"7bb0d243-4ef0-49d8-b33b-3e6f44e28afa","name":"pipelinesTest000001","url":"https://dev.azure.com/v-anvashist0376/_apis/projects/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa","state":"wellFormed","revision":1516,"visibility":"private","lastUpdateTime":"2025-01-03T12:29:57.803Z"}}'
     headers:
       access-control-expose-headers:
       - Request-Context
       activityid:
-      - 7b0cfa64-5839-4af0-8b46-03338f5bd43a
+      - 9b9a99f3-d3fb-4495-afec-f6986f9b5e8b
       cache-control:
       - no-cache
       content-length:
-      - '2768'
+      - '2772'
       content-type:
       - application/json; charset=utf-8; api-version=5.0
       date:
-      - Thu, 02 Jan 2025 12:40:41 GMT
+      - Fri, 03 Jan 2025 12:30:09 GMT
       expires:
       - '-1'
       p3p:
@@ -1625,13 +1697,13 @@ interactions:
       x-frame-options:
       - SAMEORIGIN
       x-msedge-ref:
-      - 'Ref A: 7ABBF6EAD0614C84A2C70E0864A9864A Ref B: MAA01EDGE1409 Ref C: 2025-01-02T12:40:41Z'
+      - 'Ref A: 64CD09CA0C824116AE31B7DF0C0B8079 Ref B: PNQ30EDGE0409 Ref C: 2025-01-03T12:30:09Z'
       x-tfs-processid:
-      - 3e5d6de8-9a30-4743-9c4c-0d5527f3ca5f
+      - 709881ea-d5e8-4d50-9f19-9f1bf3301f7f
       x-tfs-session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
+      - 529f6bc3-3562-4a41-9e64-5650716c9174
       x-vss-e2eid:
-      - 7b0cfa64-5839-4af0-8b46-03338f5bd43a
+      - 9b9a99f3-d3fb-4495-afec-f6986f9b5e8b
       x-vss-senderdeploymentid:
       - ed30ce5c-9d0a-f73c-3580-4315c7f84d83
       x-vss-userdata:
@@ -1651,36 +1723,36 @@ interactions:
       Content-Type:
       - application/json; charset=utf-8
       User-Agent:
-      - python/3.10.11 (Windows-10-10.0.26100-SP0) msrest/0.7.1 azure-devops/5.1.0b4
-        devOpsCli/1.0.2
+      - python/3.12.1 (Linux-6.5.0-1025-azure-x86_64-with-glibc2.31) msrest/0.7.1
+        azure-devops/5.1.0b4 devOpsCli/1.0.2
       X-TFS-FedAuthRedirect:
       - Suppress
       X-TFS-Session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
+      - 529f6bc3-3562-4a41-9e64-5650716c9174
       X-VSS-ForceMsaPassThrough:
       - 'true'
     method: GET
-    uri: https://dev.azure.com/v-anvashist0376/pipelinesTest000001/_apis/build/Definitions/30
+    uri: https://dev.azure.com/v-anvashist0376/pipelinesTest000001/_apis/build/Definitions/33
   response:
     body:
-      string: '{"triggers":[{"branchFilters":[],"pathFilters":[],"settingsSourceType":2,"batchChanges":false,"maxConcurrentBuildsPerBranch":1,"triggerType":"continuousIntegration"}],"variables":{"var1":{"value":null,"allowOverride":true,"isSecret":true},"var2":{"value":"value2"}},"properties":{},"tags":[],"_links":{"self":{"href":"https://dev.azure.com/v-anvashist0376/40921de1-4c5d-4401-9037-34e4b1f51096/_apis/build/Definitions/30?revision=3"},"web":{"href":"https://dev.azure.com/v-anvashist0376/40921de1-4c5d-4401-9037-34e4b1f51096/_build/definition?definitionId=30"},"editor":{"href":"https://dev.azure.com/v-anvashist0376/40921de1-4c5d-4401-9037-34e4b1f51096/_build/designer?id=30&_a=edit-build-definition"},"badge":{"href":"https://dev.azure.com/v-anvashist0376/40921de1-4c5d-4401-9037-34e4b1f51096/_apis/build/status/30"}},"description":"Pipeline
-        for contoso project","jobAuthorizationScope":"projectCollection","process":{"yamlFilename":"azure-pipelines.yml","type":2},"repository":{"id":"fa78c83a-a8dc-4b5c-b74c-85f2df40ce0d","type":"TfsGit","name":"pipelinesTest000001","url":"https://dev.azure.com/v-anvashist0376/pipelinesTest000001/_git/pipelinesTest000001","defaultBranch":"refs/heads/main","clean":null,"checkoutSubmodules":false},"quality":"definition","authoredBy":{"displayName":"Soujanya
-        Bestala (MINDTREE LIMITED)","url":"https://spsprodcin2.vssps.visualstudio.com/Aa9bae0de-049f-43b5-a1ff-18f8f805fbe8/_apis/Identities/22157d54-1821-6536-a446-928b06348385","_links":{"avatar":{"href":"https://dev.azure.com/v-anvashist0376/_apis/GraphProfile/MemberAvatars/aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1"}},"id":"22157d54-1821-6536-a446-928b06348385","uniqueName":"v-sbestala@microsoft.com","imageUrl":"https://dev.azure.com/v-anvashist0376/_apis/GraphProfile/MemberAvatars/aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1","descriptor":"aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1"},"drafts":[],"queue":{"_links":{"self":{"href":"https://dev.azure.com/v-anvashist0376/_apis/build/Queues/800"}},"id":800,"name":"Hosted
-        Ubuntu 1604","url":"https://dev.azure.com/v-anvashist0376/_apis/build/Queues/800","pool":{"id":8,"name":"Hosted
-        Ubuntu 1604","isHosted":true}},"id":30,"name":"ContosoBuild","url":"https://dev.azure.com/v-anvashist0376/40921de1-4c5d-4401-9037-34e4b1f51096/_apis/build/Definitions/30?revision=3","uri":"vstfs:///Build/Definition/30","path":"\\","type":"build","queueStatus":"enabled","revision":3,"createdDate":"2025-01-02T12:40:41.67Z","project":{"id":"40921de1-4c5d-4401-9037-34e4b1f51096","name":"pipelinesTest000001","url":"https://dev.azure.com/v-anvashist0376/_apis/projects/40921de1-4c5d-4401-9037-34e4b1f51096","state":"wellFormed","revision":1009,"visibility":"private","lastUpdateTime":"2025-01-02T12:40:26.697Z"}}'
+      string: '{"triggers":[{"branchFilters":[],"pathFilters":[],"settingsSourceType":2,"batchChanges":false,"maxConcurrentBuildsPerBranch":1,"triggerType":"continuousIntegration"}],"variables":{"var1":{"value":null,"allowOverride":true,"isSecret":true},"var2":{"value":"value2"}},"properties":{},"tags":[],"_links":{"self":{"href":"https://dev.azure.com/v-anvashist0376/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa/_apis/build/Definitions/33?revision=3"},"web":{"href":"https://dev.azure.com/v-anvashist0376/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa/_build/definition?definitionId=33"},"editor":{"href":"https://dev.azure.com/v-anvashist0376/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa/_build/designer?id=33&_a=edit-build-definition"},"badge":{"href":"https://dev.azure.com/v-anvashist0376/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa/_apis/build/status/33"}},"description":"Pipeline
+        for contoso project","jobAuthorizationScope":"projectCollection","process":{"yamlFilename":"azure-pipelines.yml","type":2},"repository":{"id":"db7cf07e-1158-47b5-84f0-b8403a181777","type":"TfsGit","name":"pipelinesTest000001","url":"https://dev.azure.com/v-anvashist0376/pipelinesTest000001/_git/pipelinesTest000001","defaultBranch":"refs/heads/main","clean":null,"checkoutSubmodules":false},"quality":"definition","authoredBy":{"displayName":"Soujanya
+        Bestala (MINDTREE LIMITED)","url":"https://spsprodcin2.vssps.visualstudio.com/Aa9bae0de-049f-43b5-a1ff-18f8f805fbe8/_apis/Identities/22157d54-1821-6536-a446-928b06348385","_links":{"avatar":{"href":"https://dev.azure.com/v-anvashist0376/_apis/GraphProfile/MemberAvatars/aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1"}},"id":"22157d54-1821-6536-a446-928b06348385","uniqueName":"v-sbestala@microsoft.com","imageUrl":"https://dev.azure.com/v-anvashist0376/_apis/GraphProfile/MemberAvatars/aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1","descriptor":"aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1"},"drafts":[],"queue":{"_links":{"self":{"href":"https://dev.azure.com/v-anvashist0376/_apis/build/Queues/1232"}},"id":1232,"name":"Hosted
+        Ubuntu 1604","url":"https://dev.azure.com/v-anvashist0376/_apis/build/Queues/1232","pool":{"id":8,"name":"Hosted
+        Ubuntu 1604","isHosted":true}},"id":33,"name":"ContosoBuild","url":"https://dev.azure.com/v-anvashist0376/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa/_apis/build/Definitions/33?revision=3","uri":"vstfs:///Build/Definition/33","path":"\\","type":"build","queueStatus":"enabled","revision":3,"createdDate":"2025-01-03T12:30:09.307Z","project":{"id":"7bb0d243-4ef0-49d8-b33b-3e6f44e28afa","name":"pipelinesTest000001","url":"https://dev.azure.com/v-anvashist0376/_apis/projects/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa","state":"wellFormed","revision":1516,"visibility":"private","lastUpdateTime":"2025-01-03T12:29:57.803Z"}}'
     headers:
       access-control-expose-headers:
       - Request-Context
       activityid:
-      - 057150df-ff50-438f-90f1-ec11f8baa054
+      - 9b9a99d4-d3fb-4495-afec-f6986f9b5e8b
       cache-control:
       - no-cache
       content-length:
-      - '2768'
+      - '2772'
       content-type:
       - application/json; charset=utf-8; api-version=5.0
       date:
-      - Thu, 02 Jan 2025 12:40:41 GMT
+      - Fri, 03 Jan 2025 12:30:08 GMT
       expires:
       - '-1'
       p3p:
@@ -1701,13 +1773,13 @@ interactions:
       x-frame-options:
       - SAMEORIGIN
       x-msedge-ref:
-      - 'Ref A: 65D7293235EE470EAB76C875501719E9 Ref B: MAA01EDGE1409 Ref C: 2025-01-02T12:40:42Z'
+      - 'Ref A: 6B13157F81A44400B3E422E75843F387 Ref B: PNQ30EDGE0417 Ref C: 2025-01-03T12:30:09Z'
       x-tfs-processid:
-      - f955bfb1-3f37-4681-81bb-d7ac11abdc0f
+      - 709881ea-d5e8-4d50-9f19-9f1bf3301f7f
       x-tfs-session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
+      - 529f6bc3-3562-4a41-9e64-5650716c9174
       x-vss-e2eid:
-      - 057150df-ff50-438f-90f1-ec11f8baa054
+      - 9b9a99d4-d3fb-4495-afec-f6986f9b5e8b
       x-vss-senderdeploymentid:
       - ed30ce5c-9d0a-f73c-3580-4315c7f84d83
       x-vss-userdata:
@@ -1716,21 +1788,21 @@ interactions:
       code: 200
       message: OK
 - request:
-    body: '{"createdDate": "2025-01-02T12:40:41.670Z", "id": 30, "name": "ContosoBuild",
-      "path": "\\", "project": {"id": "40921de1-4c5d-4401-9037-34e4b1f51096", "name":
-      "pipelinesTest000001", "revision": 1009, "state": "wellFormed", "url": "https://dev.azure.com/v-anvashist0376/_apis/projects/40921de1-4c5d-4401-9037-34e4b1f51096",
+    body: '{"createdDate": "2025-01-03T12:30:09.307Z", "id": 33, "name": "ContosoBuild",
+      "path": "\\", "project": {"id": "7bb0d243-4ef0-49d8-b33b-3e6f44e28afa", "name":
+      "pipelinesTest000001", "revision": 1516, "state": "wellFormed", "url": "https://dev.azure.com/v-anvashist0376/_apis/projects/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa",
       "visibility": "private"}, "queueStatus": "enabled", "revision": 3, "type": "build",
-      "uri": "vstfs:///Build/Definition/30", "url": "https://dev.azure.com/v-anvashist0376/40921de1-4c5d-4401-9037-34e4b1f51096/_apis/build/Definitions/30?revision=3",
+      "uri": "vstfs:///Build/Definition/33", "url": "https://dev.azure.com/v-anvashist0376/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa/_apis/build/Definitions/33?revision=3",
       "_links": {}, "authoredBy": {"_links": {}, "descriptor": "aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1",
       "displayName": "Soujanya Bestala (MINDTREE LIMITED)", "url": "https://spsprodcin2.vssps.visualstudio.com/Aa9bae0de-049f-43b5-a1ff-18f8f805fbe8/_apis/Identities/22157d54-1821-6536-a446-928b06348385",
       "id": "22157d54-1821-6536-a446-928b06348385", "imageUrl": "https://dev.azure.com/v-anvashist0376/_apis/GraphProfile/MemberAvatars/aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1",
       "uniqueName": "v-sbestala@microsoft.com"}, "drafts": [], "quality": "definition",
-      "queue": {"_links": {}, "id": 800, "name": "Hosted Ubuntu 1604", "pool": {"id":
-      8, "isHosted": true, "name": "Hosted Ubuntu 1604"}, "url": "https://dev.azure.com/v-anvashist0376/_apis/build/Queues/800"},
+      "queue": {"_links": {}, "id": 1232, "name": "Hosted Ubuntu 1604", "pool": {"id":
+      8, "isHosted": true, "name": "Hosted Ubuntu 1604"}, "url": "https://dev.azure.com/v-anvashist0376/_apis/build/Queues/1232"},
       "description": "Pipeline for contoso project", "jobAuthorizationScope": "projectCollection",
       "process": {"yamlFilename": "azure-pipelines.yml", "type": 2}, "properties":
       {}, "repository": {"checkoutSubmodules": false, "defaultBranch": "refs/heads/main",
-      "id": "fa78c83a-a8dc-4b5c-b74c-85f2df40ce0d", "name": "pipelinesTest000001",
+      "id": "db7cf07e-1158-47b5-84f0-b8403a181777", "name": "pipelinesTest000001",
       "type": "TfsGit", "url": "https://dev.azure.com/v-anvashist0376/pipelinesTest000001/_git/pipelinesTest000001"},
       "tags": [], "triggers": [{"branchFilters": [], "pathFilters": [], "settingsSourceType":
       2, "batchChanges": false, "maxConcurrentBuildsPerBranch": 1, "triggerType":
@@ -1744,40 +1816,40 @@ interactions:
       Connection:
       - keep-alive
       Content-Length:
-      - '2050'
+      - '2052'
       Content-Type:
       - application/json; charset=utf-8
       User-Agent:
-      - python/3.10.11 (Windows-10-10.0.26100-SP0) msrest/0.7.1 azure-devops/5.1.0b4
-        devOpsCli/1.0.2
+      - python/3.12.1 (Linux-6.5.0-1025-azure-x86_64-with-glibc2.31) msrest/0.7.1
+        azure-devops/5.1.0b4 devOpsCli/1.0.2
       X-TFS-FedAuthRedirect:
       - Suppress
       X-TFS-Session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
+      - 529f6bc3-3562-4a41-9e64-5650716c9174
       X-VSS-ForceMsaPassThrough:
       - 'true'
     method: PUT
-    uri: https://dev.azure.com/v-anvashist0376/pipelinesTest000001/_apis/build/Definitions/30
+    uri: https://dev.azure.com/v-anvashist0376/pipelinesTest000001/_apis/build/Definitions/33
   response:
     body:
-      string: '{"triggers":[{"branchFilters":[],"pathFilters":[],"settingsSourceType":2,"batchChanges":false,"maxConcurrentBuildsPerBranch":1,"triggerType":"continuousIntegration"}],"variables":{"var1":{"value":null,"allowOverride":true,"isSecret":true}},"properties":{},"tags":[],"_links":{"self":{"href":"https://dev.azure.com/v-anvashist0376/40921de1-4c5d-4401-9037-34e4b1f51096/_apis/build/Definitions/30?revision=4"},"web":{"href":"https://dev.azure.com/v-anvashist0376/40921de1-4c5d-4401-9037-34e4b1f51096/_build/definition?definitionId=30"},"editor":{"href":"https://dev.azure.com/v-anvashist0376/40921de1-4c5d-4401-9037-34e4b1f51096/_build/designer?id=30&_a=edit-build-definition"},"badge":{"href":"https://dev.azure.com/v-anvashist0376/40921de1-4c5d-4401-9037-34e4b1f51096/_apis/build/status/30"}},"description":"Pipeline
-        for contoso project","jobAuthorizationScope":"projectCollection","process":{"yamlFilename":"azure-pipelines.yml","type":2},"repository":{"id":"fa78c83a-a8dc-4b5c-b74c-85f2df40ce0d","type":"TfsGit","name":"pipelinesTest000001","url":"https://dev.azure.com/v-anvashist0376/pipelinesTest000001/_git/pipelinesTest000001","defaultBranch":"refs/heads/main","clean":null,"checkoutSubmodules":false},"quality":"definition","authoredBy":{"displayName":"Soujanya
-        Bestala (MINDTREE LIMITED)","url":"https://spsprodcin2.vssps.visualstudio.com/Aa9bae0de-049f-43b5-a1ff-18f8f805fbe8/_apis/Identities/22157d54-1821-6536-a446-928b06348385","_links":{"avatar":{"href":"https://dev.azure.com/v-anvashist0376/_apis/GraphProfile/MemberAvatars/aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1"}},"id":"22157d54-1821-6536-a446-928b06348385","uniqueName":"v-sbestala@microsoft.com","imageUrl":"https://dev.azure.com/v-anvashist0376/_apis/GraphProfile/MemberAvatars/aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1","descriptor":"aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1"},"drafts":[],"queue":{"_links":{"self":{"href":"https://dev.azure.com/v-anvashist0376/_apis/build/Queues/800"}},"id":800,"name":"Hosted
-        Ubuntu 1604","url":"https://dev.azure.com/v-anvashist0376/_apis/build/Queues/800","pool":{"id":8,"name":"Hosted
-        Ubuntu 1604","isHosted":true}},"id":30,"name":"ContosoBuild","url":"https://dev.azure.com/v-anvashist0376/40921de1-4c5d-4401-9037-34e4b1f51096/_apis/build/Definitions/30?revision=4","uri":"vstfs:///Build/Definition/30","path":"\\","type":"build","queueStatus":"enabled","revision":4,"createdDate":"2025-01-02T12:40:42.84Z","project":{"id":"40921de1-4c5d-4401-9037-34e4b1f51096","name":"pipelinesTest000001","url":"https://dev.azure.com/v-anvashist0376/_apis/projects/40921de1-4c5d-4401-9037-34e4b1f51096","state":"wellFormed","revision":1009,"visibility":"private","lastUpdateTime":"2025-01-02T12:40:26.697Z"}}'
+      string: '{"triggers":[{"branchFilters":[],"pathFilters":[],"settingsSourceType":2,"batchChanges":false,"maxConcurrentBuildsPerBranch":1,"triggerType":"continuousIntegration"}],"variables":{"var1":{"value":null,"allowOverride":true,"isSecret":true}},"properties":{},"tags":[],"_links":{"self":{"href":"https://dev.azure.com/v-anvashist0376/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa/_apis/build/Definitions/33?revision=4"},"web":{"href":"https://dev.azure.com/v-anvashist0376/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa/_build/definition?definitionId=33"},"editor":{"href":"https://dev.azure.com/v-anvashist0376/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa/_build/designer?id=33&_a=edit-build-definition"},"badge":{"href":"https://dev.azure.com/v-anvashist0376/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa/_apis/build/status/33"}},"description":"Pipeline
+        for contoso project","jobAuthorizationScope":"projectCollection","process":{"yamlFilename":"azure-pipelines.yml","type":2},"repository":{"id":"db7cf07e-1158-47b5-84f0-b8403a181777","type":"TfsGit","name":"pipelinesTest000001","url":"https://dev.azure.com/v-anvashist0376/pipelinesTest000001/_git/pipelinesTest000001","defaultBranch":"refs/heads/main","clean":null,"checkoutSubmodules":false},"quality":"definition","authoredBy":{"displayName":"Soujanya
+        Bestala (MINDTREE LIMITED)","url":"https://spsprodcin2.vssps.visualstudio.com/Aa9bae0de-049f-43b5-a1ff-18f8f805fbe8/_apis/Identities/22157d54-1821-6536-a446-928b06348385","_links":{"avatar":{"href":"https://dev.azure.com/v-anvashist0376/_apis/GraphProfile/MemberAvatars/aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1"}},"id":"22157d54-1821-6536-a446-928b06348385","uniqueName":"v-sbestala@microsoft.com","imageUrl":"https://dev.azure.com/v-anvashist0376/_apis/GraphProfile/MemberAvatars/aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1","descriptor":"aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1"},"drafts":[],"queue":{"_links":{"self":{"href":"https://dev.azure.com/v-anvashist0376/_apis/build/Queues/1232"}},"id":1232,"name":"Hosted
+        Ubuntu 1604","url":"https://dev.azure.com/v-anvashist0376/_apis/build/Queues/1232","pool":{"id":8,"name":"Hosted
+        Ubuntu 1604","isHosted":true}},"id":33,"name":"ContosoBuild","url":"https://dev.azure.com/v-anvashist0376/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa/_apis/build/Definitions/33?revision=4","uri":"vstfs:///Build/Definition/33","path":"\\","type":"build","queueStatus":"enabled","revision":4,"createdDate":"2025-01-03T12:30:09.863Z","project":{"id":"7bb0d243-4ef0-49d8-b33b-3e6f44e28afa","name":"pipelinesTest000001","url":"https://dev.azure.com/v-anvashist0376/_apis/projects/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa","state":"wellFormed","revision":1516,"visibility":"private","lastUpdateTime":"2025-01-03T12:29:57.803Z"}}'
     headers:
       access-control-expose-headers:
       - Request-Context
       activityid:
-      - 44d12452-f79e-4dc7-9ed2-9997804bec46
+      - 9b9a99c0-d3fb-4495-afec-f6986f9b5e8b
       cache-control:
       - no-cache
       content-length:
-      - '2742'
+      - '2746'
       content-type:
       - application/json; charset=utf-8; api-version=5.0
       date:
-      - Thu, 02 Jan 2025 12:40:41 GMT
+      - Fri, 03 Jan 2025 12:30:09 GMT
       expires:
       - '-1'
       p3p:
@@ -1798,13 +1870,13 @@ interactions:
       x-frame-options:
       - SAMEORIGIN
       x-msedge-ref:
-      - 'Ref A: 6DAEBAB4FF0F4DB1A222CDAE056F6B4B Ref B: MAA01EDGE1409 Ref C: 2025-01-02T12:40:42Z'
+      - 'Ref A: 2B2AB08A80634799B5CD1E87B9D9C84B Ref B: PNQ30EDGE0114 Ref C: 2025-01-03T12:30:09Z'
       x-tfs-processid:
-      - 8b97cd00-92de-40cb-90b3-9f93d0941d86
+      - 709881ea-d5e8-4d50-9f19-9f1bf3301f7f
       x-tfs-session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
+      - 529f6bc3-3562-4a41-9e64-5650716c9174
       x-vss-e2eid:
-      - 44d12452-f79e-4dc7-9ed2-9997804bec46
+      - 9b9a99c0-d3fb-4495-afec-f6986f9b5e8b
       x-vss-senderdeploymentid:
       - ed30ce5c-9d0a-f73c-3580-4315c7f84d83
       x-vss-userdata:
@@ -1824,36 +1896,36 @@ interactions:
       Content-Type:
       - application/json; charset=utf-8
       User-Agent:
-      - python/3.10.11 (Windows-10-10.0.26100-SP0) msrest/0.7.1 azure-devops/5.1.0b4
-        devOpsCli/1.0.2
+      - python/3.12.1 (Linux-6.5.0-1025-azure-x86_64-with-glibc2.31) msrest/0.7.1
+        azure-devops/5.1.0b4 devOpsCli/1.0.2
       X-TFS-FedAuthRedirect:
       - Suppress
       X-TFS-Session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
+      - 529f6bc3-3562-4a41-9e64-5650716c9174
       X-VSS-ForceMsaPassThrough:
       - 'true'
     method: GET
-    uri: https://dev.azure.com/v-anvashist0376/pipelinesTest000001/_apis/build/Definitions/30
+    uri: https://dev.azure.com/v-anvashist0376/pipelinesTest000001/_apis/build/Definitions/33
   response:
     body:
-      string: '{"triggers":[{"branchFilters":[],"pathFilters":[],"settingsSourceType":2,"batchChanges":false,"maxConcurrentBuildsPerBranch":1,"triggerType":"continuousIntegration"}],"variables":{"var1":{"value":null,"allowOverride":true,"isSecret":true}},"properties":{},"tags":[],"_links":{"self":{"href":"https://dev.azure.com/v-anvashist0376/40921de1-4c5d-4401-9037-34e4b1f51096/_apis/build/Definitions/30?revision=4"},"web":{"href":"https://dev.azure.com/v-anvashist0376/40921de1-4c5d-4401-9037-34e4b1f51096/_build/definition?definitionId=30"},"editor":{"href":"https://dev.azure.com/v-anvashist0376/40921de1-4c5d-4401-9037-34e4b1f51096/_build/designer?id=30&_a=edit-build-definition"},"badge":{"href":"https://dev.azure.com/v-anvashist0376/40921de1-4c5d-4401-9037-34e4b1f51096/_apis/build/status/30"}},"description":"Pipeline
-        for contoso project","jobAuthorizationScope":"projectCollection","process":{"yamlFilename":"azure-pipelines.yml","type":2},"repository":{"id":"fa78c83a-a8dc-4b5c-b74c-85f2df40ce0d","type":"TfsGit","name":"pipelinesTest000001","url":"https://dev.azure.com/v-anvashist0376/pipelinesTest000001/_git/pipelinesTest000001","defaultBranch":"refs/heads/main","clean":null,"checkoutSubmodules":false},"quality":"definition","authoredBy":{"displayName":"Soujanya
-        Bestala (MINDTREE LIMITED)","url":"https://spsprodcin2.vssps.visualstudio.com/Aa9bae0de-049f-43b5-a1ff-18f8f805fbe8/_apis/Identities/22157d54-1821-6536-a446-928b06348385","_links":{"avatar":{"href":"https://dev.azure.com/v-anvashist0376/_apis/GraphProfile/MemberAvatars/aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1"}},"id":"22157d54-1821-6536-a446-928b06348385","uniqueName":"v-sbestala@microsoft.com","imageUrl":"https://dev.azure.com/v-anvashist0376/_apis/GraphProfile/MemberAvatars/aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1","descriptor":"aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1"},"drafts":[],"queue":{"_links":{"self":{"href":"https://dev.azure.com/v-anvashist0376/_apis/build/Queues/800"}},"id":800,"name":"Hosted
-        Ubuntu 1604","url":"https://dev.azure.com/v-anvashist0376/_apis/build/Queues/800","pool":{"id":8,"name":"Hosted
-        Ubuntu 1604","isHosted":true}},"id":30,"name":"ContosoBuild","url":"https://dev.azure.com/v-anvashist0376/40921de1-4c5d-4401-9037-34e4b1f51096/_apis/build/Definitions/30?revision=4","uri":"vstfs:///Build/Definition/30","path":"\\","type":"build","queueStatus":"enabled","revision":4,"createdDate":"2025-01-02T12:40:42.84Z","project":{"id":"40921de1-4c5d-4401-9037-34e4b1f51096","name":"pipelinesTest000001","url":"https://dev.azure.com/v-anvashist0376/_apis/projects/40921de1-4c5d-4401-9037-34e4b1f51096","state":"wellFormed","revision":1009,"visibility":"private","lastUpdateTime":"2025-01-02T12:40:26.697Z"}}'
+      string: '{"triggers":[{"branchFilters":[],"pathFilters":[],"settingsSourceType":2,"batchChanges":false,"maxConcurrentBuildsPerBranch":1,"triggerType":"continuousIntegration"}],"variables":{"var1":{"value":null,"allowOverride":true,"isSecret":true}},"properties":{},"tags":[],"_links":{"self":{"href":"https://dev.azure.com/v-anvashist0376/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa/_apis/build/Definitions/33?revision=4"},"web":{"href":"https://dev.azure.com/v-anvashist0376/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa/_build/definition?definitionId=33"},"editor":{"href":"https://dev.azure.com/v-anvashist0376/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa/_build/designer?id=33&_a=edit-build-definition"},"badge":{"href":"https://dev.azure.com/v-anvashist0376/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa/_apis/build/status/33"}},"description":"Pipeline
+        for contoso project","jobAuthorizationScope":"projectCollection","process":{"yamlFilename":"azure-pipelines.yml","type":2},"repository":{"id":"db7cf07e-1158-47b5-84f0-b8403a181777","type":"TfsGit","name":"pipelinesTest000001","url":"https://dev.azure.com/v-anvashist0376/pipelinesTest000001/_git/pipelinesTest000001","defaultBranch":"refs/heads/main","clean":null,"checkoutSubmodules":false},"quality":"definition","authoredBy":{"displayName":"Soujanya
+        Bestala (MINDTREE LIMITED)","url":"https://spsprodcin2.vssps.visualstudio.com/Aa9bae0de-049f-43b5-a1ff-18f8f805fbe8/_apis/Identities/22157d54-1821-6536-a446-928b06348385","_links":{"avatar":{"href":"https://dev.azure.com/v-anvashist0376/_apis/GraphProfile/MemberAvatars/aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1"}},"id":"22157d54-1821-6536-a446-928b06348385","uniqueName":"v-sbestala@microsoft.com","imageUrl":"https://dev.azure.com/v-anvashist0376/_apis/GraphProfile/MemberAvatars/aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1","descriptor":"aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1"},"drafts":[],"queue":{"_links":{"self":{"href":"https://dev.azure.com/v-anvashist0376/_apis/build/Queues/1232"}},"id":1232,"name":"Hosted
+        Ubuntu 1604","url":"https://dev.azure.com/v-anvashist0376/_apis/build/Queues/1232","pool":{"id":8,"name":"Hosted
+        Ubuntu 1604","isHosted":true}},"id":33,"name":"ContosoBuild","url":"https://dev.azure.com/v-anvashist0376/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa/_apis/build/Definitions/33?revision=4","uri":"vstfs:///Build/Definition/33","path":"\\","type":"build","queueStatus":"enabled","revision":4,"createdDate":"2025-01-03T12:30:09.863Z","project":{"id":"7bb0d243-4ef0-49d8-b33b-3e6f44e28afa","name":"pipelinesTest000001","url":"https://dev.azure.com/v-anvashist0376/_apis/projects/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa","state":"wellFormed","revision":1516,"visibility":"private","lastUpdateTime":"2025-01-03T12:29:57.803Z"}}'
     headers:
       access-control-expose-headers:
       - Request-Context
       activityid:
-      - f261e079-77aa-4c8d-85b5-02e2a4304438
+      - 5358614c-4abe-47a2-82a0-8110aac68309
       cache-control:
       - no-cache
       content-length:
-      - '2742'
+      - '2746'
       content-type:
       - application/json; charset=utf-8; api-version=5.0
       date:
-      - Thu, 02 Jan 2025 12:40:42 GMT
+      - Fri, 03 Jan 2025 12:30:09 GMT
       expires:
       - '-1'
       p3p:
@@ -1874,13 +1946,13 @@ interactions:
       x-frame-options:
       - SAMEORIGIN
       x-msedge-ref:
-      - 'Ref A: B878E89A4BAE437F8DF6292770FF2262 Ref B: MAA01EDGE1409 Ref C: 2025-01-02T12:40:43Z'
+      - 'Ref A: 78038D7142D14AF7BC98C92694024890 Ref B: PNQ30EDGE0108 Ref C: 2025-01-03T12:30:09Z'
       x-tfs-processid:
-      - a8e54f57-01b8-4585-a4b3-3b2d681ad009
+      - b97ff233-9513-4ce7-8a9b-cbb5938dff9f
       x-tfs-session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
+      - 529f6bc3-3562-4a41-9e64-5650716c9174
       x-vss-e2eid:
-      - f261e079-77aa-4c8d-85b5-02e2a4304438
+      - 5358614c-4abe-47a2-82a0-8110aac68309
       x-vss-senderdeploymentid:
       - ed30ce5c-9d0a-f73c-3580-4315c7f84d83
       x-vss-userdata:
@@ -1900,36 +1972,36 @@ interactions:
       Content-Type:
       - application/json; charset=utf-8
       User-Agent:
-      - python/3.10.11 (Windows-10-10.0.26100-SP0) msrest/0.7.1 azure-devops/5.1.0b4
-        devOpsCli/1.0.2
+      - python/3.12.1 (Linux-6.5.0-1025-azure-x86_64-with-glibc2.31) msrest/0.7.1
+        azure-devops/5.1.0b4 devOpsCli/1.0.2
       X-TFS-FedAuthRedirect:
       - Suppress
       X-TFS-Session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
+      - 529f6bc3-3562-4a41-9e64-5650716c9174
       X-VSS-ForceMsaPassThrough:
       - 'true'
     method: GET
-    uri: https://dev.azure.com/v-anvashist0376/pipelinesTest000001/_apis/build/Definitions/30
+    uri: https://dev.azure.com/v-anvashist0376/pipelinesTest000001/_apis/build/Definitions/33
   response:
     body:
-      string: '{"triggers":[{"branchFilters":[],"pathFilters":[],"settingsSourceType":2,"batchChanges":false,"maxConcurrentBuildsPerBranch":1,"triggerType":"continuousIntegration"}],"variables":{"var1":{"value":null,"allowOverride":true,"isSecret":true}},"properties":{},"tags":[],"_links":{"self":{"href":"https://dev.azure.com/v-anvashist0376/40921de1-4c5d-4401-9037-34e4b1f51096/_apis/build/Definitions/30?revision=4"},"web":{"href":"https://dev.azure.com/v-anvashist0376/40921de1-4c5d-4401-9037-34e4b1f51096/_build/definition?definitionId=30"},"editor":{"href":"https://dev.azure.com/v-anvashist0376/40921de1-4c5d-4401-9037-34e4b1f51096/_build/designer?id=30&_a=edit-build-definition"},"badge":{"href":"https://dev.azure.com/v-anvashist0376/40921de1-4c5d-4401-9037-34e4b1f51096/_apis/build/status/30"}},"description":"Pipeline
-        for contoso project","jobAuthorizationScope":"projectCollection","process":{"yamlFilename":"azure-pipelines.yml","type":2},"repository":{"id":"fa78c83a-a8dc-4b5c-b74c-85f2df40ce0d","type":"TfsGit","name":"pipelinesTest000001","url":"https://dev.azure.com/v-anvashist0376/pipelinesTest000001/_git/pipelinesTest000001","defaultBranch":"refs/heads/main","clean":null,"checkoutSubmodules":false},"quality":"definition","authoredBy":{"displayName":"Soujanya
-        Bestala (MINDTREE LIMITED)","url":"https://spsprodcin2.vssps.visualstudio.com/Aa9bae0de-049f-43b5-a1ff-18f8f805fbe8/_apis/Identities/22157d54-1821-6536-a446-928b06348385","_links":{"avatar":{"href":"https://dev.azure.com/v-anvashist0376/_apis/GraphProfile/MemberAvatars/aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1"}},"id":"22157d54-1821-6536-a446-928b06348385","uniqueName":"v-sbestala@microsoft.com","imageUrl":"https://dev.azure.com/v-anvashist0376/_apis/GraphProfile/MemberAvatars/aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1","descriptor":"aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1"},"drafts":[],"queue":{"_links":{"self":{"href":"https://dev.azure.com/v-anvashist0376/_apis/build/Queues/800"}},"id":800,"name":"Hosted
-        Ubuntu 1604","url":"https://dev.azure.com/v-anvashist0376/_apis/build/Queues/800","pool":{"id":8,"name":"Hosted
-        Ubuntu 1604","isHosted":true}},"id":30,"name":"ContosoBuild","url":"https://dev.azure.com/v-anvashist0376/40921de1-4c5d-4401-9037-34e4b1f51096/_apis/build/Definitions/30?revision=4","uri":"vstfs:///Build/Definition/30","path":"\\","type":"build","queueStatus":"enabled","revision":4,"createdDate":"2025-01-02T12:40:42.84Z","project":{"id":"40921de1-4c5d-4401-9037-34e4b1f51096","name":"pipelinesTest000001","url":"https://dev.azure.com/v-anvashist0376/_apis/projects/40921de1-4c5d-4401-9037-34e4b1f51096","state":"wellFormed","revision":1009,"visibility":"private","lastUpdateTime":"2025-01-02T12:40:26.697Z"}}'
+      string: '{"triggers":[{"branchFilters":[],"pathFilters":[],"settingsSourceType":2,"batchChanges":false,"maxConcurrentBuildsPerBranch":1,"triggerType":"continuousIntegration"}],"variables":{"var1":{"value":null,"allowOverride":true,"isSecret":true}},"properties":{},"tags":[],"_links":{"self":{"href":"https://dev.azure.com/v-anvashist0376/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa/_apis/build/Definitions/33?revision=4"},"web":{"href":"https://dev.azure.com/v-anvashist0376/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa/_build/definition?definitionId=33"},"editor":{"href":"https://dev.azure.com/v-anvashist0376/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa/_build/designer?id=33&_a=edit-build-definition"},"badge":{"href":"https://dev.azure.com/v-anvashist0376/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa/_apis/build/status/33"}},"description":"Pipeline
+        for contoso project","jobAuthorizationScope":"projectCollection","process":{"yamlFilename":"azure-pipelines.yml","type":2},"repository":{"id":"db7cf07e-1158-47b5-84f0-b8403a181777","type":"TfsGit","name":"pipelinesTest000001","url":"https://dev.azure.com/v-anvashist0376/pipelinesTest000001/_git/pipelinesTest000001","defaultBranch":"refs/heads/main","clean":null,"checkoutSubmodules":false},"quality":"definition","authoredBy":{"displayName":"Soujanya
+        Bestala (MINDTREE LIMITED)","url":"https://spsprodcin2.vssps.visualstudio.com/Aa9bae0de-049f-43b5-a1ff-18f8f805fbe8/_apis/Identities/22157d54-1821-6536-a446-928b06348385","_links":{"avatar":{"href":"https://dev.azure.com/v-anvashist0376/_apis/GraphProfile/MemberAvatars/aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1"}},"id":"22157d54-1821-6536-a446-928b06348385","uniqueName":"v-sbestala@microsoft.com","imageUrl":"https://dev.azure.com/v-anvashist0376/_apis/GraphProfile/MemberAvatars/aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1","descriptor":"aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1"},"drafts":[],"queue":{"_links":{"self":{"href":"https://dev.azure.com/v-anvashist0376/_apis/build/Queues/1232"}},"id":1232,"name":"Hosted
+        Ubuntu 1604","url":"https://dev.azure.com/v-anvashist0376/_apis/build/Queues/1232","pool":{"id":8,"name":"Hosted
+        Ubuntu 1604","isHosted":true}},"id":33,"name":"ContosoBuild","url":"https://dev.azure.com/v-anvashist0376/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa/_apis/build/Definitions/33?revision=4","uri":"vstfs:///Build/Definition/33","path":"\\","type":"build","queueStatus":"enabled","revision":4,"createdDate":"2025-01-03T12:30:09.863Z","project":{"id":"7bb0d243-4ef0-49d8-b33b-3e6f44e28afa","name":"pipelinesTest000001","url":"https://dev.azure.com/v-anvashist0376/_apis/projects/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa","state":"wellFormed","revision":1516,"visibility":"private","lastUpdateTime":"2025-01-03T12:29:57.803Z"}}'
     headers:
       access-control-expose-headers:
       - Request-Context
       activityid:
-      - 7b0cf7f0-5839-4af0-8b46-03338f5bd43a
+      - 1f97e24a-34de-4605-870f-0f062219ef9f
       cache-control:
       - no-cache
       content-length:
-      - '2742'
+      - '2746'
       content-type:
       - application/json; charset=utf-8; api-version=5.0
       date:
-      - Thu, 02 Jan 2025 12:40:42 GMT
+      - Fri, 03 Jan 2025 12:30:09 GMT
       expires:
       - '-1'
       p3p:
@@ -1950,13 +2022,13 @@ interactions:
       x-frame-options:
       - SAMEORIGIN
       x-msedge-ref:
-      - 'Ref A: 776ADFD0B6D4482F97A0BBFD2F3383D3 Ref B: MAA01EDGE1409 Ref C: 2025-01-02T12:40:43Z'
+      - 'Ref A: 8249FCF64F964C709DCE4744B0A798E3 Ref B: PNQ30EDGE0211 Ref C: 2025-01-03T12:30:10Z'
       x-tfs-processid:
-      - 3e5d6de8-9a30-4743-9c4c-0d5527f3ca5f
+      - f037019e-3fc4-4eca-8c1b-91732621702b
       x-tfs-session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
+      - 529f6bc3-3562-4a41-9e64-5650716c9174
       x-vss-e2eid:
-      - 7b0cf7f0-5839-4af0-8b46-03338f5bd43a
+      - 1f97e24a-34de-4605-870f-0f062219ef9f
       x-vss-senderdeploymentid:
       - ed30ce5c-9d0a-f73c-3580-4315c7f84d83
       x-vss-userdata:
@@ -1965,21 +2037,21 @@ interactions:
       code: 200
       message: OK
 - request:
-    body: '{"createdDate": "2025-01-02T12:40:42.840Z", "id": 30, "name": "ContosoBuild",
-      "path": "\\", "project": {"id": "40921de1-4c5d-4401-9037-34e4b1f51096", "name":
-      "pipelinesTest000001", "revision": 1009, "state": "wellFormed", "url": "https://dev.azure.com/v-anvashist0376/_apis/projects/40921de1-4c5d-4401-9037-34e4b1f51096",
+    body: '{"createdDate": "2025-01-03T12:30:09.863Z", "id": 33, "name": "ContosoBuild",
+      "path": "\\", "project": {"id": "7bb0d243-4ef0-49d8-b33b-3e6f44e28afa", "name":
+      "pipelinesTest000001", "revision": 1516, "state": "wellFormed", "url": "https://dev.azure.com/v-anvashist0376/_apis/projects/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa",
       "visibility": "private"}, "queueStatus": "enabled", "revision": 4, "type": "build",
-      "uri": "vstfs:///Build/Definition/30", "url": "https://dev.azure.com/v-anvashist0376/40921de1-4c5d-4401-9037-34e4b1f51096/_apis/build/Definitions/30?revision=4",
+      "uri": "vstfs:///Build/Definition/33", "url": "https://dev.azure.com/v-anvashist0376/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa/_apis/build/Definitions/33?revision=4",
       "_links": {}, "authoredBy": {"_links": {}, "descriptor": "aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1",
       "displayName": "Soujanya Bestala (MINDTREE LIMITED)", "url": "https://spsprodcin2.vssps.visualstudio.com/Aa9bae0de-049f-43b5-a1ff-18f8f805fbe8/_apis/Identities/22157d54-1821-6536-a446-928b06348385",
       "id": "22157d54-1821-6536-a446-928b06348385", "imageUrl": "https://dev.azure.com/v-anvashist0376/_apis/GraphProfile/MemberAvatars/aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1",
       "uniqueName": "v-sbestala@microsoft.com"}, "drafts": [], "quality": "definition",
-      "queue": {"_links": {}, "id": 800, "name": "Hosted Ubuntu 1604", "pool": {"id":
-      8, "isHosted": true, "name": "Hosted Ubuntu 1604"}, "url": "https://dev.azure.com/v-anvashist0376/_apis/build/Queues/800"},
+      "queue": {"_links": {}, "id": 1232, "name": "Hosted Ubuntu 1604", "pool": {"id":
+      8, "isHosted": true, "name": "Hosted Ubuntu 1604"}, "url": "https://dev.azure.com/v-anvashist0376/_apis/build/Queues/1232"},
       "description": "Pipeline for contoso project", "jobAuthorizationScope": "projectCollection",
       "process": {"yamlFilename": "azure-pipelines.yml", "type": 2}, "properties":
       {}, "repository": {"checkoutSubmodules": false, "defaultBranch": "refs/heads/main",
-      "id": "fa78c83a-a8dc-4b5c-b74c-85f2df40ce0d", "name": "pipelinesTest000001",
+      "id": "db7cf07e-1158-47b5-84f0-b8403a181777", "name": "pipelinesTest000001",
       "type": "TfsGit", "url": "https://dev.azure.com/v-anvashist0376/pipelinesTest000001/_git/pipelinesTest000001"},
       "tags": [], "triggers": [{"branchFilters": [], "pathFilters": [], "settingsSourceType":
       2, "batchChanges": false, "maxConcurrentBuildsPerBranch": 1, "triggerType":
@@ -1993,40 +2065,40 @@ interactions:
       Connection:
       - keep-alive
       Content-Length:
-      - '2075'
+      - '2077'
       Content-Type:
       - application/json; charset=utf-8
       User-Agent:
-      - python/3.10.11 (Windows-10-10.0.26100-SP0) msrest/0.7.1 azure-devops/5.1.0b4
-        devOpsCli/1.0.2
+      - python/3.12.1 (Linux-6.5.0-1025-azure-x86_64-with-glibc2.31) msrest/0.7.1
+        azure-devops/5.1.0b4 devOpsCli/1.0.2
       X-TFS-FedAuthRedirect:
       - Suppress
       X-TFS-Session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
+      - 529f6bc3-3562-4a41-9e64-5650716c9174
       X-VSS-ForceMsaPassThrough:
       - 'true'
     method: PUT
-    uri: https://dev.azure.com/v-anvashist0376/pipelinesTest000001/_apis/build/Definitions/30
+    uri: https://dev.azure.com/v-anvashist0376/pipelinesTest000001/_apis/build/Definitions/33
   response:
     body:
-      string: '{"triggers":[{"branchFilters":[],"pathFilters":[],"settingsSourceType":2,"batchChanges":false,"maxConcurrentBuildsPerBranch":1,"triggerType":"continuousIntegration"}],"variables":{"var1Updated":{"value":"123"}},"properties":{},"tags":[],"_links":{"self":{"href":"https://dev.azure.com/v-anvashist0376/40921de1-4c5d-4401-9037-34e4b1f51096/_apis/build/Definitions/30?revision=5"},"web":{"href":"https://dev.azure.com/v-anvashist0376/40921de1-4c5d-4401-9037-34e4b1f51096/_build/definition?definitionId=30"},"editor":{"href":"https://dev.azure.com/v-anvashist0376/40921de1-4c5d-4401-9037-34e4b1f51096/_build/designer?id=30&_a=edit-build-definition"},"badge":{"href":"https://dev.azure.com/v-anvashist0376/40921de1-4c5d-4401-9037-34e4b1f51096/_apis/build/status/30"}},"description":"Pipeline
-        for contoso project","jobAuthorizationScope":"projectCollection","process":{"yamlFilename":"azure-pipelines.yml","type":2},"repository":{"id":"fa78c83a-a8dc-4b5c-b74c-85f2df40ce0d","type":"TfsGit","name":"pipelinesTest000001","url":"https://dev.azure.com/v-anvashist0376/pipelinesTest000001/_git/pipelinesTest000001","defaultBranch":"refs/heads/main","clean":null,"checkoutSubmodules":false},"quality":"definition","authoredBy":{"displayName":"Soujanya
-        Bestala (MINDTREE LIMITED)","url":"https://spsprodcin2.vssps.visualstudio.com/Aa9bae0de-049f-43b5-a1ff-18f8f805fbe8/_apis/Identities/22157d54-1821-6536-a446-928b06348385","_links":{"avatar":{"href":"https://dev.azure.com/v-anvashist0376/_apis/GraphProfile/MemberAvatars/aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1"}},"id":"22157d54-1821-6536-a446-928b06348385","uniqueName":"v-sbestala@microsoft.com","imageUrl":"https://dev.azure.com/v-anvashist0376/_apis/GraphProfile/MemberAvatars/aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1","descriptor":"aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1"},"drafts":[],"queue":{"_links":{"self":{"href":"https://dev.azure.com/v-anvashist0376/_apis/build/Queues/800"}},"id":800,"name":"Hosted
-        Ubuntu 1604","url":"https://dev.azure.com/v-anvashist0376/_apis/build/Queues/800","pool":{"id":8,"name":"Hosted
-        Ubuntu 1604","isHosted":true}},"id":30,"name":"ContosoBuild","url":"https://dev.azure.com/v-anvashist0376/40921de1-4c5d-4401-9037-34e4b1f51096/_apis/build/Definitions/30?revision=5","uri":"vstfs:///Build/Definition/30","path":"\\","type":"build","queueStatus":"enabled","revision":5,"createdDate":"2025-01-02T12:40:44.267Z","project":{"id":"40921de1-4c5d-4401-9037-34e4b1f51096","name":"pipelinesTest000001","url":"https://dev.azure.com/v-anvashist0376/_apis/projects/40921de1-4c5d-4401-9037-34e4b1f51096","state":"wellFormed","revision":1009,"visibility":"private","lastUpdateTime":"2025-01-02T12:40:26.697Z"}}'
+      string: '{"triggers":[{"branchFilters":[],"pathFilters":[],"settingsSourceType":2,"batchChanges":false,"maxConcurrentBuildsPerBranch":1,"triggerType":"continuousIntegration"}],"variables":{"var1Updated":{"value":"123"}},"properties":{},"tags":[],"_links":{"self":{"href":"https://dev.azure.com/v-anvashist0376/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa/_apis/build/Definitions/33?revision=5"},"web":{"href":"https://dev.azure.com/v-anvashist0376/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa/_build/definition?definitionId=33"},"editor":{"href":"https://dev.azure.com/v-anvashist0376/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa/_build/designer?id=33&_a=edit-build-definition"},"badge":{"href":"https://dev.azure.com/v-anvashist0376/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa/_apis/build/status/33"}},"description":"Pipeline
+        for contoso project","jobAuthorizationScope":"projectCollection","process":{"yamlFilename":"azure-pipelines.yml","type":2},"repository":{"id":"db7cf07e-1158-47b5-84f0-b8403a181777","type":"TfsGit","name":"pipelinesTest000001","url":"https://dev.azure.com/v-anvashist0376/pipelinesTest000001/_git/pipelinesTest000001","defaultBranch":"refs/heads/main","clean":null,"checkoutSubmodules":false},"quality":"definition","authoredBy":{"displayName":"Soujanya
+        Bestala (MINDTREE LIMITED)","url":"https://spsprodcin2.vssps.visualstudio.com/Aa9bae0de-049f-43b5-a1ff-18f8f805fbe8/_apis/Identities/22157d54-1821-6536-a446-928b06348385","_links":{"avatar":{"href":"https://dev.azure.com/v-anvashist0376/_apis/GraphProfile/MemberAvatars/aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1"}},"id":"22157d54-1821-6536-a446-928b06348385","uniqueName":"v-sbestala@microsoft.com","imageUrl":"https://dev.azure.com/v-anvashist0376/_apis/GraphProfile/MemberAvatars/aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1","descriptor":"aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1"},"drafts":[],"queue":{"_links":{"self":{"href":"https://dev.azure.com/v-anvashist0376/_apis/build/Queues/1232"}},"id":1232,"name":"Hosted
+        Ubuntu 1604","url":"https://dev.azure.com/v-anvashist0376/_apis/build/Queues/1232","pool":{"id":8,"name":"Hosted
+        Ubuntu 1604","isHosted":true}},"id":33,"name":"ContosoBuild","url":"https://dev.azure.com/v-anvashist0376/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa/_apis/build/Definitions/33?revision=5","uri":"vstfs:///Build/Definition/33","path":"\\","type":"build","queueStatus":"enabled","revision":5,"createdDate":"2025-01-03T12:30:10.553Z","project":{"id":"7bb0d243-4ef0-49d8-b33b-3e6f44e28afa","name":"pipelinesTest000001","url":"https://dev.azure.com/v-anvashist0376/_apis/projects/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa","state":"wellFormed","revision":1516,"visibility":"private","lastUpdateTime":"2025-01-03T12:29:57.803Z"}}'
     headers:
       access-control-expose-headers:
       - Request-Context
       activityid:
-      - f261e15c-77aa-4c8d-85b5-02e2a4304438
+      - ae2d4cd6-38da-43fc-9c9e-b262562ee3d0
       cache-control:
       - no-cache
       content-length:
-      - '2714'
+      - '2717'
       content-type:
       - application/json; charset=utf-8; api-version=5.0
       date:
-      - Thu, 02 Jan 2025 12:40:43 GMT
+      - Fri, 03 Jan 2025 12:30:09 GMT
       expires:
       - '-1'
       p3p:
@@ -2047,13 +2119,13 @@ interactions:
       x-frame-options:
       - SAMEORIGIN
       x-msedge-ref:
-      - 'Ref A: C35015BFD26B424A8401B754E99F3156 Ref B: MAA01EDGE1409 Ref C: 2025-01-02T12:40:43Z'
+      - 'Ref A: 492F14529E104FECB720C923B4B6512B Ref B: PNQ30EDGE0211 Ref C: 2025-01-03T12:30:10Z'
       x-tfs-processid:
-      - a8e54f57-01b8-4585-a4b3-3b2d681ad009
+      - 7feece6f-b60f-4985-b04b-141c1af88e11
       x-tfs-session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
+      - 529f6bc3-3562-4a41-9e64-5650716c9174
       x-vss-e2eid:
-      - f261e15c-77aa-4c8d-85b5-02e2a4304438
+      - ae2d4cd6-38da-43fc-9c9e-b262562ee3d0
       x-vss-senderdeploymentid:
       - ed30ce5c-9d0a-f73c-3580-4315c7f84d83
       x-vss-userdata:
@@ -2073,35 +2145,35 @@ interactions:
       Content-Type:
       - application/json; charset=utf-8
       User-Agent:
-      - python/3.10.11 (Windows-10-10.0.26100-SP0) msrest/0.7.1 azure-devops/5.1.0b4
-        devOpsCli/1.0.2
+      - python/3.12.1 (Linux-6.5.0-1025-azure-x86_64-with-glibc2.31) msrest/0.7.1
+        azure-devops/5.1.0b4 devOpsCli/1.0.2
       X-TFS-FedAuthRedirect:
       - Suppress
       X-TFS-Session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
+      - 529f6bc3-3562-4a41-9e64-5650716c9174
       X-VSS-ForceMsaPassThrough:
       - 'true'
     method: GET
     uri: https://dev.azure.com/v-anvashist0376/pipelinesTest000001/_apis/build/Definitions?queryOrder=none
   response:
     body:
-      string: '{"count":1,"value":[{"_links":{"self":{"href":"https://dev.azure.com/v-anvashist0376/40921de1-4c5d-4401-9037-34e4b1f51096/_apis/build/Definitions/30?revision=5"},"web":{"href":"https://dev.azure.com/v-anvashist0376/40921de1-4c5d-4401-9037-34e4b1f51096/_build/definition?definitionId=30"},"editor":{"href":"https://dev.azure.com/v-anvashist0376/40921de1-4c5d-4401-9037-34e4b1f51096/_build/designer?id=30&_a=edit-build-definition"},"badge":{"href":"https://dev.azure.com/v-anvashist0376/40921de1-4c5d-4401-9037-34e4b1f51096/_apis/build/status/30"}},"quality":"definition","authoredBy":{"displayName":"Soujanya
-        Bestala (MINDTREE LIMITED)","url":"https://spsprodcin2.vssps.visualstudio.com/Aa9bae0de-049f-43b5-a1ff-18f8f805fbe8/_apis/Identities/22157d54-1821-6536-a446-928b06348385","_links":{"avatar":{"href":"https://dev.azure.com/v-anvashist0376/_apis/GraphProfile/MemberAvatars/aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1"}},"id":"22157d54-1821-6536-a446-928b06348385","uniqueName":"v-sbestala@microsoft.com","imageUrl":"https://dev.azure.com/v-anvashist0376/_apis/GraphProfile/MemberAvatars/aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1","descriptor":"aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1"},"drafts":[],"queue":{"_links":{"self":{"href":"https://dev.azure.com/v-anvashist0376/_apis/build/Queues/800"}},"id":800,"name":"Hosted
-        Ubuntu 1604","url":"https://dev.azure.com/v-anvashist0376/_apis/build/Queues/800","pool":{"id":8,"name":"Hosted
-        Ubuntu 1604","isHosted":true}},"id":30,"name":"ContosoBuild","url":"https://dev.azure.com/v-anvashist0376/40921de1-4c5d-4401-9037-34e4b1f51096/_apis/build/Definitions/30?revision=5","uri":"vstfs:///Build/Definition/30","path":"\\","type":"build","queueStatus":"enabled","revision":5,"createdDate":"2025-01-02T12:40:44.267Z","project":{"id":"40921de1-4c5d-4401-9037-34e4b1f51096","name":"pipelinesTest000001","url":"https://dev.azure.com/v-anvashist0376/_apis/projects/40921de1-4c5d-4401-9037-34e4b1f51096","state":"wellFormed","revision":1009,"visibility":"private","lastUpdateTime":"2025-01-02T12:40:26.697Z"}}]}'
+      string: '{"count":1,"value":[{"_links":{"self":{"href":"https://dev.azure.com/v-anvashist0376/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa/_apis/build/Definitions/33?revision=5"},"web":{"href":"https://dev.azure.com/v-anvashist0376/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa/_build/definition?definitionId=33"},"editor":{"href":"https://dev.azure.com/v-anvashist0376/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa/_build/designer?id=33&_a=edit-build-definition"},"badge":{"href":"https://dev.azure.com/v-anvashist0376/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa/_apis/build/status/33"}},"quality":"definition","authoredBy":{"displayName":"Soujanya
+        Bestala (MINDTREE LIMITED)","url":"https://spsprodcin2.vssps.visualstudio.com/Aa9bae0de-049f-43b5-a1ff-18f8f805fbe8/_apis/Identities/22157d54-1821-6536-a446-928b06348385","_links":{"avatar":{"href":"https://dev.azure.com/v-anvashist0376/_apis/GraphProfile/MemberAvatars/aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1"}},"id":"22157d54-1821-6536-a446-928b06348385","uniqueName":"v-sbestala@microsoft.com","imageUrl":"https://dev.azure.com/v-anvashist0376/_apis/GraphProfile/MemberAvatars/aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1","descriptor":"aad.MjIxNTdkNTQtMTgyMS03NTM2LWE0NDYtOTI4YjA2MzQ4Mzg1"},"drafts":[],"queue":{"_links":{"self":{"href":"https://dev.azure.com/v-anvashist0376/_apis/build/Queues/1232"}},"id":1232,"name":"Hosted
+        Ubuntu 1604","url":"https://dev.azure.com/v-anvashist0376/_apis/build/Queues/1232","pool":{"id":8,"name":"Hosted
+        Ubuntu 1604","isHosted":true}},"id":33,"name":"ContosoBuild","url":"https://dev.azure.com/v-anvashist0376/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa/_apis/build/Definitions/33?revision=5","uri":"vstfs:///Build/Definition/33","path":"\\","type":"build","queueStatus":"enabled","revision":5,"createdDate":"2025-01-03T12:30:10.553Z","project":{"id":"7bb0d243-4ef0-49d8-b33b-3e6f44e28afa","name":"pipelinesTest000001","url":"https://dev.azure.com/v-anvashist0376/_apis/projects/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa","state":"wellFormed","revision":1516,"visibility":"private","lastUpdateTime":"2025-01-03T12:29:57.803Z"}}]}'
     headers:
       access-control-expose-headers:
       - Request-Context
       activityid:
-      - 336c10aa-baca-454c-8c5f-d3021c79e3dd
+      - 52a81583-a46d-42bf-bc06-7edffe57a89c
       cache-control:
       - no-cache
       content-length:
-      - '2084'
+      - '2087'
       content-type:
       - application/json; charset=utf-8; api-version=5.0
       date:
-      - Thu, 02 Jan 2025 12:40:43 GMT
+      - Fri, 03 Jan 2025 12:30:09 GMT
       expires:
       - '-1'
       p3p:
@@ -2122,13 +2194,13 @@ interactions:
       x-frame-options:
       - SAMEORIGIN
       x-msedge-ref:
-      - 'Ref A: 0E48F1BACD7B492489B0208AB8E14335 Ref B: MAA01EDGE1409 Ref C: 2025-01-02T12:40:44Z'
+      - 'Ref A: 2E68224038964823BA3EDBBB4A97E84A Ref B: PNQ30EDGE0206 Ref C: 2025-01-03T12:30:10Z'
       x-tfs-processid:
-      - f77fcf17-141f-4e77-88af-43d7b2bf292a
+      - bbca80b2-6a8b-47ee-9d95-d73a6c5b7782
       x-tfs-session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
+      - 529f6bc3-3562-4a41-9e64-5650716c9174
       x-vss-e2eid:
-      - 336c10aa-baca-454c-8c5f-d3021c79e3dd
+      - 52a81583-a46d-42bf-bc06-7edffe57a89c
       x-vss-senderdeploymentid:
       - ed30ce5c-9d0a-f73c-3580-4315c7f84d83
       x-vss-userdata:
@@ -2150,16 +2222,16 @@ interactions:
       Content-Type:
       - application/json; charset=utf-8
       User-Agent:
-      - python/3.10.11 (Windows-10-10.0.26100-SP0) msrest/0.7.1 azure-devops/5.1.0b4
-        devOpsCli/1.0.2
+      - python/3.12.1 (Linux-6.5.0-1025-azure-x86_64-with-glibc2.31) msrest/0.7.1
+        azure-devops/5.1.0b4 devOpsCli/1.0.2
       X-TFS-FedAuthRedirect:
       - Suppress
       X-TFS-Session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
+      - 529f6bc3-3562-4a41-9e64-5650716c9174
       X-VSS-ForceMsaPassThrough:
       - 'true'
     method: DELETE
-    uri: https://dev.azure.com/v-anvashist0376/pipelinesTest000001/_apis/build/Definitions/30
+    uri: https://dev.azure.com/v-anvashist0376/pipelinesTest000001/_apis/build/Definitions/33
   response:
     body:
       string: ''
@@ -2167,11 +2239,11 @@ interactions:
       access-control-expose-headers:
       - Request-Context
       activityid:
-      - 7b0cf61e-5839-4af0-8b46-03338f5bd43a
+      - 8853ee4a-4992-4ec3-82cc-a21ecd0c2ba8
       cache-control:
       - no-cache
       date:
-      - Thu, 02 Jan 2025 12:40:44 GMT
+      - Fri, 03 Jan 2025 12:30:10 GMT
       expires:
       - '-1'
       p3p:
@@ -2190,13 +2262,13 @@ interactions:
       x-frame-options:
       - SAMEORIGIN
       x-msedge-ref:
-      - 'Ref A: 9EE2603DFBA3497F9F68CD996EC9B133 Ref B: MAA01EDGE1409 Ref C: 2025-01-02T12:40:44Z'
+      - 'Ref A: 6BE301A17C0E4F7EA2F491FDFC5DA02A Ref B: PNQ30EDGE0408 Ref C: 2025-01-03T12:30:10Z'
       x-tfs-processid:
-      - 3e5d6de8-9a30-4743-9c4c-0d5527f3ca5f
+      - acea8c03-34bb-4ee4-a91f-cbb689df1604
       x-tfs-session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
+      - 529f6bc3-3562-4a41-9e64-5650716c9174
       x-vss-e2eid:
-      - 7b0cf61e-5839-4af0-8b46-03338f5bd43a
+      - 8853ee4a-4992-4ec3-82cc-a21ecd0c2ba8
       x-vss-senderdeploymentid:
       - ed30ce5c-9d0a-f73c-3580-4315c7f84d83
       x-vss-userdata:
@@ -2216,12 +2288,12 @@ interactions:
       Content-Type:
       - application/json; charset=utf-8
       User-Agent:
-      - python/3.10.11 (Windows-10-10.0.26100-SP0) msrest/0.7.1 azure-devops/5.1.0b4
-        devOpsCli/1.0.2
+      - python/3.12.1 (Linux-6.5.0-1025-azure-x86_64-with-glibc2.31) msrest/0.7.1
+        azure-devops/5.1.0b4 devOpsCli/1.0.2
       X-TFS-FedAuthRedirect:
       - Suppress
       X-TFS-Session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
+      - 529f6bc3-3562-4a41-9e64-5650716c9174
       X-VSS-ForceMsaPassThrough:
       - 'true'
     method: GET
@@ -2233,7 +2305,7 @@ interactions:
       access-control-expose-headers:
       - Request-Context
       activityid:
-      - 1a4ce065-3e8f-4275-97c7-19a163b7a8be
+      - 535867fd-4abe-47a2-82a0-8110aac68309
       cache-control:
       - no-cache
       content-length:
@@ -2241,7 +2313,7 @@ interactions:
       content-type:
       - application/json; charset=utf-8; api-version=5.0
       date:
-      - Thu, 02 Jan 2025 12:40:45 GMT
+      - Fri, 03 Jan 2025 12:30:10 GMT
       expires:
       - '-1'
       p3p:
@@ -2262,13 +2334,13 @@ interactions:
       x-frame-options:
       - SAMEORIGIN
       x-msedge-ref:
-      - 'Ref A: 785BB0117B3948069ABB7BFEF0815099 Ref B: MAA01EDGE1119 Ref C: 2025-01-02T12:40:45Z'
+      - 'Ref A: 01D997D2776D4B6E9A912F3C1B519520 Ref B: PNQ30EDGE0107 Ref C: 2025-01-03T12:30:11Z'
       x-tfs-processid:
-      - d46325bf-7121-4a39-8702-ab1ce62681a7
+      - b97ff233-9513-4ce7-8a9b-cbb5938dff9f
       x-tfs-session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
+      - 529f6bc3-3562-4a41-9e64-5650716c9174
       x-vss-e2eid:
-      - 1a4ce065-3e8f-4275-97c7-19a163b7a8be
+      - 535867fd-4abe-47a2-82a0-8110aac68309
       x-vss-senderdeploymentid:
       - ed30ce5c-9d0a-f73c-3580-4315c7f84d83
       x-vss-userdata:
@@ -2290,24 +2362,24 @@ interactions:
       Content-Type:
       - application/json; charset=utf-8
       User-Agent:
-      - python/3.10.11 (Windows-10-10.0.26100-SP0) msrest/0.7.1 azure-devops/5.1.0b4
-        devOpsCli/1.0.2
+      - python/3.12.1 (Linux-6.5.0-1025-azure-x86_64-with-glibc2.31) msrest/0.7.1
+        azure-devops/5.1.0b4 devOpsCli/1.0.2
       X-TFS-FedAuthRedirect:
       - Suppress
       X-TFS-Session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
+      - 529f6bc3-3562-4a41-9e64-5650716c9174
       X-VSS-ForceMsaPassThrough:
       - 'true'
     method: DELETE
-    uri: https://dev.azure.com/v-anvashist0376/_apis/projects/40921de1-4c5d-4401-9037-34e4b1f51096
+    uri: https://dev.azure.com/v-anvashist0376/_apis/projects/7bb0d243-4ef0-49d8-b33b-3e6f44e28afa
   response:
     body:
-      string: '{"id":"ae60f6c0-c420-4264-bddd-17dbf3b0d044","status":"notSet","url":"https://dev.azure.com/v-anvashist0376/_apis/operations/ae60f6c0-c420-4264-bddd-17dbf3b0d044"}'
+      string: '{"id":"105b0a04-d990-43b8-a17b-4b0967aa58c4","status":"notSet","url":"https://dev.azure.com/v-anvashist0376/_apis/operations/105b0a04-d990-43b8-a17b-4b0967aa58c4"}'
     headers:
       access-control-expose-headers:
       - Request-Context
       activityid:
-      - 3c5b1d17-ed24-4d4e-900b-a8abb3949665
+      - 1f97e4d7-34de-4605-870f-0f062219ef9f
       cache-control:
       - no-cache
       content-length:
@@ -2315,7 +2387,7 @@ interactions:
       content-type:
       - application/json; charset=utf-8; api-version=5.0
       date:
-      - Thu, 02 Jan 2025 12:40:45 GMT
+      - Fri, 03 Jan 2025 12:30:10 GMT
       expires:
       - '-1'
       p3p:
@@ -2334,13 +2406,13 @@ interactions:
       x-frame-options:
       - SAMEORIGIN
       x-msedge-ref:
-      - 'Ref A: BAB1E3973E684B4593C5A4BA26EBC52A Ref B: MAA01EDGE0922 Ref C: 2025-01-02T12:40:45Z'
+      - 'Ref A: DBAAE46990FC4FF9BE1383333109CD16 Ref B: PNQ30EDGE0215 Ref C: 2025-01-03T12:30:11Z'
       x-tfs-processid:
-      - 9aaf6e99-5ba9-4c99-9331-5586cea0560d
+      - f037019e-3fc4-4eca-8c1b-91732621702b
       x-tfs-session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
+      - 529f6bc3-3562-4a41-9e64-5650716c9174
       x-vss-e2eid:
-      - 3c5b1d17-ed24-4d4e-900b-a8abb3949665
+      - 1f97e4d7-34de-4605-870f-0f062219ef9f
       x-vss-senderdeploymentid:
       - ed30ce5c-9d0a-f73c-3580-4315c7f84d83
       x-vss-userdata:
@@ -2360,24 +2432,24 @@ interactions:
       Content-Type:
       - application/json; charset=utf-8
       User-Agent:
-      - python/3.10.11 (Windows-10-10.0.26100-SP0) msrest/0.7.1 azure-devops/5.1.0b4
-        devOpsCli/1.0.2
+      - python/3.12.1 (Linux-6.5.0-1025-azure-x86_64-with-glibc2.31) msrest/0.7.1
+        azure-devops/5.1.0b4 devOpsCli/1.0.2
       X-TFS-FedAuthRedirect:
       - Suppress
       X-TFS-Session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
+      - 529f6bc3-3562-4a41-9e64-5650716c9174
       X-VSS-ForceMsaPassThrough:
       - 'true'
     method: GET
-    uri: https://dev.azure.com/v-anvashist0376/_apis/operations/ae60f6c0-c420-4264-bddd-17dbf3b0d044
+    uri: https://dev.azure.com/v-anvashist0376/_apis/operations/105b0a04-d990-43b8-a17b-4b0967aa58c4
   response:
     body:
-      string: '{"id":"ae60f6c0-c420-4264-bddd-17dbf3b0d044","status":"inProgress","url":"https://dev.azure.com/v-anvashist0376/_apis/operations/ae60f6c0-c420-4264-bddd-17dbf3b0d044","_links":{"self":{"href":"https://dev.azure.com/v-anvashist0376/_apis/operations/ae60f6c0-c420-4264-bddd-17dbf3b0d044"}}}'
+      string: '{"id":"105b0a04-d990-43b8-a17b-4b0967aa58c4","status":"inProgress","url":"https://dev.azure.com/v-anvashist0376/_apis/operations/105b0a04-d990-43b8-a17b-4b0967aa58c4","_links":{"self":{"href":"https://dev.azure.com/v-anvashist0376/_apis/operations/105b0a04-d990-43b8-a17b-4b0967aa58c4"}}}'
     headers:
       access-control-expose-headers:
       - Request-Context
       activityid:
-      - 7b0cf0b4-5839-4af0-8b46-03338f5bd43a
+      - 42f72fc8-f5aa-489b-829b-6b935a83b968
       cache-control:
       - no-cache
       content-length:
@@ -2385,7 +2457,7 @@ interactions:
       content-type:
       - application/json; charset=utf-8; api-version=5.0
       date:
-      - Thu, 02 Jan 2025 12:40:46 GMT
+      - Fri, 03 Jan 2025 12:30:10 GMT
       expires:
       - '-1'
       p3p:
@@ -2406,13 +2478,13 @@ interactions:
       x-frame-options:
       - SAMEORIGIN
       x-msedge-ref:
-      - 'Ref A: BCA839DA7F524A24882D9C9F8A5EFDDF Ref B: MAA01EDGE0620 Ref C: 2025-01-02T12:40:46Z'
+      - 'Ref A: 229BA3A7EAF440E59E9CF5735CC38993 Ref B: PNQ30EDGE0307 Ref C: 2025-01-03T12:30:11Z'
       x-tfs-processid:
-      - 3e5d6de8-9a30-4743-9c4c-0d5527f3ca5f
+      - f0cc34b2-4918-45ae-99cc-98ed5fcaeba0
       x-tfs-session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
+      - 529f6bc3-3562-4a41-9e64-5650716c9174
       x-vss-e2eid:
-      - 7b0cf0b4-5839-4af0-8b46-03338f5bd43a
+      - 42f72fc8-f5aa-489b-829b-6b935a83b968
       x-vss-senderdeploymentid:
       - ed30ce5c-9d0a-f73c-3580-4315c7f84d83
       x-vss-userdata:
@@ -2432,24 +2504,24 @@ interactions:
       Content-Type:
       - application/json; charset=utf-8
       User-Agent:
-      - python/3.10.11 (Windows-10-10.0.26100-SP0) msrest/0.7.1 azure-devops/5.1.0b4
-        devOpsCli/1.0.2
+      - python/3.12.1 (Linux-6.5.0-1025-azure-x86_64-with-glibc2.31) msrest/0.7.1
+        azure-devops/5.1.0b4 devOpsCli/1.0.2
       X-TFS-FedAuthRedirect:
       - Suppress
       X-TFS-Session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
+      - 529f6bc3-3562-4a41-9e64-5650716c9174
       X-VSS-ForceMsaPassThrough:
       - 'true'
     method: GET
-    uri: https://dev.azure.com/v-anvashist0376/_apis/operations/ae60f6c0-c420-4264-bddd-17dbf3b0d044
+    uri: https://dev.azure.com/v-anvashist0376/_apis/operations/105b0a04-d990-43b8-a17b-4b0967aa58c4
   response:
     body:
-      string: '{"id":"ae60f6c0-c420-4264-bddd-17dbf3b0d044","status":"succeeded","url":"https://dev.azure.com/v-anvashist0376/_apis/operations/ae60f6c0-c420-4264-bddd-17dbf3b0d044","_links":{"self":{"href":"https://dev.azure.com/v-anvashist0376/_apis/operations/ae60f6c0-c420-4264-bddd-17dbf3b0d044"}}}'
+      string: '{"id":"105b0a04-d990-43b8-a17b-4b0967aa58c4","status":"succeeded","url":"https://dev.azure.com/v-anvashist0376/_apis/operations/105b0a04-d990-43b8-a17b-4b0967aa58c4","_links":{"self":{"href":"https://dev.azure.com/v-anvashist0376/_apis/operations/105b0a04-d990-43b8-a17b-4b0967aa58c4"}}}'
     headers:
       access-control-expose-headers:
       - Request-Context
       activityid:
-      - 0571499f-ff50-438f-90f1-ec11f8baa054
+      - b41b4e32-234f-40df-bdc6-4fa11d0c1d34
       cache-control:
       - no-cache
       content-length:
@@ -2457,7 +2529,7 @@ interactions:
       content-type:
       - application/json; charset=utf-8; api-version=5.0
       date:
-      - Thu, 02 Jan 2025 12:40:47 GMT
+      - Fri, 03 Jan 2025 12:30:11 GMT
       expires:
       - '-1'
       p3p:
@@ -2478,13 +2550,13 @@ interactions:
       x-frame-options:
       - SAMEORIGIN
       x-msedge-ref:
-      - 'Ref A: 7550C479E35047918D69B1866BAB61D3 Ref B: MAA01EDGE0620 Ref C: 2025-01-02T12:40:47Z'
+      - 'Ref A: B581BA9E61FA4B49885891FAA1EB3CC0 Ref B: PNQ30EDGE0311 Ref C: 2025-01-03T12:30:12Z'
       x-tfs-processid:
-      - f955bfb1-3f37-4681-81bb-d7ac11abdc0f
+      - e0b5ceb9-22b3-47a0-84a1-5b4ef3fe5d5a
       x-tfs-session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
+      - 529f6bc3-3562-4a41-9e64-5650716c9174
       x-vss-e2eid:
-      - 0571499f-ff50-438f-90f1-ec11f8baa054
+      - b41b4e32-234f-40df-bdc6-4fa11d0c1d34
       x-vss-senderdeploymentid:
       - ed30ce5c-9d0a-f73c-3580-4315c7f84d83
       x-vss-userdata:

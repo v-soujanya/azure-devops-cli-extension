@@ -1,6 +1,6 @@
 interactions:
 - request:
-    body: '{"name": "vLBhLLNx"}'
+    body: '{"name": "FYcDlQIN"}'
     headers:
       Accept:
       - application/json;api-version=5.0
@@ -13,24 +13,24 @@ interactions:
       Content-Type:
       - application/json; charset=utf-8
       User-Agent:
-      - python/3.10.11 (Windows-10-10.0.26100-SP0) msrest/0.7.1 azure-devops/5.1.0b4
-        devOpsCli/1.0.2
+      - python/3.12.1 (Linux-6.5.0-1025-azure-x86_64-with-glibc2.31) msrest/0.7.1
+        azure-devops/5.1.0b4 devOpsCli/1.0.2
       X-TFS-FedAuthRedirect:
       - Suppress
       X-TFS-Session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
+      - 529f6bc3-3562-4a41-9e64-5650716c9174
       X-VSS-ForceMsaPassThrough:
       - 'true'
     method: POST
     uri: https://dev.azure.com/v-anvashist0376/TestSupportProject/_apis/git/repositories
   response:
     body:
-      string: '{"id":"1bffd4dc-6864-4980-8ab3-d5d7ebe009ac","name":"vLBhLLNx","url":"https://dev.azure.com/v-anvashist0376/e7aa78d1-1ab1-494b-9cd3-fcd119962c9a/_apis/git/repositories/1bffd4dc-6864-4980-8ab3-d5d7ebe009ac","project":{"id":"e7aa78d1-1ab1-494b-9cd3-fcd119962c9a","name":"TestSupportProject","url":"https://dev.azure.com/v-anvashist0376/_apis/projects/e7aa78d1-1ab1-494b-9cd3-fcd119962c9a","state":"wellFormed","revision":488,"visibility":"organization","lastUpdateTime":"2024-01-05T08:25:46.697Z"},"size":0,"remoteUrl":"https://v-anvashist0376@dev.azure.com/v-anvashist0376/TestSupportProject/_git/vLBhLLNx","sshUrl":"git@ssh.dev.azure.com:v3/v-anvashist0376/TestSupportProject/vLBhLLNx","webUrl":"https://dev.azure.com/v-anvashist0376/TestSupportProject/_git/vLBhLLNx","isDisabled":false,"isInMaintenance":false}'
+      string: '{"id":"ced181d3-b4eb-4a94-86c2-7d55eb44b7c8","name":"FYcDlQIN","url":"https://dev.azure.com/v-anvashist0376/e7aa78d1-1ab1-494b-9cd3-fcd119962c9a/_apis/git/repositories/ced181d3-b4eb-4a94-86c2-7d55eb44b7c8","project":{"id":"e7aa78d1-1ab1-494b-9cd3-fcd119962c9a","name":"TestSupportProject","url":"https://dev.azure.com/v-anvashist0376/_apis/projects/e7aa78d1-1ab1-494b-9cd3-fcd119962c9a","state":"wellFormed","revision":488,"visibility":"organization","lastUpdateTime":"2024-01-05T08:25:46.697Z"},"size":0,"remoteUrl":"https://v-anvashist0376@dev.azure.com/v-anvashist0376/TestSupportProject/_git/FYcDlQIN","sshUrl":"git@ssh.dev.azure.com:v3/v-anvashist0376/TestSupportProject/FYcDlQIN","webUrl":"https://dev.azure.com/v-anvashist0376/TestSupportProject/_git/FYcDlQIN","isDisabled":false,"isInMaintenance":false}'
     headers:
       access-control-expose-headers:
       - Request-Context
       activityid:
-      - a51eadca-6dba-4468-b3fe-a8111b3f4f4d
+      - 52a81a3f-a46d-42bf-bc06-7edffe57a89c
       cache-control:
       - no-cache
       content-length:
@@ -38,7 +38,7 @@ interactions:
       content-type:
       - application/json; charset=utf-8; api-version=5.0
       date:
-      - Thu, 02 Jan 2025 12:40:47 GMT
+      - Fri, 03 Jan 2025 12:30:12 GMT
       expires:
       - '-1'
       p3p:
@@ -57,13 +57,13 @@ interactions:
       x-frame-options:
       - SAMEORIGIN
       x-msedge-ref:
-      - 'Ref A: F61456E6CE9A41A9BE2ED7D02627C291 Ref B: MAA01EDGE0511 Ref C: 2025-01-02T12:40:48Z'
+      - 'Ref A: 72A43C297EF0468E8D6A2504C73A78E0 Ref B: PNQ30EDGE0216 Ref C: 2025-01-03T12:30:12Z'
       x-tfs-processid:
-      - fe83dd1d-7dd8-45d8-adce-57d7f513de62
+      - bbca80b2-6a8b-47ee-9d95-d73a6c5b7782
       x-tfs-session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
+      - 529f6bc3-3562-4a41-9e64-5650716c9174
       x-vss-e2eid:
-      - a51eadca-6dba-4468-b3fe-a8111b3f4f4d
+      - 52a81a3f-a46d-42bf-bc06-7edffe57a89c
       x-vss-senderdeploymentid:
       - ed30ce5c-9d0a-f73c-3580-4315c7f84d83
       x-vss-userdata:
@@ -86,26 +86,26 @@ interactions:
       Content-Type:
       - application/json; charset=utf-8
       User-Agent:
-      - python/3.10.11 (Windows-10-10.0.26100-SP0) msrest/0.7.1 azure-devops/5.1.0b4
-        devOpsCli/1.0.2
+      - python/3.12.1 (Linux-6.5.0-1025-azure-x86_64-with-glibc2.31) msrest/0.7.1
+        azure-devops/5.1.0b4 devOpsCli/1.0.2
       X-TFS-FedAuthRedirect:
       - Suppress
       X-TFS-Session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
+      - 529f6bc3-3562-4a41-9e64-5650716c9174
       X-VSS-ForceMsaPassThrough:
       - 'true'
     method: POST
-    uri: https://dev.azure.com/v-anvashist0376/TestSupportProject/_apis/git/repositories/1bffd4dc-6864-4980-8ab3-d5d7ebe009ac/importRequests
+    uri: https://dev.azure.com/v-anvashist0376/TestSupportProject/_apis/git/repositories/ced181d3-b4eb-4a94-86c2-7d55eb44b7c8/importRequests
   response:
     body:
-      string: '{"importRequestId":29,"repository":{"id":"1bffd4dc-6864-4980-8ab3-d5d7ebe009ac","name":"vLBhLLNx","url":"https://dev.azure.com/v-anvashist0376/e7aa78d1-1ab1-494b-9cd3-fcd119962c9a/_apis/git/repositories/1bffd4dc-6864-4980-8ab3-d5d7ebe009ac","project":{"id":"e7aa78d1-1ab1-494b-9cd3-fcd119962c9a","name":"TestSupportProject","url":"https://dev.azure.com/v-anvashist0376/_apis/projects/e7aa78d1-1ab1-494b-9cd3-fcd119962c9a","state":"wellFormed","revision":488,"visibility":"organization","lastUpdateTime":"2024-01-05T08:25:46.697Z"},"size":0,"remoteUrl":"https://v-anvashist0376@dev.azure.com/v-anvashist0376/TestSupportProject/_git/vLBhLLNx","sshUrl":"git@ssh.dev.azure.com:v3/v-anvashist0376/TestSupportProject/vLBhLLNx","webUrl":"https://dev.azure.com/v-anvashist0376/TestSupportProject/_git/vLBhLLNx","isDisabled":false,"isInMaintenance":false},"parameters":{"tfvcSource":null,"gitSource":{"url":"https://dev.azure.com/devops-cli-test-org/TestSupportProject/_git/snakes-and-ladders","overwrite":false}},"status":"queued","detailedStatus":{"currentStep":1,"allSteps":["Processing
+      string: '{"importRequestId":52,"repository":{"id":"ced181d3-b4eb-4a94-86c2-7d55eb44b7c8","name":"FYcDlQIN","url":"https://dev.azure.com/v-anvashist0376/e7aa78d1-1ab1-494b-9cd3-fcd119962c9a/_apis/git/repositories/ced181d3-b4eb-4a94-86c2-7d55eb44b7c8","project":{"id":"e7aa78d1-1ab1-494b-9cd3-fcd119962c9a","name":"TestSupportProject","url":"https://dev.azure.com/v-anvashist0376/_apis/projects/e7aa78d1-1ab1-494b-9cd3-fcd119962c9a","state":"wellFormed","revision":488,"visibility":"organization","lastUpdateTime":"2024-01-05T08:25:46.697Z"},"size":0,"remoteUrl":"https://v-anvashist0376@dev.azure.com/v-anvashist0376/TestSupportProject/_git/FYcDlQIN","sshUrl":"git@ssh.dev.azure.com:v3/v-anvashist0376/TestSupportProject/FYcDlQIN","webUrl":"https://dev.azure.com/v-anvashist0376/TestSupportProject/_git/FYcDlQIN","isDisabled":false,"isInMaintenance":false},"parameters":{"tfvcSource":null,"gitSource":{"url":"https://dev.azure.com/devops-cli-test-org/TestSupportProject/_git/snakes-and-ladders","overwrite":false}},"status":"queued","detailedStatus":{"currentStep":1,"allSteps":["Processing
         request","Analyzing repository objects","Storing objects","Storing index file","Updating
-        references","Import completed successfully"]},"_links":{"self":{"href":"https://dev.azure.com/v-anvashist0376/TestSupportProject/_apis/git/repositories/1bffd4dc-6864-4980-8ab3-d5d7ebe009ac/importRequests/29"},"repository":{"href":"https://dev.azure.com/v-anvashist0376/e7aa78d1-1ab1-494b-9cd3-fcd119962c9a/_apis/git/repositories/1bffd4dc-6864-4980-8ab3-d5d7ebe009ac"}},"url":"https://dev.azure.com/v-anvashist0376/TestSupportProject/_apis/git/repositories/1bffd4dc-6864-4980-8ab3-d5d7ebe009ac/importRequests/29"}'
+        references","Import completed successfully"]},"_links":{"self":{"href":"https://dev.azure.com/v-anvashist0376/TestSupportProject/_apis/git/repositories/ced181d3-b4eb-4a94-86c2-7d55eb44b7c8/importRequests/52"},"repository":{"href":"https://dev.azure.com/v-anvashist0376/e7aa78d1-1ab1-494b-9cd3-fcd119962c9a/_apis/git/repositories/ced181d3-b4eb-4a94-86c2-7d55eb44b7c8"}},"url":"https://dev.azure.com/v-anvashist0376/TestSupportProject/_apis/git/repositories/ced181d3-b4eb-4a94-86c2-7d55eb44b7c8/importRequests/52"}'
     headers:
       access-control-expose-headers:
       - Request-Context
       activityid:
-      - f261db06-77aa-4c8d-85b5-02e2a4304438
+      - 60a1e89c-6499-4a88-b879-d358ae50c301
       cache-control:
       - no-cache
       content-length:
@@ -113,7 +113,7 @@ interactions:
       content-type:
       - application/json; charset=utf-8; api-version=5.0-preview.1
       date:
-      - Thu, 02 Jan 2025 12:40:48 GMT
+      - Fri, 03 Jan 2025 12:30:12 GMT
       expires:
       - '-1'
       p3p:
@@ -132,13 +132,13 @@ interactions:
       x-frame-options:
       - SAMEORIGIN
       x-msedge-ref:
-      - 'Ref A: DDE82BA35ECF4D91A38B0BE7D6BCDCBC Ref B: MAA01EDGE0511 Ref C: 2025-01-02T12:40:48Z'
+      - 'Ref A: 298E5D4E58A3418FBBC80A539381ADF4 Ref B: PNQ30EDGE0215 Ref C: 2025-01-03T12:30:12Z'
       x-tfs-processid:
-      - a8e54f57-01b8-4585-a4b3-3b2d681ad009
+      - 1ad39b29-0c88-4c30-acc2-65c06abc65e6
       x-tfs-session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
+      - 529f6bc3-3562-4a41-9e64-5650716c9174
       x-vss-e2eid:
-      - f261db06-77aa-4c8d-85b5-02e2a4304438
+      - 60a1e89c-6499-4a88-b879-d358ae50c301
       x-vss-senderdeploymentid:
       - ed30ce5c-9d0a-f73c-3580-4315c7f84d83
       x-vss-userdata:
@@ -158,26 +158,26 @@ interactions:
       Content-Type:
       - application/json; charset=utf-8
       User-Agent:
-      - python/3.10.11 (Windows-10-10.0.26100-SP0) msrest/0.7.1 azure-devops/5.1.0b4
-        devOpsCli/1.0.2
+      - python/3.12.1 (Linux-6.5.0-1025-azure-x86_64-with-glibc2.31) msrest/0.7.1
+        azure-devops/5.1.0b4 devOpsCli/1.0.2
       X-TFS-FedAuthRedirect:
       - Suppress
       X-TFS-Session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
+      - 529f6bc3-3562-4a41-9e64-5650716c9174
       X-VSS-ForceMsaPassThrough:
       - 'true'
     method: GET
-    uri: https://dev.azure.com/v-anvashist0376/TestSupportProject/_apis/git/repositories/1bffd4dc-6864-4980-8ab3-d5d7ebe009ac/importRequests/29
+    uri: https://dev.azure.com/v-anvashist0376/TestSupportProject/_apis/git/repositories/ced181d3-b4eb-4a94-86c2-7d55eb44b7c8/importRequests/52
   response:
     body:
-      string: '{"importRequestId":29,"repository":{"id":"1bffd4dc-6864-4980-8ab3-d5d7ebe009ac","name":"vLBhLLNx","url":"https://dev.azure.com/v-anvashist0376/e7aa78d1-1ab1-494b-9cd3-fcd119962c9a/_apis/git/repositories/1bffd4dc-6864-4980-8ab3-d5d7ebe009ac","project":{"id":"e7aa78d1-1ab1-494b-9cd3-fcd119962c9a","name":"TestSupportProject","url":"https://dev.azure.com/v-anvashist0376/_apis/projects/e7aa78d1-1ab1-494b-9cd3-fcd119962c9a","state":"wellFormed","revision":488,"visibility":"organization","lastUpdateTime":"2024-01-05T08:25:46.697Z"},"size":0,"remoteUrl":"https://v-anvashist0376@dev.azure.com/v-anvashist0376/TestSupportProject/_git/vLBhLLNx","sshUrl":"git@ssh.dev.azure.com:v3/v-anvashist0376/TestSupportProject/vLBhLLNx","webUrl":"https://dev.azure.com/v-anvashist0376/TestSupportProject/_git/vLBhLLNx","isDisabled":false,"isInMaintenance":false},"parameters":{"tfvcSource":null,"gitSource":{"url":"https://dev.azure.com/devops-cli-test-org/TestSupportProject/_git/snakes-and-ladders","overwrite":false}},"status":"inProgress","detailedStatus":{"currentStep":1,"allSteps":["Processing
+      string: '{"importRequestId":52,"repository":{"id":"ced181d3-b4eb-4a94-86c2-7d55eb44b7c8","name":"FYcDlQIN","url":"https://dev.azure.com/v-anvashist0376/e7aa78d1-1ab1-494b-9cd3-fcd119962c9a/_apis/git/repositories/ced181d3-b4eb-4a94-86c2-7d55eb44b7c8","project":{"id":"e7aa78d1-1ab1-494b-9cd3-fcd119962c9a","name":"TestSupportProject","url":"https://dev.azure.com/v-anvashist0376/_apis/projects/e7aa78d1-1ab1-494b-9cd3-fcd119962c9a","state":"wellFormed","revision":488,"visibility":"organization","lastUpdateTime":"2024-01-05T08:25:46.697Z"},"size":0,"remoteUrl":"https://v-anvashist0376@dev.azure.com/v-anvashist0376/TestSupportProject/_git/FYcDlQIN","sshUrl":"git@ssh.dev.azure.com:v3/v-anvashist0376/TestSupportProject/FYcDlQIN","webUrl":"https://dev.azure.com/v-anvashist0376/TestSupportProject/_git/FYcDlQIN","isDisabled":false,"isInMaintenance":false},"parameters":{"tfvcSource":null,"gitSource":{"url":"https://dev.azure.com/devops-cli-test-org/TestSupportProject/_git/snakes-and-ladders","overwrite":false}},"status":"inProgress","detailedStatus":{"currentStep":1,"allSteps":["Processing
         request","Analyzing repository objects","Storing objects","Storing index file","Updating
-        references","Import completed successfully"]},"_links":{"self":{"href":"https://dev.azure.com/v-anvashist0376/TestSupportProject/_apis/git/repositories/1bffd4dc-6864-4980-8ab3-d5d7ebe009ac/importRequests/29"},"repository":{"href":"https://dev.azure.com/v-anvashist0376/e7aa78d1-1ab1-494b-9cd3-fcd119962c9a/_apis/git/repositories/1bffd4dc-6864-4980-8ab3-d5d7ebe009ac"}},"url":"https://dev.azure.com/v-anvashist0376/TestSupportProject/_apis/git/repositories/1bffd4dc-6864-4980-8ab3-d5d7ebe009ac/importRequests/29"}'
+        references","Import completed successfully"]},"_links":{"self":{"href":"https://dev.azure.com/v-anvashist0376/TestSupportProject/_apis/git/repositories/ced181d3-b4eb-4a94-86c2-7d55eb44b7c8/importRequests/52"},"repository":{"href":"https://dev.azure.com/v-anvashist0376/e7aa78d1-1ab1-494b-9cd3-fcd119962c9a/_apis/git/repositories/ced181d3-b4eb-4a94-86c2-7d55eb44b7c8"}},"url":"https://dev.azure.com/v-anvashist0376/TestSupportProject/_apis/git/repositories/ced181d3-b4eb-4a94-86c2-7d55eb44b7c8/importRequests/52"}'
     headers:
       access-control-expose-headers:
       - Request-Context
       activityid:
-      - 982bbd7e-c4af-4065-bdbc-45d9dbf373b4
+      - 18b14958-7b57-4743-a79e-73a155db377d
       cache-control:
       - no-cache
       content-length:
@@ -185,7 +185,7 @@ interactions:
       content-type:
       - application/json; charset=utf-8; api-version=5.0-preview.1
       date:
-      - Thu, 02 Jan 2025 12:40:48 GMT
+      - Fri, 03 Jan 2025 12:30:13 GMT
       expires:
       - '-1'
       p3p:
@@ -206,13 +206,13 @@ interactions:
       x-frame-options:
       - SAMEORIGIN
       x-msedge-ref:
-      - 'Ref A: 366D30DCD9FB4C62BC0351F7EC076D35 Ref B: MAA01EDGE0511 Ref C: 2025-01-02T12:40:49Z'
+      - 'Ref A: EB62D3B312E04028AA0C5CB3019D0344 Ref B: PNQ30EDGE0315 Ref C: 2025-01-03T12:30:13Z'
       x-tfs-processid:
-      - 5894399e-e0b1-4e67-969a-1bb96dd83c83
+      - 00ff2b08-bd50-434a-893e-43641bdbfe31
       x-tfs-session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
+      - 529f6bc3-3562-4a41-9e64-5650716c9174
       x-vss-e2eid:
-      - 982bbd7e-c4af-4065-bdbc-45d9dbf373b4
+      - 18b14958-7b57-4743-a79e-73a155db377d
       x-vss-senderdeploymentid:
       - ed30ce5c-9d0a-f73c-3580-4315c7f84d83
       x-vss-userdata:
@@ -232,26 +232,26 @@ interactions:
       Content-Type:
       - application/json; charset=utf-8
       User-Agent:
-      - python/3.10.11 (Windows-10-10.0.26100-SP0) msrest/0.7.1 azure-devops/5.1.0b4
-        devOpsCli/1.0.2
+      - python/3.12.1 (Linux-6.5.0-1025-azure-x86_64-with-glibc2.31) msrest/0.7.1
+        azure-devops/5.1.0b4 devOpsCli/1.0.2
       X-TFS-FedAuthRedirect:
       - Suppress
       X-TFS-Session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
+      - 529f6bc3-3562-4a41-9e64-5650716c9174
       X-VSS-ForceMsaPassThrough:
       - 'true'
     method: GET
-    uri: https://dev.azure.com/v-anvashist0376/TestSupportProject/_apis/git/repositories/1bffd4dc-6864-4980-8ab3-d5d7ebe009ac/importRequests/29
+    uri: https://dev.azure.com/v-anvashist0376/TestSupportProject/_apis/git/repositories/ced181d3-b4eb-4a94-86c2-7d55eb44b7c8/importRequests/52
   response:
     body:
-      string: '{"importRequestId":29,"repository":{"id":"1bffd4dc-6864-4980-8ab3-d5d7ebe009ac","name":"vLBhLLNx","url":"https://dev.azure.com/v-anvashist0376/e7aa78d1-1ab1-494b-9cd3-fcd119962c9a/_apis/git/repositories/1bffd4dc-6864-4980-8ab3-d5d7ebe009ac","project":{"id":"e7aa78d1-1ab1-494b-9cd3-fcd119962c9a","name":"TestSupportProject","url":"https://dev.azure.com/v-anvashist0376/_apis/projects/e7aa78d1-1ab1-494b-9cd3-fcd119962c9a","state":"wellFormed","revision":488,"visibility":"organization","lastUpdateTime":"2024-01-05T08:25:46.697Z"},"size":1602,"remoteUrl":"https://v-anvashist0376@dev.azure.com/v-anvashist0376/TestSupportProject/_git/vLBhLLNx","sshUrl":"git@ssh.dev.azure.com:v3/v-anvashist0376/TestSupportProject/vLBhLLNx","webUrl":"https://dev.azure.com/v-anvashist0376/TestSupportProject/_git/vLBhLLNx","isDisabled":false,"isInMaintenance":false},"parameters":{"tfvcSource":null,"gitSource":{"url":"https://dev.azure.com/devops-cli-test-org/TestSupportProject/_git/snakes-and-ladders","overwrite":false}},"status":"completed","detailedStatus":{"currentStep":6,"allSteps":["Processing
+      string: '{"importRequestId":52,"repository":{"id":"ced181d3-b4eb-4a94-86c2-7d55eb44b7c8","name":"FYcDlQIN","url":"https://dev.azure.com/v-anvashist0376/e7aa78d1-1ab1-494b-9cd3-fcd119962c9a/_apis/git/repositories/ced181d3-b4eb-4a94-86c2-7d55eb44b7c8","project":{"id":"e7aa78d1-1ab1-494b-9cd3-fcd119962c9a","name":"TestSupportProject","url":"https://dev.azure.com/v-anvashist0376/_apis/projects/e7aa78d1-1ab1-494b-9cd3-fcd119962c9a","state":"wellFormed","revision":488,"visibility":"organization","lastUpdateTime":"2024-01-05T08:25:46.697Z"},"size":1602,"remoteUrl":"https://v-anvashist0376@dev.azure.com/v-anvashist0376/TestSupportProject/_git/FYcDlQIN","sshUrl":"git@ssh.dev.azure.com:v3/v-anvashist0376/TestSupportProject/FYcDlQIN","webUrl":"https://dev.azure.com/v-anvashist0376/TestSupportProject/_git/FYcDlQIN","isDisabled":false,"isInMaintenance":false},"parameters":{"tfvcSource":null,"gitSource":{"url":"https://dev.azure.com/devops-cli-test-org/TestSupportProject/_git/snakes-and-ladders","overwrite":false}},"status":"completed","detailedStatus":{"currentStep":6,"allSteps":["Processing
         request","Analyzing repository objects","Storing objects","Storing index file","Updating
-        references","Import completed successfully"]},"_links":{"self":{"href":"https://dev.azure.com/v-anvashist0376/TestSupportProject/_apis/git/repositories/1bffd4dc-6864-4980-8ab3-d5d7ebe009ac/importRequests/29"},"repository":{"href":"https://dev.azure.com/v-anvashist0376/e7aa78d1-1ab1-494b-9cd3-fcd119962c9a/_apis/git/repositories/1bffd4dc-6864-4980-8ab3-d5d7ebe009ac"}},"url":"https://dev.azure.com/v-anvashist0376/TestSupportProject/_apis/git/repositories/1bffd4dc-6864-4980-8ab3-d5d7ebe009ac/importRequests/29"}'
+        references","Import completed successfully"]},"_links":{"self":{"href":"https://dev.azure.com/v-anvashist0376/TestSupportProject/_apis/git/repositories/ced181d3-b4eb-4a94-86c2-7d55eb44b7c8/importRequests/52"},"repository":{"href":"https://dev.azure.com/v-anvashist0376/e7aa78d1-1ab1-494b-9cd3-fcd119962c9a/_apis/git/repositories/ced181d3-b4eb-4a94-86c2-7d55eb44b7c8"}},"url":"https://dev.azure.com/v-anvashist0376/TestSupportProject/_apis/git/repositories/ced181d3-b4eb-4a94-86c2-7d55eb44b7c8/importRequests/52"}'
     headers:
       access-control-expose-headers:
       - Request-Context
       activityid:
-      - 3c5b0ba9-ed24-4d4e-900b-a8abb3949665
+      - 1f97ee6f-34de-4605-870f-0f062219ef9f
       cache-control:
       - no-cache
       content-length:
@@ -259,7 +259,7 @@ interactions:
       content-type:
       - application/json; charset=utf-8; api-version=5.0-preview.1
       date:
-      - Thu, 02 Jan 2025 12:40:53 GMT
+      - Fri, 03 Jan 2025 12:30:17 GMT
       expires:
       - '-1'
       p3p:
@@ -280,13 +280,13 @@ interactions:
       x-frame-options:
       - SAMEORIGIN
       x-msedge-ref:
-      - 'Ref A: 23B15EF64B8140F8BFEE1FD450BB8D0D Ref B: MAA01EDGE0511 Ref C: 2025-01-02T12:40:54Z'
+      - 'Ref A: F9AE654ABE9D493397F7562B58CEBF52 Ref B: PNQ30EDGE0313 Ref C: 2025-01-03T12:30:18Z'
       x-tfs-processid:
-      - 9aaf6e99-5ba9-4c99-9331-5586cea0560d
+      - f037019e-3fc4-4eca-8c1b-91732621702b
       x-tfs-session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
+      - 529f6bc3-3562-4a41-9e64-5650716c9174
       x-vss-e2eid:
-      - 3c5b0ba9-ed24-4d4e-900b-a8abb3949665
+      - 1f97ee6f-34de-4605-870f-0f062219ef9f
       x-vss-senderdeploymentid:
       - ed30ce5c-9d0a-f73c-3580-4315c7f84d83
       x-vss-userdata:
@@ -306,32 +306,32 @@ interactions:
       Content-Type:
       - application/json; charset=utf-8
       User-Agent:
-      - python/3.10.11 (Windows-10-10.0.26100-SP0) msrest/0.7.1 azure-devops/5.1.0b4
-        devOpsCli/1.0.2
+      - python/3.12.1 (Linux-6.5.0-1025-azure-x86_64-with-glibc2.31) msrest/0.7.1
+        azure-devops/5.1.0b4 devOpsCli/1.0.2
       X-TFS-FedAuthRedirect:
       - Suppress
       X-TFS-Session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
+      - 529f6bc3-3562-4a41-9e64-5650716c9174
       X-VSS-ForceMsaPassThrough:
       - 'true'
     method: GET
     uri: https://dev.azure.com/v-anvashist0376/TestSupportProject/_apis/git/repositories
   response:
     body:
-      string: '{"value":[{"id":"087f37a0-5b54-47a6-97fd-e8986fb1df2d","name":"FJABzJVY","url":"https://dev.azure.com/v-anvashist0376/e7aa78d1-1ab1-494b-9cd3-fcd119962c9a/_apis/git/repositories/087f37a0-5b54-47a6-97fd-e8986fb1df2d","project":{"id":"e7aa78d1-1ab1-494b-9cd3-fcd119962c9a","name":"TestSupportProject","url":"https://dev.azure.com/v-anvashist0376/_apis/projects/e7aa78d1-1ab1-494b-9cd3-fcd119962c9a","state":"wellFormed","revision":488,"visibility":"organization","lastUpdateTime":"2024-01-05T08:25:46.697Z"},"defaultBranch":"refs/heads/main","size":1602,"remoteUrl":"https://v-anvashist0376@dev.azure.com/v-anvashist0376/TestSupportProject/_git/FJABzJVY","sshUrl":"git@ssh.dev.azure.com:v3/v-anvashist0376/TestSupportProject/FJABzJVY","webUrl":"https://dev.azure.com/v-anvashist0376/TestSupportProject/_git/FJABzJVY","isDisabled":false,"isInMaintenance":false},{"id":"daeae9e2-b44b-4872-9c64-4fe8a9c849c3","name":"TestSupportProject","url":"https://dev.azure.com/v-anvashist0376/e7aa78d1-1ab1-494b-9cd3-fcd119962c9a/_apis/git/repositories/daeae9e2-b44b-4872-9c64-4fe8a9c849c3","project":{"id":"e7aa78d1-1ab1-494b-9cd3-fcd119962c9a","name":"TestSupportProject","url":"https://dev.azure.com/v-anvashist0376/_apis/projects/e7aa78d1-1ab1-494b-9cd3-fcd119962c9a","state":"wellFormed","revision":488,"visibility":"organization","lastUpdateTime":"2024-01-05T08:25:46.697Z"},"defaultBranch":"refs/heads/main","size":732,"remoteUrl":"https://v-anvashist0376@dev.azure.com/v-anvashist0376/TestSupportProject/_git/TestSupportProject","sshUrl":"git@ssh.dev.azure.com:v3/v-anvashist0376/TestSupportProject/TestSupportProject","webUrl":"https://dev.azure.com/v-anvashist0376/TestSupportProject/_git/TestSupportProject","isDisabled":true,"isInMaintenance":false},{"id":"1bffd4dc-6864-4980-8ab3-d5d7ebe009ac","name":"vLBhLLNx","url":"https://dev.azure.com/v-anvashist0376/e7aa78d1-1ab1-494b-9cd3-fcd119962c9a/_apis/git/repositories/1bffd4dc-6864-4980-8ab3-d5d7ebe009ac","project":{"id":"e7aa78d1-1ab1-494b-9cd3-fcd119962c9a","name":"TestSupportProject","url":"https://dev.azure.com/v-anvashist0376/_apis/projects/e7aa78d1-1ab1-494b-9cd3-fcd119962c9a","state":"wellFormed","revision":488,"visibility":"organization","lastUpdateTime":"2024-01-05T08:25:46.697Z"},"defaultBranch":"refs/heads/main","size":1602,"remoteUrl":"https://v-anvashist0376@dev.azure.com/v-anvashist0376/TestSupportProject/_git/vLBhLLNx","sshUrl":"git@ssh.dev.azure.com:v3/v-anvashist0376/TestSupportProject/vLBhLLNx","webUrl":"https://dev.azure.com/v-anvashist0376/TestSupportProject/_git/vLBhLLNx","isDisabled":false,"isInMaintenance":false}],"count":3}'
+      string: '{"value":[{"id":"087f37a0-5b54-47a6-97fd-e8986fb1df2d","name":"FJABzJVY","url":"https://dev.azure.com/v-anvashist0376/e7aa78d1-1ab1-494b-9cd3-fcd119962c9a/_apis/git/repositories/087f37a0-5b54-47a6-97fd-e8986fb1df2d","project":{"id":"e7aa78d1-1ab1-494b-9cd3-fcd119962c9a","name":"TestSupportProject","url":"https://dev.azure.com/v-anvashist0376/_apis/projects/e7aa78d1-1ab1-494b-9cd3-fcd119962c9a","state":"wellFormed","revision":488,"visibility":"organization","lastUpdateTime":"2024-01-05T08:25:46.697Z"},"defaultBranch":"refs/heads/main","size":1602,"remoteUrl":"https://v-anvashist0376@dev.azure.com/v-anvashist0376/TestSupportProject/_git/FJABzJVY","sshUrl":"git@ssh.dev.azure.com:v3/v-anvashist0376/TestSupportProject/FJABzJVY","webUrl":"https://dev.azure.com/v-anvashist0376/TestSupportProject/_git/FJABzJVY","isDisabled":true,"isInMaintenance":false},{"id":"ced181d3-b4eb-4a94-86c2-7d55eb44b7c8","name":"FYcDlQIN","url":"https://dev.azure.com/v-anvashist0376/e7aa78d1-1ab1-494b-9cd3-fcd119962c9a/_apis/git/repositories/ced181d3-b4eb-4a94-86c2-7d55eb44b7c8","project":{"id":"e7aa78d1-1ab1-494b-9cd3-fcd119962c9a","name":"TestSupportProject","url":"https://dev.azure.com/v-anvashist0376/_apis/projects/e7aa78d1-1ab1-494b-9cd3-fcd119962c9a","state":"wellFormed","revision":488,"visibility":"organization","lastUpdateTime":"2024-01-05T08:25:46.697Z"},"defaultBranch":"refs/heads/main","size":1602,"remoteUrl":"https://v-anvashist0376@dev.azure.com/v-anvashist0376/TestSupportProject/_git/FYcDlQIN","sshUrl":"git@ssh.dev.azure.com:v3/v-anvashist0376/TestSupportProject/FYcDlQIN","webUrl":"https://dev.azure.com/v-anvashist0376/TestSupportProject/_git/FYcDlQIN","isDisabled":false,"isInMaintenance":false},{"id":"daeae9e2-b44b-4872-9c64-4fe8a9c849c3","name":"TestSupportProject","url":"https://dev.azure.com/v-anvashist0376/e7aa78d1-1ab1-494b-9cd3-fcd119962c9a/_apis/git/repositories/daeae9e2-b44b-4872-9c64-4fe8a9c849c3","project":{"id":"e7aa78d1-1ab1-494b-9cd3-fcd119962c9a","name":"TestSupportProject","url":"https://dev.azure.com/v-anvashist0376/_apis/projects/e7aa78d1-1ab1-494b-9cd3-fcd119962c9a","state":"wellFormed","revision":488,"visibility":"organization","lastUpdateTime":"2024-01-05T08:25:46.697Z"},"defaultBranch":"refs/heads/main","size":732,"remoteUrl":"https://v-anvashist0376@dev.azure.com/v-anvashist0376/TestSupportProject/_git/TestSupportProject","sshUrl":"git@ssh.dev.azure.com:v3/v-anvashist0376/TestSupportProject/TestSupportProject","webUrl":"https://dev.azure.com/v-anvashist0376/TestSupportProject/_git/TestSupportProject","isDisabled":true,"isInMaintenance":false},{"id":"b5a51724-4c43-4b5c-861a-1c913aa3144e","name":"UnPpawgX","url":"https://dev.azure.com/v-anvashist0376/e7aa78d1-1ab1-494b-9cd3-fcd119962c9a/_apis/git/repositories/b5a51724-4c43-4b5c-861a-1c913aa3144e","project":{"id":"e7aa78d1-1ab1-494b-9cd3-fcd119962c9a","name":"TestSupportProject","url":"https://dev.azure.com/v-anvashist0376/_apis/projects/e7aa78d1-1ab1-494b-9cd3-fcd119962c9a","state":"wellFormed","revision":488,"visibility":"organization","lastUpdateTime":"2024-01-05T08:25:46.697Z"},"defaultBranch":"refs/heads/main","size":1602,"remoteUrl":"https://v-anvashist0376@dev.azure.com/v-anvashist0376/TestSupportProject/_git/UnPpawgX","sshUrl":"git@ssh.dev.azure.com:v3/v-anvashist0376/TestSupportProject/UnPpawgX","webUrl":"https://dev.azure.com/v-anvashist0376/TestSupportProject/_git/UnPpawgX","isDisabled":false,"isInMaintenance":false}],"count":4}'
     headers:
       access-control-expose-headers:
       - Request-Context
       activityid:
-      - 3c5b0a3b-ed24-4d4e-900b-a8abb3949665
+      - 42f71224-f5aa-489b-829b-6b935a83b968
       cache-control:
       - no-cache
       content-length:
-      - '2606'
+      - '3454'
       content-type:
       - application/json; charset=utf-8; api-version=5.0
       date:
-      - Thu, 02 Jan 2025 12:40:53 GMT
+      - Fri, 03 Jan 2025 12:30:18 GMT
       expires:
       - '-1'
       p3p:
@@ -352,13 +352,13 @@ interactions:
       x-frame-options:
       - SAMEORIGIN
       x-msedge-ref:
-      - 'Ref A: 378453B25BDC489C9FD69B5CB9AD7BA5 Ref B: MAA01EDGE0511 Ref C: 2025-01-02T12:40:54Z'
+      - 'Ref A: 0D1EAB565D8345A29E14559229C5EF9C Ref B: PNQ30EDGE0415 Ref C: 2025-01-03T12:30:18Z'
       x-tfs-processid:
-      - 9aaf6e99-5ba9-4c99-9331-5586cea0560d
+      - f0cc34b2-4918-45ae-99cc-98ed5fcaeba0
       x-tfs-session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
+      - 529f6bc3-3562-4a41-9e64-5650716c9174
       x-vss-e2eid:
-      - 3c5b0a3b-ed24-4d4e-900b-a8abb3949665
+      - 42f71224-f5aa-489b-829b-6b935a83b968
       x-vss-senderdeploymentid:
       - ed30ce5c-9d0a-f73c-3580-4315c7f84d83
       x-vss-userdata:
@@ -380,16 +380,16 @@ interactions:
       Content-Type:
       - application/json; charset=utf-8
       User-Agent:
-      - python/3.10.11 (Windows-10-10.0.26100-SP0) msrest/0.7.1 azure-devops/5.1.0b4
-        devOpsCli/1.0.2
+      - python/3.12.1 (Linux-6.5.0-1025-azure-x86_64-with-glibc2.31) msrest/0.7.1
+        azure-devops/5.1.0b4 devOpsCli/1.0.2
       X-TFS-FedAuthRedirect:
       - Suppress
       X-TFS-Session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
+      - 529f6bc3-3562-4a41-9e64-5650716c9174
       X-VSS-ForceMsaPassThrough:
       - 'true'
     method: DELETE
-    uri: https://dev.azure.com/v-anvashist0376/TestSupportProject/_apis/git/repositories/1bffd4dc-6864-4980-8ab3-d5d7ebe009ac
+    uri: https://dev.azure.com/v-anvashist0376/TestSupportProject/_apis/git/repositories/ced181d3-b4eb-4a94-86c2-7d55eb44b7c8
   response:
     body:
       string: ''
@@ -397,11 +397,11 @@ interactions:
       access-control-expose-headers:
       - Request-Context
       activityid:
-      - 336ced0a-baca-454c-8c5f-d3021c79e3dd
+      - 9b9aa23e-d3fb-4495-afec-f6986f9b5e8b
       cache-control:
       - no-cache
       date:
-      - Thu, 02 Jan 2025 12:40:54 GMT
+      - Fri, 03 Jan 2025 12:30:18 GMT
       expires:
       - '-1'
       p3p:
@@ -420,13 +420,13 @@ interactions:
       x-frame-options:
       - SAMEORIGIN
       x-msedge-ref:
-      - 'Ref A: 27F3253A8B63417682C8269B815F6371 Ref B: MAA01EDGE0511 Ref C: 2025-01-02T12:40:54Z'
+      - 'Ref A: 60DFBC833151440B93BC0797A6FE01D1 Ref B: PNQ30EDGE0112 Ref C: 2025-01-03T12:30:18Z'
       x-tfs-processid:
-      - f77fcf17-141f-4e77-88af-43d7b2bf292a
+      - 709881ea-d5e8-4d50-9f19-9f1bf3301f7f
       x-tfs-session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
+      - 529f6bc3-3562-4a41-9e64-5650716c9174
       x-vss-e2eid:
-      - 336ced0a-baca-454c-8c5f-d3021c79e3dd
+      - 9b9aa23e-d3fb-4495-afec-f6986f9b5e8b
       x-vss-senderdeploymentid:
       - ed30ce5c-9d0a-f73c-3580-4315c7f84d83
       x-vss-userdata:
@@ -446,32 +446,32 @@ interactions:
       Content-Type:
       - application/json; charset=utf-8
       User-Agent:
-      - python/3.10.11 (Windows-10-10.0.26100-SP0) msrest/0.7.1 azure-devops/5.1.0b4
-        devOpsCli/1.0.2
+      - python/3.12.1 (Linux-6.5.0-1025-azure-x86_64-with-glibc2.31) msrest/0.7.1
+        azure-devops/5.1.0b4 devOpsCli/1.0.2
       X-TFS-FedAuthRedirect:
       - Suppress
       X-TFS-Session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
+      - 529f6bc3-3562-4a41-9e64-5650716c9174
       X-VSS-ForceMsaPassThrough:
       - 'true'
     method: GET
     uri: https://dev.azure.com/v-anvashist0376/TestSupportProject/_apis/git/repositories
   response:
     body:
-      string: '{"value":[{"id":"087f37a0-5b54-47a6-97fd-e8986fb1df2d","name":"FJABzJVY","url":"https://dev.azure.com/v-anvashist0376/e7aa78d1-1ab1-494b-9cd3-fcd119962c9a/_apis/git/repositories/087f37a0-5b54-47a6-97fd-e8986fb1df2d","project":{"id":"e7aa78d1-1ab1-494b-9cd3-fcd119962c9a","name":"TestSupportProject","url":"https://dev.azure.com/v-anvashist0376/_apis/projects/e7aa78d1-1ab1-494b-9cd3-fcd119962c9a","state":"wellFormed","revision":488,"visibility":"organization","lastUpdateTime":"2024-01-05T08:25:46.697Z"},"defaultBranch":"refs/heads/main","size":1602,"remoteUrl":"https://v-anvashist0376@dev.azure.com/v-anvashist0376/TestSupportProject/_git/FJABzJVY","sshUrl":"git@ssh.dev.azure.com:v3/v-anvashist0376/TestSupportProject/FJABzJVY","webUrl":"https://dev.azure.com/v-anvashist0376/TestSupportProject/_git/FJABzJVY","isDisabled":false,"isInMaintenance":false},{"id":"daeae9e2-b44b-4872-9c64-4fe8a9c849c3","name":"TestSupportProject","url":"https://dev.azure.com/v-anvashist0376/e7aa78d1-1ab1-494b-9cd3-fcd119962c9a/_apis/git/repositories/daeae9e2-b44b-4872-9c64-4fe8a9c849c3","project":{"id":"e7aa78d1-1ab1-494b-9cd3-fcd119962c9a","name":"TestSupportProject","url":"https://dev.azure.com/v-anvashist0376/_apis/projects/e7aa78d1-1ab1-494b-9cd3-fcd119962c9a","state":"wellFormed","revision":488,"visibility":"organization","lastUpdateTime":"2024-01-05T08:25:46.697Z"},"defaultBranch":"refs/heads/main","size":732,"remoteUrl":"https://v-anvashist0376@dev.azure.com/v-anvashist0376/TestSupportProject/_git/TestSupportProject","sshUrl":"git@ssh.dev.azure.com:v3/v-anvashist0376/TestSupportProject/TestSupportProject","webUrl":"https://dev.azure.com/v-anvashist0376/TestSupportProject/_git/TestSupportProject","isDisabled":true,"isInMaintenance":false}],"count":2}'
+      string: '{"value":[{"id":"087f37a0-5b54-47a6-97fd-e8986fb1df2d","name":"FJABzJVY","url":"https://dev.azure.com/v-anvashist0376/e7aa78d1-1ab1-494b-9cd3-fcd119962c9a/_apis/git/repositories/087f37a0-5b54-47a6-97fd-e8986fb1df2d","project":{"id":"e7aa78d1-1ab1-494b-9cd3-fcd119962c9a","name":"TestSupportProject","url":"https://dev.azure.com/v-anvashist0376/_apis/projects/e7aa78d1-1ab1-494b-9cd3-fcd119962c9a","state":"wellFormed","revision":488,"visibility":"organization","lastUpdateTime":"2024-01-05T08:25:46.697Z"},"defaultBranch":"refs/heads/main","size":1602,"remoteUrl":"https://v-anvashist0376@dev.azure.com/v-anvashist0376/TestSupportProject/_git/FJABzJVY","sshUrl":"git@ssh.dev.azure.com:v3/v-anvashist0376/TestSupportProject/FJABzJVY","webUrl":"https://dev.azure.com/v-anvashist0376/TestSupportProject/_git/FJABzJVY","isDisabled":true,"isInMaintenance":false},{"id":"daeae9e2-b44b-4872-9c64-4fe8a9c849c3","name":"TestSupportProject","url":"https://dev.azure.com/v-anvashist0376/e7aa78d1-1ab1-494b-9cd3-fcd119962c9a/_apis/git/repositories/daeae9e2-b44b-4872-9c64-4fe8a9c849c3","project":{"id":"e7aa78d1-1ab1-494b-9cd3-fcd119962c9a","name":"TestSupportProject","url":"https://dev.azure.com/v-anvashist0376/_apis/projects/e7aa78d1-1ab1-494b-9cd3-fcd119962c9a","state":"wellFormed","revision":488,"visibility":"organization","lastUpdateTime":"2024-01-05T08:25:46.697Z"},"defaultBranch":"refs/heads/main","size":732,"remoteUrl":"https://v-anvashist0376@dev.azure.com/v-anvashist0376/TestSupportProject/_git/TestSupportProject","sshUrl":"git@ssh.dev.azure.com:v3/v-anvashist0376/TestSupportProject/TestSupportProject","webUrl":"https://dev.azure.com/v-anvashist0376/TestSupportProject/_git/TestSupportProject","isDisabled":true,"isInMaintenance":false},{"id":"b5a51724-4c43-4b5c-861a-1c913aa3144e","name":"UnPpawgX","url":"https://dev.azure.com/v-anvashist0376/e7aa78d1-1ab1-494b-9cd3-fcd119962c9a/_apis/git/repositories/b5a51724-4c43-4b5c-861a-1c913aa3144e","project":{"id":"e7aa78d1-1ab1-494b-9cd3-fcd119962c9a","name":"TestSupportProject","url":"https://dev.azure.com/v-anvashist0376/_apis/projects/e7aa78d1-1ab1-494b-9cd3-fcd119962c9a","state":"wellFormed","revision":488,"visibility":"organization","lastUpdateTime":"2024-01-05T08:25:46.697Z"},"defaultBranch":"refs/heads/main","size":1602,"remoteUrl":"https://v-anvashist0376@dev.azure.com/v-anvashist0376/TestSupportProject/_git/UnPpawgX","sshUrl":"git@ssh.dev.azure.com:v3/v-anvashist0376/TestSupportProject/UnPpawgX","webUrl":"https://dev.azure.com/v-anvashist0376/TestSupportProject/_git/UnPpawgX","isDisabled":false,"isInMaintenance":false}],"count":3}'
     headers:
       access-control-expose-headers:
       - Request-Context
       activityid:
-      - 3c5b093f-ed24-4d4e-900b-a8abb3949665
+      - ae2d58c1-38da-43fc-9c9e-b262562ee3d0
       cache-control:
       - no-cache
       content-length:
-      - '1757'
+      - '2605'
       content-type:
       - application/json; charset=utf-8; api-version=5.0
       date:
-      - Thu, 02 Jan 2025 12:40:54 GMT
+      - Fri, 03 Jan 2025 12:30:18 GMT
       expires:
       - '-1'
       p3p:
@@ -492,13 +492,13 @@ interactions:
       x-frame-options:
       - SAMEORIGIN
       x-msedge-ref:
-      - 'Ref A: EB9EAD86490B414FA2E44FD1DB8850A6 Ref B: MAA01EDGE0719 Ref C: 2025-01-02T12:40:55Z'
+      - 'Ref A: DF222A986B294B83AE3B5A98F3A89558 Ref B: PNQ30EDGE0308 Ref C: 2025-01-03T12:30:18Z'
       x-tfs-processid:
-      - 9aaf6e99-5ba9-4c99-9331-5586cea0560d
+      - 7feece6f-b60f-4985-b04b-141c1af88e11
       x-tfs-session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
+      - 529f6bc3-3562-4a41-9e64-5650716c9174
       x-vss-e2eid:
-      - 3c5b093f-ed24-4d4e-900b-a8abb3949665
+      - ae2d58c1-38da-43fc-9c9e-b262562ee3d0
       x-vss-senderdeploymentid:
       - ed30ce5c-9d0a-f73c-3580-4315c7f84d83
       x-vss-userdata:
