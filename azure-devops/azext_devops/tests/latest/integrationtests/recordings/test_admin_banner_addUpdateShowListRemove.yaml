@@ -1,81 +1,7 @@
 interactions:
 - request:
-    body: null
-    headers:
-      Accept:
-      - application/json;api-version=5.0
-      Accept-Encoding:
-      - gzip, deflate
-      Connection:
-      - keep-alive
-      Content-Type:
-      - application/json; charset=utf-8
-      User-Agent:
-      - python/3.10.11 (Windows-10-10.0.26100-SP0) msrest/0.7.1 azure-devops/5.1.0b4
-        devOpsCli/1.0.2
-      X-TFS-FedAuthRedirect:
-      - Suppress
-      X-TFS-Session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
-      X-VSS-ForceMsaPassThrough:
-      - 'true'
-    method: GET
-    uri: https://dev.azure.com/v-anvashist0376/_apis/projects?stateFilter=all&$top=1&$skip=0
-  response:
-    body:
-      string: '{"count":1,"value":[{"id":"49d97100-fccf-4a40-90d9-fbda74b49cc0","name":"ImportRepoTest","url":"https://dev.azure.com/v-anvashist0376/_apis/projects/49d97100-fccf-4a40-90d9-fbda74b49cc0","state":"wellFormed","revision":508,"visibility":"organization","lastUpdateTime":"2024-01-05T09:23:38.607Z"}]}'
-    headers:
-      access-control-expose-headers:
-      - Request-Context
-      activityid:
-      - a51a6a2a-6dba-4468-b3fe-a8111b3f4f4d
-      cache-control:
-      - no-cache
-      content-length:
-      - '297'
-      content-type:
-      - application/json; charset=utf-8; api-version=5.0
-      date:
-      - Thu, 02 Jan 2025 12:26:34 GMT
-      expires:
-      - '-1'
-      p3p:
-      - CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV
-        STA UNI COM INT PHY ONL FIN PUR LOC CNT"
-      pragma:
-      - no-cache
-      request-context:
-      - appId=cid-v1:0f8b2d32-fdff-4d39-87b8-548fb9450eb7
-      strict-transport-security:
-      - max-age=31536000; includeSubDomains
-      vary:
-      - Accept-Encoding
-      x-cache:
-      - CONFIG_NOCACHE
-      x-content-type-options:
-      - nosniff
-      x-frame-options:
-      - SAMEORIGIN
-      x-ms-continuationtoken:
-      - '1'
-      x-msedge-ref:
-      - 'Ref A: EB814E4427604DF0AC37E9692D70F27E Ref B: MAA01EDGE1520 Ref C: 2025-01-02T12:26:34Z'
-      x-tfs-processid:
-      - fe83dd1d-7dd8-45d8-adce-57d7f513de62
-      x-tfs-session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
-      x-vss-e2eid:
-      - a51a6a2a-6dba-4468-b3fe-a8111b3f4f4d
-      x-vss-senderdeploymentid:
-      - ed30ce5c-9d0a-f73c-3580-4315c7f84d83
-      x-vss-userdata:
-      - 22157d54-1821-6536-a446-928b06348385:v-sbestala@microsoft.com
-    status:
-      code: 200
-      message: OK
-- request:
     body: '{"GlobalMessageBanners/banner-id-000001": {"message": "Sample banner message",
-      "level": "warning", "expirationDate": "2025-01-02T00:00:00+05:30"}}'
+      "level": "warning", "expirationDate": "2025-01-03T00:00:00+00:00"}}'
     headers:
       Accept:
       - application/json;api-version=5.0-preview.1
@@ -88,12 +14,12 @@ interactions:
       Content-Type:
       - application/json; charset=utf-8
       User-Agent:
-      - python/3.10.11 (Windows-10-10.0.26100-SP0) msrest/0.7.1 azure-devops/5.1.0b4
-        devOpsCli/1.0.2
+      - python/3.12.1 (Linux-6.5.0-1025-azure-x86_64-with-glibc2.31) msrest/0.7.1
+        azure-devops/5.1.0b4 devOpsCli/1.0.2
       X-TFS-FedAuthRedirect:
       - Suppress
       X-TFS-Session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
+      - 529f6bc3-3562-4a41-9e64-5650716c9174
       X-VSS-ForceMsaPassThrough:
       - 'true'
     method: PATCH
@@ -105,340 +31,37 @@ interactions:
       access-control-expose-headers:
       - Request-Context
       activityid:
-      - f2642a06-77aa-4c8d-85b5-02e2a4304438
-      cache-control:
-      - no-cache
-      date:
-      - Thu, 02 Jan 2025 12:26:34 GMT
-      expires:
-      - '-1'
-      p3p:
-      - CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV
-        STA UNI COM INT PHY ONL FIN PUR LOC CNT"
-      pragma:
-      - no-cache
-      request-context:
-      - appId=cid-v1:0f8b2d32-fdff-4d39-87b8-548fb9450eb7
-      strict-transport-security:
-      - max-age=31536000; includeSubDomains
-      x-cache:
-      - CONFIG_NOCACHE
-      x-content-type-options:
-      - nosniff
-      x-frame-options:
-      - SAMEORIGIN
-      x-msedge-ref:
-      - 'Ref A: 588C24A8BD1B4A94A017A5F8F726BB52 Ref B: MAA01EDGE1217 Ref C: 2025-01-02T12:26:35Z'
-      x-tfs-processid:
-      - a8e54f57-01b8-4585-a4b3-3b2d681ad009
-      x-tfs-session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
-      x-vss-e2eid:
-      - f2642a06-77aa-4c8d-85b5-02e2a4304438
-      x-vss-senderdeploymentid:
-      - ed30ce5c-9d0a-f73c-3580-4315c7f84d83
-      x-vss-userdata:
-      - 22157d54-1821-6536-a446-928b06348385:v-sbestala@microsoft.com
-    status:
-      code: 204
-      message: No Content
-- request:
-    body: null
-    headers:
-      Accept:
-      - application/json;api-version=5.0-preview.1
-      Accept-Encoding:
-      - gzip, deflate
-      Connection:
-      - keep-alive
-      Content-Type:
-      - application/json; charset=utf-8
-      User-Agent:
-      - python/3.10.11 (Windows-10-10.0.26100-SP0) msrest/0.7.1 azure-devops/5.1.0b4
-        devOpsCli/1.0.2
-      X-TFS-FedAuthRedirect:
-      - Suppress
-      X-TFS-Session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
-      X-VSS-ForceMsaPassThrough:
-      - 'true'
-    method: GET
-    uri: https://dev.azure.com/v-anvashist0376/_apis/Settings/Entries/host/GlobalMessageBanners
-  response:
-    body:
-      string: '{"count":2,"value":{"1es_banner_2ad38d1e-3eaf-4769-931c-3a2da67bbb01":{"level":"Warning","message":"This
-        Azure DevOps organization has been identified for the Azure DevOps Footprint
-        Reduction initiative, and is scheduled to be deactivated on or after December
-        10, 2024. For opt out and more information please visit <a href=\"https://aka.ms/adofootprintreduction#can-i-opt-out-my-organization-from-being-deactivated\">aka.ms/adofootprintreduction</a>.","expirationDate":"12/12/2024
-        00:00:00"},"banner-id-000001":{"message":"Sample banner message","level":"warning","expirationDate":"2025-01-01T18:30:00+00:00"}}}'
-    headers:
-      access-control-expose-headers:
-      - Request-Context
-      activityid:
-      - 3368559b-baca-454c-8c5f-d3021c79e3dd
-      cache-control:
-      - no-cache
+      - 1f9a0e22-34de-4605-870f-0f062219ef9f
       content-length:
-      - '612'
-      content-type:
-      - application/json; charset=utf-8; api-version=5.0-preview.1
+      - '0'
       date:
-      - Thu, 02 Jan 2025 12:26:40 GMT
-      expires:
-      - '-1'
+      - Fri, 03 Jan 2025 12:21:13 GMT
       p3p:
       - CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV
         STA UNI COM INT PHY ONL FIN PUR LOC CNT"
-      pragma:
-      - no-cache
       request-context:
       - appId=cid-v1:0f8b2d32-fdff-4d39-87b8-548fb9450eb7
       strict-transport-security:
       - max-age=31536000; includeSubDomains
-      vary:
-      - Accept-Encoding
+      www-authenticate:
+      - Basic realm="https://tfsprodsin1.app.visualstudio.com/"
       x-cache:
       - CONFIG_NOCACHE
       x-content-type-options:
       - nosniff
-      x-frame-options:
-      - SAMEORIGIN
       x-msedge-ref:
-      - 'Ref A: 2F53104B3D114B91838A0BDBCCD6AB41 Ref B: MAA01EDGE0814 Ref C: 2025-01-02T12:26:40Z'
+      - 'Ref A: D25D453944504771AE6EF8BDF964E628 Ref B: PNQ30EDGE0313 Ref C: 2025-01-03T12:21:13Z'
       x-tfs-processid:
-      - f77fcf17-141f-4e77-88af-43d7b2bf292a
+      - f037019e-3fc4-4eca-8c1b-91732621702b
       x-tfs-session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
+      - 529f6bc3-3562-4a41-9e64-5650716c9174
       x-vss-e2eid:
-      - 3368559b-baca-454c-8c5f-d3021c79e3dd
+      - 1f9a0e22-34de-4605-870f-0f062219ef9f
       x-vss-senderdeploymentid:
       - ed30ce5c-9d0a-f73c-3580-4315c7f84d83
-      x-vss-userdata:
-      - 22157d54-1821-6536-a446-928b06348385:v-sbestala@microsoft.com
     status:
-      code: 200
-      message: OK
-- request:
-    body: '{"GlobalMessageBanners/banner-id-000001": {"message": "Sample updated banner
-      message", "level": "error", "expirationDate": ""}}'
-    headers:
-      Accept:
-      - application/json;api-version=5.0-preview.1
-      Accept-Encoding:
-      - gzip, deflate
-      Connection:
-      - keep-alive
-      Content-Length:
-      - '127'
-      Content-Type:
-      - application/json; charset=utf-8
-      User-Agent:
-      - python/3.10.11 (Windows-10-10.0.26100-SP0) msrest/0.7.1 azure-devops/5.1.0b4
-        devOpsCli/1.0.2
-      X-TFS-FedAuthRedirect:
-      - Suppress
-      X-TFS-Session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
-      X-VSS-ForceMsaPassThrough:
-      - 'true'
-    method: PATCH
-    uri: https://dev.azure.com/v-anvashist0376/_apis/Settings/Entries/host
-  response:
-    body:
-      string: ''
-    headers:
-      access-control-expose-headers:
-      - Request-Context
-      activityid:
-      - 44d57122-f79e-4dc7-9ed2-9997804bec46
-      cache-control:
-      - no-cache
-      date:
-      - Thu, 02 Jan 2025 12:26:40 GMT
-      expires:
-      - '-1'
-      p3p:
-      - CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV
-        STA UNI COM INT PHY ONL FIN PUR LOC CNT"
-      pragma:
-      - no-cache
-      request-context:
-      - appId=cid-v1:0f8b2d32-fdff-4d39-87b8-548fb9450eb7
-      strict-transport-security:
-      - max-age=31536000; includeSubDomains
-      x-cache:
-      - CONFIG_NOCACHE
-      x-content-type-options:
-      - nosniff
-      x-frame-options:
-      - SAMEORIGIN
-      x-msedge-ref:
-      - 'Ref A: AE55968195EC4C0DA74A446FAAD24F8E Ref B: MAA01EDGE0814 Ref C: 2025-01-02T12:26:41Z'
-      x-tfs-processid:
-      - 8b97cd00-92de-40cb-90b3-9f93d0941d86
-      x-tfs-session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
-      x-vss-e2eid:
-      - 44d57122-f79e-4dc7-9ed2-9997804bec46
-      x-vss-senderdeploymentid:
-      - ed30ce5c-9d0a-f73c-3580-4315c7f84d83
-      x-vss-userdata:
-      - 22157d54-1821-6536-a446-928b06348385:v-sbestala@microsoft.com
-    status:
-      code: 204
-      message: No Content
-- request:
-    body: null
-    headers:
-      Accept:
-      - application/json;api-version=5.0-preview.1
-      Accept-Encoding:
-      - gzip, deflate
-      Connection:
-      - keep-alive
-      Content-Type:
-      - application/json; charset=utf-8
-      User-Agent:
-      - python/3.10.11 (Windows-10-10.0.26100-SP0) msrest/0.7.1 azure-devops/5.1.0b4
-        devOpsCli/1.0.2
-      X-TFS-FedAuthRedirect:
-      - Suppress
-      X-TFS-Session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
-      X-VSS-ForceMsaPassThrough:
-      - 'true'
-    method: GET
-    uri: https://dev.azure.com/v-anvashist0376/_apis/Settings/Entries/host/GlobalMessageBanners
-  response:
-    body:
-      string: '{"count":2,"value":{"1es_banner_2ad38d1e-3eaf-4769-931c-3a2da67bbb01":{"level":"Warning","message":"This
-        Azure DevOps organization has been identified for the Azure DevOps Footprint
-        Reduction initiative, and is scheduled to be deactivated on or after December
-        10, 2024. For opt out and more information please visit <a href=\"https://aka.ms/adofootprintreduction#can-i-opt-out-my-organization-from-being-deactivated\">aka.ms/adofootprintreduction</a>.","expirationDate":"12/12/2024
-        00:00:00"},"banner-id-000001":{"message":"Sample updated banner message","level":"error","expirationDate":""}}}'
-    headers:
-      access-control-expose-headers:
-      - Request-Context
-      activityid:
-      - 7b08bd7a-5839-4af0-8b46-03338f5bd43a
-      cache-control:
-      - no-cache
-      content-length:
-      - '593'
-      content-type:
-      - application/json; charset=utf-8; api-version=5.0-preview.1
-      date:
-      - Thu, 02 Jan 2025 12:26:46 GMT
-      expires:
-      - '-1'
-      p3p:
-      - CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV
-        STA UNI COM INT PHY ONL FIN PUR LOC CNT"
-      pragma:
-      - no-cache
-      request-context:
-      - appId=cid-v1:0f8b2d32-fdff-4d39-87b8-548fb9450eb7
-      strict-transport-security:
-      - max-age=31536000; includeSubDomains
-      vary:
-      - Accept-Encoding
-      x-cache:
-      - CONFIG_NOCACHE
-      x-content-type-options:
-      - nosniff
-      x-frame-options:
-      - SAMEORIGIN
-      x-msedge-ref:
-      - 'Ref A: DA58334E969D4C1694E464D33BDD39D6 Ref B: MAA01EDGE1510 Ref C: 2025-01-02T12:26:46Z'
-      x-tfs-processid:
-      - 3e5d6de8-9a30-4743-9c4c-0d5527f3ca5f
-      x-tfs-session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
-      x-vss-e2eid:
-      - 7b08bd7a-5839-4af0-8b46-03338f5bd43a
-      x-vss-senderdeploymentid:
-      - ed30ce5c-9d0a-f73c-3580-4315c7f84d83
-      x-vss-userdata:
-      - 22157d54-1821-6536-a446-928b06348385:v-sbestala@microsoft.com
-    status:
-      code: 200
-      message: OK
-- request:
-    body: null
-    headers:
-      Accept:
-      - application/json;api-version=5.0-preview.1
-      Accept-Encoding:
-      - gzip, deflate
-      Connection:
-      - keep-alive
-      Content-Type:
-      - application/json; charset=utf-8
-      User-Agent:
-      - python/3.10.11 (Windows-10-10.0.26100-SP0) msrest/0.7.1 azure-devops/5.1.0b4
-        devOpsCli/1.0.2
-      X-TFS-FedAuthRedirect:
-      - Suppress
-      X-TFS-Session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
-      X-VSS-ForceMsaPassThrough:
-      - 'true'
-    method: GET
-    uri: https://dev.azure.com/v-anvashist0376/_apis/Settings/Entries/host/GlobalMessageBanners
-  response:
-    body:
-      string: '{"count":2,"value":{"1es_banner_2ad38d1e-3eaf-4769-931c-3a2da67bbb01":{"level":"Warning","message":"This
-        Azure DevOps organization has been identified for the Azure DevOps Footprint
-        Reduction initiative, and is scheduled to be deactivated on or after December
-        10, 2024. For opt out and more information please visit <a href=\"https://aka.ms/adofootprintreduction#can-i-opt-out-my-organization-from-being-deactivated\">aka.ms/adofootprintreduction</a>.","expirationDate":"12/12/2024
-        00:00:00"},"banner-id-000001":{"message":"Sample updated banner message","level":"error","expirationDate":""}}}'
-    headers:
-      access-control-expose-headers:
-      - Request-Context
-      activityid:
-      - 1f0f1b98-b63a-48d3-8586-64b86ea4c8c0
-      cache-control:
-      - no-cache
-      content-length:
-      - '593'
-      content-type:
-      - application/json; charset=utf-8; api-version=5.0-preview.1
-      date:
-      - Thu, 02 Jan 2025 12:26:46 GMT
-      expires:
-      - '-1'
-      p3p:
-      - CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV
-        STA UNI COM INT PHY ONL FIN PUR LOC CNT"
-      pragma:
-      - no-cache
-      request-context:
-      - appId=cid-v1:0f8b2d32-fdff-4d39-87b8-548fb9450eb7
-      strict-transport-security:
-      - max-age=31536000; includeSubDomains
-      vary:
-      - Accept-Encoding
-      x-cache:
-      - CONFIG_NOCACHE
-      x-content-type-options:
-      - nosniff
-      x-frame-options:
-      - SAMEORIGIN
-      x-msedge-ref:
-      - 'Ref A: 70CF5A6C75C54DCC9A067D8F9FCA35F9 Ref B: MAA01EDGE1510 Ref C: 2025-01-02T12:26:46Z'
-      x-tfs-processid:
-      - 32cf7954-6736-4ade-874f-4ca9793d92cf
-      x-tfs-session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
-      x-vss-e2eid:
-      - 1f0f1b98-b63a-48d3-8586-64b86ea4c8c0
-      x-vss-senderdeploymentid:
-      - ed30ce5c-9d0a-f73c-3580-4315c7f84d83
-      x-vss-userdata:
-      - 22157d54-1821-6536-a446-928b06348385:v-sbestala@microsoft.com
-    status:
-      code: 200
-      message: OK
+      code: 401
+      message: Unauthorized
 - request:
     body: null
     headers:
@@ -453,12 +76,12 @@ interactions:
       Content-Type:
       - application/json; charset=utf-8
       User-Agent:
-      - python/3.10.11 (Windows-10-10.0.26100-SP0) msrest/0.7.1 azure-devops/5.1.0b4
-        devOpsCli/1.0.2
+      - python/3.12.1 (Linux-6.5.0-1025-azure-x86_64-with-glibc2.31) msrest/0.7.1
+        azure-devops/5.1.0b4 devOpsCli/1.0.2
       X-TFS-FedAuthRedirect:
       - Suppress
       X-TFS-Session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
+      - 529f6bc3-3562-4a41-9e64-5650716c9174
       X-VSS-ForceMsaPassThrough:
       - 'true'
     method: DELETE
@@ -470,117 +93,35 @@ interactions:
       access-control-expose-headers:
       - Request-Context
       activityid:
-      - 3c5f4759-ed24-4d4e-900b-a8abb3949665
-      cache-control:
-      - no-cache
-      date:
-      - Thu, 02 Jan 2025 12:26:46 GMT
-      expires:
-      - '-1'
-      p3p:
-      - CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV
-        STA UNI COM INT PHY ONL FIN PUR LOC CNT"
-      pragma:
-      - no-cache
-      request-context:
-      - appId=cid-v1:0f8b2d32-fdff-4d39-87b8-548fb9450eb7
-      strict-transport-security:
-      - max-age=31536000; includeSubDomains
-      x-cache:
-      - CONFIG_NOCACHE
-      x-content-type-options:
-      - nosniff
-      x-frame-options:
-      - SAMEORIGIN
-      x-msedge-ref:
-      - 'Ref A: A96EC04946E04CFFB844DC7FBD2AB656 Ref B: MAA01EDGE1510 Ref C: 2025-01-02T12:26:47Z'
-      x-tfs-processid:
-      - 9aaf6e99-5ba9-4c99-9331-5586cea0560d
-      x-tfs-session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
-      x-vss-e2eid:
-      - 3c5f4759-ed24-4d4e-900b-a8abb3949665
-      x-vss-senderdeploymentid:
-      - ed30ce5c-9d0a-f73c-3580-4315c7f84d83
-      x-vss-userdata:
-      - 22157d54-1821-6536-a446-928b06348385:v-sbestala@microsoft.com
-    status:
-      code: 204
-      message: No Content
-- request:
-    body: null
-    headers:
-      Accept:
-      - application/json;api-version=5.0-preview.1
-      Accept-Encoding:
-      - gzip, deflate
-      Connection:
-      - keep-alive
-      Content-Type:
-      - application/json; charset=utf-8
-      User-Agent:
-      - python/3.10.11 (Windows-10-10.0.26100-SP0) msrest/0.7.1 azure-devops/5.1.0b4
-        devOpsCli/1.0.2
-      X-TFS-FedAuthRedirect:
-      - Suppress
-      X-TFS-Session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
-      X-VSS-ForceMsaPassThrough:
-      - 'true'
-    method: GET
-    uri: https://dev.azure.com/v-anvashist0376/_apis/Settings/Entries/host/GlobalMessageBanners
-  response:
-    body:
-      string: '{"count":1,"value":{"1es_banner_2ad38d1e-3eaf-4769-931c-3a2da67bbb01":{"level":"Warning","message":"This
-        Azure DevOps organization has been identified for the Azure DevOps Footprint
-        Reduction initiative, and is scheduled to be deactivated on or after December
-        10, 2024. For opt out and more information please visit <a href=\"https://aka.ms/adofootprintreduction#can-i-opt-out-my-organization-from-being-deactivated\">aka.ms/adofootprintreduction</a>.","expirationDate":"12/12/2024
-        00:00:00"}}}'
-    headers:
-      access-control-expose-headers:
-      - Request-Context
-      activityid:
-      - 05750f62-ff50-438f-90f1-ec11f8baa054
-      cache-control:
-      - no-cache
+      - 1f9a0e4e-34de-4605-870f-0f062219ef9f
       content-length:
-      - '494'
-      content-type:
-      - application/json; charset=utf-8; api-version=5.0-preview.1
+      - '0'
       date:
-      - Thu, 02 Jan 2025 12:26:52 GMT
-      expires:
-      - '-1'
+      - Fri, 03 Jan 2025 12:21:13 GMT
       p3p:
       - CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV
         STA UNI COM INT PHY ONL FIN PUR LOC CNT"
-      pragma:
-      - no-cache
       request-context:
       - appId=cid-v1:0f8b2d32-fdff-4d39-87b8-548fb9450eb7
       strict-transport-security:
       - max-age=31536000; includeSubDomains
-      vary:
-      - Accept-Encoding
+      www-authenticate:
+      - Basic realm="https://tfsprodsin1.app.visualstudio.com/"
       x-cache:
       - CONFIG_NOCACHE
       x-content-type-options:
       - nosniff
-      x-frame-options:
-      - SAMEORIGIN
       x-msedge-ref:
-      - 'Ref A: E52545E11B684C2995B3E197433F4DA1 Ref B: MAA01EDGE1212 Ref C: 2025-01-02T12:26:52Z'
+      - 'Ref A: DBA12C910B984CE6BAD60E5604CC0753 Ref B: PNQ30EDGE0415 Ref C: 2025-01-03T12:21:13Z'
       x-tfs-processid:
-      - f955bfb1-3f37-4681-81bb-d7ac11abdc0f
+      - f037019e-3fc4-4eca-8c1b-91732621702b
       x-tfs-session:
-      - 070fec7c-3d88-493b-826f-ab604b9d598a
+      - 529f6bc3-3562-4a41-9e64-5650716c9174
       x-vss-e2eid:
-      - 05750f62-ff50-438f-90f1-ec11f8baa054
+      - 1f9a0e4e-34de-4605-870f-0f062219ef9f
       x-vss-senderdeploymentid:
       - ed30ce5c-9d0a-f73c-3580-4315c7f84d83
-      x-vss-userdata:
-      - 22157d54-1821-6536-a446-928b06348385:v-sbestala@microsoft.com
     status:
-      code: 200
-      message: OK
+      code: 401
+      message: Unauthorized
 version: 1
