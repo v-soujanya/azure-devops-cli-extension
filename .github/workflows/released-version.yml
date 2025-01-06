@@ -27,7 +27,8 @@ jobs:
           azdev setup -r ./ -e azure-devops
           azdev extension repo add .
           azdev extension add azure-devops
-          azdev test azure-devops --no-exitfirst --series
+          azdev test azure-devops --live --no-exitfirst --series
         env:
           AZURE_DEVOPS_EXT_TEST_ORG: 'https://dev.azure.com/v-anvashist0376/'
-        
+          AZURE_DEVOPS_EXT_PAT: ${{ secrets.AZURE_DEVOPS_EXT_PAT }}
+          
