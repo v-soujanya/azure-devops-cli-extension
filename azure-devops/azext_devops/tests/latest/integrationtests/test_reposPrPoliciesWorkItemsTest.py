@@ -8,6 +8,7 @@ import unittest
 
 from azure.cli.testsdk.scenario_tests import AllowLargeResponse
 from datetime import datetime
+from .utilities.helper import created_repo_id
 from .utilities.helper import (
     DevopsScenarioTest, get_random_name, disable_telemetry, set_authentication, get_test_org_from_env_variable)
 
@@ -20,6 +21,16 @@ class AzReposPrPolicyTests(DevopsScenarioTest):
     def test_pull_request_policies_workitems(self):
         self.cmd('az devops configure --defaults organization=' + DEVOPS_CLI_TEST_ORGANIZATION)
         
+     
+        #Create a PR in imported repo
+        pr_title = 'Fixing a bug in cli engine'
+        create_pr_command = 'az repos pr create -p PullRequestLiveTest -r ' + created_repo_id + ' -s testbranch -t main --title "' + pr_title + '" -d "Sample PR description" --detect false --output json'
+        create_pr_output = self.cmd(create_pr_command).get_output_in_json()
+        create_pr_id = create_pr_output["pullRequestId"]
+        create_pr_datetime = parser.parse(create_pr_output["creationDate"])
+        assert create_pr_id > 0
+        create_pr_id = str(create_pr_id)  
+         
         #List PR
         pr_list = self.cmd('az repos pr list --project PullRequestLiveTest --repository PullRequestLiveTest --detect false --output json').get_output_in_json()
         assert len(pr_list) > 0
