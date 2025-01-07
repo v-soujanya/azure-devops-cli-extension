@@ -8,7 +8,6 @@ import unittest
 
 from azure.cli.testsdk.scenario_tests import AllowLargeResponse
 from datetime import datetime
-from .utilities.helper import created_repo_id
 from .utilities.helper import (
     DevopsScenarioTest, get_random_name, disable_telemetry, set_authentication, get_test_org_from_env_variable)
 
@@ -19,27 +18,17 @@ class AzReposPrPolicyTests(DevopsScenarioTest):
     @disable_telemetry
     @set_authentication
     def test_pull_request_policies_workitems(self):
-        self.cmd('az devops configure --defaults organization=' + DEVOPS_CLI_TEST_ORGANIZATION)
-        
-     
-        #Create a PR in imported repo
-        pr_title = 'Fixing a bug in cli engine'
-        create_pr_command = 'az repos pr create -p PullRequestLiveTest -r ' + created_repo_id + ' -s testbranch -t main --title "' + pr_title + '" -d "Sample PR description" --detect false --output json'
-        create_pr_output = self.cmd(create_pr_command).get_output_in_json()
-        create_pr_id = create_pr_output["pullRequestId"]
-        create_pr_datetime = parser.parse(create_pr_output["creationDate"])
-        assert create_pr_id > 0
-        create_pr_id = str(create_pr_id)  
+        self.cmd('az devops configure --defaults organization=' + DEVOPS_CLI_TEST_ORGANIZATION) 
          
         #List PR
-        pr_list = self.cmd('az repos pr list --project PullRequestLiveTest --repository PullRequestLiveTest --detect false --output json').get_output_in_json()
+        pr_list = self.cmd('az repos pr list --project PullRequestLiveTest --repository PullRequestLiveTest --detect false --output json', checks=[
+            self.check("[0].description", 'Updated README.md'),
+            self.check("[1].description", 'Updated README.md'),
+        ]).get_output_in_json()
         assert len(pr_list) > 0
-        if len(pr_list) > 1:
-            self.check("[0].description", 'Updated README.md')(pr_list)
-            self.check("[1].description", 'Updated README.md')(pr_list)
 
-        pr_id_to_query = pr_list[1]["pullRequestId"]
-        
+        pr_id_to_query = pr_list[1]["pullRequestId"] 
+
         #PR Policies list command
         list_pr_policies_command = 'az repos pr policy list --id ' + str(pr_id_to_query) + ' --detect false --output json'
         list_pr_policies_output = self.cmd(list_pr_policies_command).get_output_in_json()
@@ -55,8 +44,8 @@ class AzReposPrPolicyTests(DevopsScenarioTest):
         assert queue_pr_policy_output["status"] == 'queued'
 
         #PR work-item add command
-        work_item_ids_to_add = '1 2'
-        work_item_id_to_remove = '2'
+        work_item_ids_to_add = '129 130'
+        work_item_id_to_remove = '130'
 
         add_wit_pr_command = ('az repos pr work-item add --id ' + str(pr_id_to_query) + ' --work-items ' + work_item_ids_to_add + 
             ' --detect false --output json')
@@ -74,7 +63,7 @@ class AzReposPrPolicyTests(DevopsScenarioTest):
         self.cmd(remove_wit_pr_command)
         #verify removed
         list_wit_pr_output = self.cmd(list_wit_pr_command, checks=[
-            self.check("[0].id", "1")
+            self.check("[0].id", "129")
         ]).get_output_in_json()
         assert len(list_wit_pr_output) == 1
         
