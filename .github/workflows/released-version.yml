@@ -31,4 +31,9 @@ jobs:
         env:
           AZURE_DEVOPS_EXT_TEST_ORG: 'https://dev.azure.com/v-anvashist0376/'
           AZURE_DEVOPS_EXT_PAT: ${{ secrets.AZURE_DEVOPS_EXT_PAT }}
-          
+
+      - name: Publish Recordings
+        uses: actions/upload-artifact@v4
+        with:
+          name: recordings
+          path: ${{ github.workspace }}/azure-devops/azext_devops/tests/latest/integrationtests/recordings
