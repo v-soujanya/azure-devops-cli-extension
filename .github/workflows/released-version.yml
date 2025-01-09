@@ -18,6 +18,7 @@ jobs:
           python-version: '3.12'
 
       - name: Set up virtual environment
+        continue-on-error: true
         run: |
           python -m venv env
           source env/bin/activate
