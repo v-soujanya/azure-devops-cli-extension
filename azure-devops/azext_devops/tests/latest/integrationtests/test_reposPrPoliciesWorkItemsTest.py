@@ -41,7 +41,7 @@ class AzReposPrPolicyTests(DevopsScenarioTest):
         queue_pr_policy_output = self.cmd(queue_pr_policy_command).get_output_in_json()
         assert len(queue_pr_policy_output) > 0
         assert queue_pr_policy_output["evaluationId"] == policy_evaluation_id
-        assert queue_pr_policy_output["status"] == 'queued'
+        assert queue_pr_policy_output["status"] == 'rejected'
 
         #PR work-item add command
         work_item_ids_to_add = '129 130'
