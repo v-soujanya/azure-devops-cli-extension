@@ -46,8 +46,8 @@ jobs:
         AZURE_DEVOPS_EXT_TEST_ORG: ${{ secrets.AZURE_DEVOPS_EXT_TEST_ORG }}
         AZURE_ACCESS_TOKEN: ${{ env.AZURE_ACCESS_TOKEN }}
 
-      - name: Publish Recordings
-        uses: actions/upload-artifact@v4
-        with:
-          name: recordings
-          path: ${{ github.workspace }}/azure-devops/azext_devops/tests/latest/integrationtests/recordings
+    - name: Publish Recordings
+      uses: actions/upload-artifact@v4
+      with:
+        name: recordings
+        path: ${{ github.workspace }}/azure-devops/azext_devops/tests/latest/integrationtests/recordings
