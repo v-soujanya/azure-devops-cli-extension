@@ -5,6 +5,10 @@ on:
     - cron: "0 0 * * *"
   workflow_dispatch:
 
+permissions:
+  id-token: write
+  contents: read
+
 jobs:
   Run_Test:
     runs-on: ubuntu-latest
@@ -16,9 +20,10 @@ jobs:
         uses: actions/setup-python@v2
         with:
           python-version: '3.12'
-
-      - name: Azure Login using Managed Identity
-        uses: azure/login@v1
+          client-id: ${{ secrets.AZURE_CLIENT_ID }}
+          tenant-id: ${{ secrets.AZURE_TENANT_ID }}
+          subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
+          auth-type: id-token
         with:
           client-id: ${{ secrets.AZURE_CLIENT_ID }}
           tenant-id: ${{ secrets.AZURE_TENANT_ID }}
