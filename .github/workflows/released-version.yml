@@ -17,37 +17,37 @@ jobs:
         with:
           python-version: '3.12'
 
-    - name: Azure Login using Managed Identity
-      uses: azure/login@v1
-      with:
-        client-id: ${{ secrets.AZURE_CLIENT_ID }}
-        tenant-id: ${{ secrets.AZURE_TENANT_ID }}
-        subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
+      - name: Azure Login using Managed Identity
+        uses: azure/login@v1
+        with:
+          client-id: ${{ secrets.AZURE_CLIENT_ID }}
+          tenant-id: ${{ secrets.AZURE_TENANT_ID }}
+          subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
 
-    - name: Retrieve Azure Access Token
-      run: |
-        echo "Fetching Azure access token..."
-        ACCESS_TOKEN=$(az account get-access-token --resource https://management.azure.com --query accessToken --output tsv)
-        echo "::add-mask::$ACCESS_TOKEN"
-        echo "AZURE_ACCESS_TOKEN=$ACCESS_TOKEN" >> $GITHUB_ENV
+      - name: Retrieve Azure Access Token
+        run: |
+          echo "Fetching Azure access token..."
+          ACCESS_TOKEN=$(az account get-access-token --resource https://management.azure.com --query accessToken --output tsv)
+          echo "::add-mask::$ACCESS_TOKEN"
+          echo "AZURE_ACCESS_TOKEN=$ACCESS_TOKEN" >> $GITHUB_ENV
 
-    - name: Set up virtual environment
-      run: |
-        python -m venv env
-        source env/bin/activate
-        pip install wheel==0.30.0 setuptools==70.0.0
-        pip install azdev
-        azdev --version
-        azdev setup -r ./ -e azure-devops
-        azdev extension repo add .
-        azdev extension add azure-devops
-        azdev test azure-devops --live --no-exitfirst --series
-      env:
-        AZURE_DEVOPS_EXT_TEST_ORG: ${{ secrets.AZURE_DEVOPS_EXT_TEST_ORG }}
-        AZURE_ACCESS_TOKEN: ${{ env.AZURE_ACCESS_TOKEN }}
+      - name: Set up virtual environment
+        run: |
+          python -m venv env
+          source env/bin/activate
+          pip install wheel==0.30.0 setuptools==70.0.0
+          pip install azdev
+          azdev --version
+          azdev setup -r ./ -e azure-devops
+          azdev extension repo add .
+          azdev extension add azure-devops
+          azdev test azure-devops --live --no-exitfirst --series
+        env:
+          AZURE_DEVOPS_EXT_TEST_ORG: ${{ secrets.AZURE_DEVOPS_EXT_TEST_ORG }}
+          AZURE_ACCESS_TOKEN: ${{ env.AZURE_ACCESS_TOKEN }}
 
-    - name: Publish Recordings
-      uses: actions/upload-artifact@v4
-      with:
-        name: recordings
-        path: ${{ github.workspace }}/azure-devops/azext_devops/tests/latest/integrationtests/recordings
+      - name: Publish Recordings
+        uses: actions/upload-artifact@v4
+        with:
+          name: recordings
+          path: ${{ github.workspace }}/azure-devops/azext_devops/tests/latest/integrationtests/recordings
