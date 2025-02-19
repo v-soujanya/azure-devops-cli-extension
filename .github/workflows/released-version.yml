@@ -24,10 +24,10 @@ jobs:
       - name: Azure Login using Managed Identity
         uses: azure/login@v2
         with:
-          client-id: ${{ secrets.AZURE_CLIENT_ID }}
-          tenant-id: ${{ secrets.AZURE_TENANT_ID }}
-          subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}          
-          enable-AzPSSession: true
+        with:
+          client-id: c7f885af-9059-45fa-838e-ea71023fdf34
+          tenant-id: 72f988bf-86f1-41af-91ab-2d7cd011db47
+          allow-no-subscriptions: true
 
       - name: Retrieve Azure Access Token
         run: |
