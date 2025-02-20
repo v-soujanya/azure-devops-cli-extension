@@ -29,6 +29,7 @@ jobs:
           allow-no-subscriptions: true
 
       - name: Retrieve Azure Access Token
+        id: ado-token
         run: |
           echo "AZURE_ACCESS_TOKEN=$(az account get-access-token --resource 499b84ac-1321-427f-aa17-267ca6975798 | jq -r .accessToken)" >> $GITHUB_ENV
 
@@ -45,7 +46,7 @@ jobs:
           azdev test azure-devops --live --no-exitfirst --series
         env:
           AZURE_DEVOPS_EXT_TEST_ORG: ${{ secrets.AZURE_DEVOPS_EXT_TEST_ORG }}
-          AZURE_ACCESS_TOKEN: ${{ env.AZURE_ACCESS_TOKEN }}
+          AZURE_DEVOPS_EXT_PAT: ${{ steps.ado-token.outputs.token }}
 
       - name: Publish Recordings
         uses: actions/upload-artifact@v4
