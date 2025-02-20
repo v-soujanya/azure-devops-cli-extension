@@ -31,7 +31,7 @@ jobs:
       - name: Retrieve Azure Access Token
         id: ado-token
         run: |
-          echo "AZURE_ACCESS_TOKEN=$(az account get-access-token --resource 499b84ac-1321-427f-aa17-267ca6975798 | jq -r .accessToken)" >> $GITHUB_ENV
+          echo "token=$(az account get-access-token --resource 499b84ac-1321-427f-aa17-267ca6975798 | jq -r .accessToken)" >> $GITHUB_OUTPUT
 
       - name: Set up virtual environment
         run: |
