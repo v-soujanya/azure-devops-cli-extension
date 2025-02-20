@@ -43,7 +43,7 @@ jobs:
           azdev setup -r ./ -e azure-devops
           azdev extension repo add .
           azdev extension add azure-devops
-          azdev test azure-devops --live --no-exitfirst --series --test-folder azext_devops/tests/latest/integrationtests
+          azdev test azure-devops --live --no-exitfirst --series --src azext_devops/tests/latest/integrationtests
         env:
           AZURE_DEVOPS_EXT_TEST_ORG: ${{ secrets.AZURE_DEVOPS_EXT_TEST_ORG }}
           AZURE_DEVOPS_EXT_PAT: ${{ steps.ado-token.outputs.token }}
