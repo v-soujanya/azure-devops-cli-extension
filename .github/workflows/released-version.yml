@@ -43,7 +43,7 @@ jobs:
           azdev setup -r ./ -e azure-devops
           azdev extension repo add .
           azdev extension add azure-devops
-          azdev test azure-devops --pytest-args="--ignore=azext_devops/tests/integrationtests --maxfail=1 --tb=short" --series || true
+          azdev test azure-devops --live --no-exitfirst --series
         env:
           AZURE_DEVOPS_EXT_TEST_ORG: ${{ secrets.AZURE_DEVOPS_EXT_TEST_ORG }}
           AZURE_DEVOPS_EXT_PAT: ${{ steps.ado-token.outputs.token }}
