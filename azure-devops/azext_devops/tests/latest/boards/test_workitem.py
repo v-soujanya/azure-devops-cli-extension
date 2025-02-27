@@ -41,7 +41,7 @@ class TestWorkItemMethods(AuthenticatedTests):
         self.mock_create_WI = self. create_WI_patcher.start()
         self.mock_delete_WI = self.delete_WI_patcher.start()
         self.mock_open_browser = self.open_in_browser_patcher.start()
-
+        self.mock_validate_token = self.validate_token_patcher.start()  # Start the validate_token mock
         #clear connection cache before running each test
         clear_connection_cache()
 
