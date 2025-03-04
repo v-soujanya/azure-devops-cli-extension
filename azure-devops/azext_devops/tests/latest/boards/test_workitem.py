@@ -27,12 +27,6 @@ class TestWorkItemMethods(AuthenticatedTests):
     def setUp(self):
         self.authentication_setup()
         self.authenticate()
-
-        # Patch validate_token_for_instance only if it's not already patched
-        if not hasattr(self, 'validate_token_patcher'):
-            self.validate_token_patcher = patch('azext_devops.dev.common.services.validate_token_for_instance')
-            self.mock_validate_token = self.validate_token_patcher.start()
-
         self.get_WI_patcher = patch('azext_devops.devops_sdk.v5_0.work_item_tracking.work_item_tracking_client.WorkItemTrackingClient.get_work_item')
         self.create_WI_patcher = patch('azext_devops.devops_sdk.v5_0.work_item_tracking.work_item_tracking_client.WorkItemTrackingClient.create_work_item')
         self.delete_WI_patcher = patch('azext_devops.devops_sdk.v5_0.work_item_tracking.work_item_tracking_client.WorkItemTrackingClient.delete_work_item')
@@ -47,7 +41,7 @@ class TestWorkItemMethods(AuthenticatedTests):
         self.mock_create_WI = self. create_WI_patcher.start()
         self.mock_delete_WI = self.delete_WI_patcher.start()
         self.mock_open_browser = self.open_in_browser_patcher.start()
-     
+
         #clear connection cache before running each test
         clear_connection_cache()
 
@@ -150,13 +144,7 @@ class TestWorkItemMethods(AuthenticatedTests):
         test_work_item_id = 1
 
         # set return values
-        # self.mock_delete_WI.return_value.id = test_work_item_id
-        	
-        # set return values
-        # Ensure mock returns a valid response object
-        mock_response = type("MockResponse", (), {})()  # Create a mock object
-        mock_response.id = test_work_item_id
-        self.mock_delete_WI.return_value = mock_response  # Assign it as return value
+        self.mock_delete_WI.return_value.id = test_work_item_id
 
         response = delete_work_item(id=test_work_item_id, destroy=False, project='testproject', organization=self._TEST_DEVOPS_ORGANIZATION)
 
